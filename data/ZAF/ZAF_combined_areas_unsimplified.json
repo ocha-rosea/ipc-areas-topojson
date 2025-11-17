@@ -1,7 +1,7 @@
 {
-  "generated_at": "2025-11-10T06:40:10Z",
+  "generated_at": "2025-11-17T06:38:55Z",
   "source_file": "data/ZAF/ZAF_combined_areas.topojson",
-  "total_unsimplified": 28,
+  "total_unsimplified": 29,
   "items": [
     {
       "title": "Katlehong",
@@ -61,6 +61,17 @@
     {
       "title": "Buffalo city",
       "id": "22128060",
+      "country": "ZAF",
+      "year": 2020,
+      "reason": "no_change",
+      "detail": "Simplified geometry matches original",
+      "source_dataset": "data/ZAF/ZAF_combined_areas.topojson",
+      "from": "Sep 2020",
+      "to": "Dec 2020"
+    },
+    {
+      "title": "Mpumalanga",
+      "id": "22128063",
       "country": "ZAF",
       "year": 2020,
       "reason": "no_change",

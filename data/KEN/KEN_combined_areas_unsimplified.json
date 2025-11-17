@@ -1,7 +1,7 @@
 {
-  "generated_at": "2025-11-10T06:38:46Z",
+  "generated_at": "2025-11-17T06:37:31Z",
   "source_file": "data/KEN/KEN_combined_areas.topojson",
-  "total_unsimplified": 97,
+  "total_unsimplified": 96,
   "items": [
     {
       "title": "Baringo",
@@ -1007,17 +1007,6 @@
     {
       "title": "Turkana south",
       "id": "69124056",
-      "country": "KEN",
-      "year": 2024,
-      "reason": "no_change",
-      "detail": "Simplified geometry matches original",
-      "source_dataset": "data/KEN/KEN_combined_areas.topojson",
-      "from": "Jul 2024",
-      "to": "Sep 2024"
-    },
-    {
-      "title": "Turkana east-kibish-loima",
-      "id": "69124058",
       "country": "KEN",
       "year": 2024,
       "reason": "no_change",

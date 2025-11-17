@@ -1,7 +1,7 @@
 {
-  "generated_at": "2025-11-10T06:40:42Z",
+  "generated_at": "2025-11-17T06:39:28Z",
   "source_file": "data/ZMB/ZMB_combined_areas.topojson",
-  "total_unsimplified": 374,
+  "total_unsimplified": 377,
   "items": [
     {
       "title": "Mkushi",
@@ -510,6 +510,17 @@
       "to": "Sep 2020"
     },
     {
+      "title": "Kalabo",
+      "id": "19345786",
+      "country": "ZMB",
+      "year": 2020,
+      "reason": "no_change",
+      "detail": "Simplified geometry matches original",
+      "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
+      "from": "Jul 2020",
+      "to": "Sep 2020"
+    },
+    {
       "title": "Nalolo",
       "id": "19345790",
       "country": "ZMB",
@@ -523,6 +534,17 @@
     {
       "title": "Sioma",
       "id": "19345794",
+      "country": "ZMB",
+      "year": 2020,
+      "reason": "no_change",
+      "detail": "Simplified geometry matches original",
+      "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
+      "from": "Jul 2020",
+      "to": "Sep 2020"
+    },
+    {
+      "title": "Sesheke",
+      "id": "19345796",
       "country": "ZMB",
       "year": 2020,
       "reason": "no_change",
@@ -3295,6 +3317,17 @@
     {
       "title": "Nkeyema",
       "id": "69462134",
+      "country": "ZMB",
+      "year": 2024,
+      "reason": "no_change",
+      "detail": "Simplified geometry matches original",
+      "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
+      "from": "Jul 2024",
+      "to": "Sep 2024"
+    },
+    {
+      "title": "Kalabo",
+      "id": "69462136",
       "country": "ZMB",
       "year": 2024,
       "reason": "no_change",

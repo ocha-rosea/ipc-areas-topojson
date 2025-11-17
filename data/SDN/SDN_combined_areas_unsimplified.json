@@ -1,7 +1,7 @@
 {
-  "generated_at": "2025-11-10T06:41:06Z",
+  "generated_at": "2025-11-17T06:39:51Z",
   "source_file": "data/SDN/SDN_combined_areas.topojson",
-  "total_unsimplified": 876,
+  "total_unsimplified": 920,
   "items": [
     {
       "title": "Dilling",
@@ -325,6 +325,17 @@
     {
       "title": "Hala'ib",
       "id": "18151878",
+      "country": "SDN",
+      "year": 2020,
+      "reason": "no_change",
+      "detail": "Simplified geometry matches original",
+      "source_dataset": "data/SDN/SDN_combined_areas.topojson",
+      "from": "Jun 2020",
+      "to": "Sep 2020"
+    },
+    {
+      "title": "Beida",
+      "id": "18151880",
       "country": "SDN",
       "year": 2020,
       "reason": "no_change",
@@ -3777,6 +3788,17 @@
       "to": "May 2021"
     },
     {
+      "title": "Beida",
+      "id": "24004449",
+      "country": "SDN",
+      "year": 2021,
+      "reason": "no_change",
+      "detail": "Simplified geometry matches original",
+      "source_dataset": "data/SDN/SDN_combined_areas.topojson",
+      "from": "Apr 2021",
+      "to": "May 2021"
+    },
+    {
       "title": "Foro baranga",
       "id": "24004451",
       "country": "SDN",
@@ -5253,6 +5275,17 @@
     {
       "title": "Barbar",
       "id": "25858046",
+      "country": "SDN",
+      "year": 2022,
+      "reason": "no_change",
+      "detail": "Simplified geometry matches original",
+      "source_dataset": "data/SDN/SDN_combined_areas.topojson",
+      "from": "Apr 2022",
+      "to": "May 2022"
+    },
+    {
+      "title": "Beida",
+      "id": "25858048",
       "country": "SDN",
       "year": 2022,
       "reason": "no_change",
@@ -6815,6 +6848,17 @@
     {
       "title": "Um dafoug",
       "id": "58836602",
+      "country": "SDN",
+      "year": 2023,
+      "reason": "no_change",
+      "detail": "Simplified geometry matches original",
+      "source_dataset": "data/SDN/SDN_combined_areas.topojson",
+      "from": "Jun 2023",
+      "to": "Jun 2023"
+    },
+    {
+      "title": "Beida",
+      "id": "58836604",
       "country": "SDN",
       "year": 2023,
       "reason": "no_change",
@@ -8771,6 +8815,17 @@
       "to": "May 2024"
     },
     {
+      "title": "Beida",
+      "id": "68887775",
+      "country": "SDN",
+      "year": 2024,
+      "reason": "no_change",
+      "detail": "Simplified geometry matches original",
+      "source_dataset": "data/SDN/SDN_combined_areas.topojson",
+      "from": "Apr 2024",
+      "to": "May 2024"
+    },
+    {
       "title": "Kebkabiya, Saraf Omra, As Serief",
       "id": "68887777",
       "country": "SDN",
@@ -9638,6 +9693,435 @@
       "source_dataset": "data/SDN/SDN_combined_areas.topojson",
       "from": "Apr 2024",
       "to": "May 2024"
+    },
+    {
+      "title": "Abu jabrah",
+      "id": "84375915",
+      "country": "SDN",
+      "year": 2025,
+      "reason": "no_change",
+      "detail": "Simplified geometry matches original",
+      "source_dataset": "data/SDN/SDN_combined_areas.topojson",
+      "from": "Sep 2025",
+      "to": "Sep 2025"
+    },
+    {
+      "title": "Abyei",
+      "id": "84375926",
+      "country": "SDN",
+      "year": 2025,
+      "reason": "no_change",
+      "detail": "Simplified geometry matches original",
+      "source_dataset": "data/SDN/SDN_combined_areas.topojson",
+      "from": "Sep 2025",
+      "to": "Sep 2025"
+    },
+    {
+      "title": "Ad dabbah",
+      "id": "84375929",
+      "country": "SDN",
+      "year": 2025,
+      "reason": "no_change",
+      "detail": "Simplified geometry matches original",
+      "source_dataset": "data/SDN/SDN_combined_areas.topojson",
+      "from": "Sep 2025",
+      "to": "Sep 2025"
+    },
+    {
+      "title": "Ad du'ayn",
+      "id": "84375942",
+      "country": "SDN",
+      "year": 2025,
+      "reason": "no_change",
+      "detail": "Simplified geometry matches original",
+      "source_dataset": "data/SDN/SDN_combined_areas.topojson",
+      "from": "Sep 2025",
+      "to": "Sep 2025"
+    },
+    {
+      "title": "Al golid",
+      "id": "84375964",
+      "country": "SDN",
+      "year": 2025,
+      "reason": "no_change",
+      "detail": "Simplified geometry matches original",
+      "source_dataset": "data/SDN/SDN_combined_areas.topojson",
+      "from": "Sep 2025",
+      "to": "Sep 2025"
+    },
+    {
+      "title": "Al khiwai",
+      "id": "84375973",
+      "country": "SDN",
+      "year": 2025,
+      "reason": "no_change",
+      "detail": "Simplified geometry matches original",
+      "source_dataset": "data/SDN/SDN_combined_areas.topojson",
+      "from": "Sep 2025",
+      "to": "Sep 2025"
+    },
+    {
+      "title": "Al koma",
+      "id": "84375976",
+      "country": "SDN",
+      "year": 2025,
+      "reason": "no_change",
+      "detail": "Simplified geometry matches original",
+      "source_dataset": "data/SDN/SDN_combined_areas.topojson",
+      "from": "Sep 2025",
+      "to": "Sep 2025"
+    },
+    {
+      "title": "Al meiram",
+      "id": "84375991",
+      "country": "SDN",
+      "year": 2025,
+      "reason": "no_change",
+      "detail": "Simplified geometry matches original",
+      "source_dataset": "data/SDN/SDN_combined_areas.topojson",
+      "from": "Sep 2025",
+      "to": "Sep 2025"
+    },
+    {
+      "title": "Ar reif ash shargi",
+      "id": "84376008",
+      "country": "SDN",
+      "year": 2025,
+      "reason": "no_change",
+      "detail": "Simplified geometry matches original",
+      "source_dataset": "data/SDN/SDN_combined_areas.topojson",
+      "from": "Sep 2025",
+      "to": "Sep 2025"
+    },
+    {
+      "title": "As salam / ar rawat",
+      "id": "84376012",
+      "country": "SDN",
+      "year": 2025,
+      "reason": "no_change",
+      "detail": "Simplified geometry matches original",
+      "source_dataset": "data/SDN/SDN_combined_areas.topojson",
+      "from": "Sep 2025",
+      "to": "Sep 2025"
+    },
+    {
+      "title": "As serief",
+      "id": "84376020",
+      "country": "SDN",
+      "year": 2025,
+      "reason": "no_change",
+      "detail": "Simplified geometry matches original",
+      "source_dataset": "data/SDN/SDN_combined_areas.topojson",
+      "from": "Sep 2025",
+      "to": "Sep 2025"
+    },
+    {
+      "title": "Dordieb",
+      "id": "84376043",
+      "country": "SDN",
+      "year": 2025,
+      "reason": "no_change",
+      "detail": "Simplified geometry matches original",
+      "source_dataset": "data/SDN/SDN_combined_areas.topojson",
+      "from": "Sep 2025",
+      "to": "Sep 2025"
+    },
+    {
+      "title": "Gereida",
+      "id": "84376060",
+      "country": "SDN",
+      "year": 2025,
+      "reason": "no_change",
+      "detail": "Simplified geometry matches original",
+      "source_dataset": "data/SDN/SDN_combined_areas.topojson",
+      "from": "Sep 2025",
+      "to": "Sep 2025"
+    },
+    {
+      "title": "Haya",
+      "id": "84376081",
+      "country": "SDN",
+      "year": 2025,
+      "reason": "no_change",
+      "detail": "Simplified geometry matches original",
+      "source_dataset": "data/SDN/SDN_combined_areas.topojson",
+      "from": "Sep 2025",
+      "to": "Sep 2025"
+    },
+    {
+      "title": "Heiban",
+      "id": "84376083",
+      "country": "SDN",
+      "year": 2025,
+      "reason": "no_change",
+      "detail": "Simplified geometry matches original",
+      "source_dataset": "data/SDN/SDN_combined_areas.topojson",
+      "from": "Sep 2025",
+      "to": "Sep 2025"
+    },
+    {
+      "title": "Kutum",
+      "id": "84376089",
+      "country": "SDN",
+      "year": 2025,
+      "reason": "no_change",
+      "detail": "Simplified geometry matches original",
+      "source_dataset": "data/SDN/SDN_combined_areas.topojson",
+      "from": "Sep 2025",
+      "to": "Sep 2025"
+    },
+    {
+      "title": "Madeinat kassala",
+      "id": "84376093",
+      "country": "SDN",
+      "year": 2025,
+      "reason": "no_change",
+      "detail": "Simplified geometry matches original",
+      "source_dataset": "data/SDN/SDN_combined_areas.topojson",
+      "from": "Sep 2025",
+      "to": "Sep 2025"
+    },
+    {
+      "title": "Nyala janoub",
+      "id": "84376099",
+      "country": "SDN",
+      "year": 2025,
+      "reason": "no_change",
+      "detail": "Simplified geometry matches original",
+      "source_dataset": "data/SDN/SDN_combined_areas.topojson",
+      "from": "Sep 2025",
+      "to": "Sep 2025"
+    },
+    {
+      "title": "Rabak",
+      "id": "84376105",
+      "country": "SDN",
+      "year": 2025,
+      "reason": "no_change",
+      "detail": "Simplified geometry matches original",
+      "source_dataset": "data/SDN/SDN_combined_areas.topojson",
+      "from": "Sep 2025",
+      "to": "Sep 2025"
+    },
+    {
+      "title": "Talawdi",
+      "id": "84376123",
+      "country": "SDN",
+      "year": 2025,
+      "reason": "no_change",
+      "detail": "Simplified geometry matches original",
+      "source_dataset": "data/SDN/SDN_combined_areas.topojson",
+      "from": "Sep 2025",
+      "to": "Sep 2025"
+    },
+    {
+      "title": "Um baru",
+      "id": "84376138",
+      "country": "SDN",
+      "year": 2025,
+      "reason": "no_change",
+      "detail": "Simplified geometry matches original",
+      "source_dataset": "data/SDN/SDN_combined_areas.topojson",
+      "from": "Sep 2025",
+      "to": "Sep 2025"
+    },
+    {
+      "title": "Um dafoug",
+      "id": "84376140",
+      "country": "SDN",
+      "year": 2025,
+      "reason": "no_change",
+      "detail": "Simplified geometry matches original",
+      "source_dataset": "data/SDN/SDN_combined_areas.topojson",
+      "from": "Sep 2025",
+      "to": "Sep 2025"
+    },
+    {
+      "title": "Um dam haj ahmed",
+      "id": "84376142",
+      "country": "SDN",
+      "year": 2025,
+      "reason": "no_change",
+      "detail": "Simplified geometry matches original",
+      "source_dataset": "data/SDN/SDN_combined_areas.topojson",
+      "from": "Sep 2025",
+      "to": "Sep 2025"
+    },
+    {
+      "title": "Um durein",
+      "id": "84376146",
+      "country": "SDN",
+      "year": 2025,
+      "reason": "no_change",
+      "detail": "Simplified geometry matches original",
+      "source_dataset": "data/SDN/SDN_combined_areas.topojson",
+      "from": "Sep 2025",
+      "to": "Sep 2025"
+    },
+    {
+      "title": "At tadamon - bn",
+      "id": "84376211",
+      "country": "SDN",
+      "year": 2025,
+      "reason": "no_change",
+      "detail": "Simplified geometry matches original",
+      "source_dataset": "data/SDN/SDN_combined_areas.topojson",
+      "from": "Sep 2025",
+      "to": "Sep 2025"
+    },
+    {
+      "title": "At tawisha",
+      "id": "84376215",
+      "country": "SDN",
+      "year": 2025,
+      "reason": "no_change",
+      "detail": "Simplified geometry matches original",
+      "source_dataset": "data/SDN/SDN_combined_areas.topojson",
+      "from": "Sep 2025",
+      "to": "Sep 2025"
+    },
+    {
+      "title": "Baw",
+      "id": "84376233",
+      "country": "SDN",
+      "year": 2025,
+      "reason": "no_change",
+      "detail": "Simplified geometry matches original",
+      "source_dataset": "data/SDN/SDN_combined_areas.topojson",
+      "from": "Sep 2025",
+      "to": "Sep 2025"
+    },
+    {
+      "title": "Wasat jabal marrah",
+      "id": "84376249",
+      "country": "SDN",
+      "year": 2025,
+      "reason": "no_change",
+      "detail": "Simplified geometry matches original",
+      "source_dataset": "data/SDN/SDN_combined_areas.topojson",
+      "from": "Sep 2025",
+      "to": "Sep 2025"
+    },
+    {
+      "title": "Melit",
+      "id": "84376257",
+      "country": "SDN",
+      "year": 2025,
+      "reason": "no_change",
+      "detail": "Simplified geometry matches original",
+      "source_dataset": "data/SDN/SDN_combined_areas.topojson",
+      "from": "Sep 2025",
+      "to": "Sep 2025"
+    },
+    {
+      "title": "Merwoe",
+      "id": "84376261",
+      "country": "SDN",
+      "year": 2025,
+      "reason": "no_change",
+      "detail": "Simplified geometry matches original",
+      "source_dataset": "data/SDN/SDN_combined_areas.topojson",
+      "from": "Sep 2025",
+      "to": "Sep 2025"
+    },
+    {
+      "title": "Mukjar",
+      "id": "84376263",
+      "country": "SDN",
+      "year": 2025,
+      "reason": "no_change",
+      "detail": "Simplified geometry matches original",
+      "source_dataset": "data/SDN/SDN_combined_areas.topojson",
+      "from": "Sep 2025",
+      "to": "Sep 2025"
+    },
+    {
+      "title": "Shattaya",
+      "id": "84376287",
+      "country": "SDN",
+      "year": 2025,
+      "reason": "no_change",
+      "detail": "Simplified geometry matches original",
+      "source_dataset": "data/SDN/SDN_combined_areas.topojson",
+      "from": "Sep 2025",
+      "to": "Sep 2025"
+    },
+    {
+      "title": "Sinja",
+      "id": "84376295",
+      "country": "SDN",
+      "year": 2025,
+      "reason": "no_change",
+      "detail": "Simplified geometry matches original",
+      "source_dataset": "data/SDN/SDN_combined_areas.topojson",
+      "from": "Sep 2025",
+      "to": "Sep 2025"
+    },
+    {
+      "title": "Sinkat",
+      "id": "84376297",
+      "country": "SDN",
+      "year": 2025,
+      "reason": "no_change",
+      "detail": "Simplified geometry matches original",
+      "source_dataset": "data/SDN/SDN_combined_areas.topojson",
+      "from": "Sep 2025",
+      "to": "Sep 2025"
+    },
+    {
+      "title": "Sirba",
+      "id": "84376299",
+      "country": "SDN",
+      "year": 2025,
+      "reason": "no_change",
+      "detail": "Simplified geometry matches original",
+      "source_dataset": "data/SDN/SDN_combined_areas.topojson",
+      "from": "Sep 2025",
+      "to": "Sep 2025"
+    },
+    {
+      "title": "Al dibab",
+      "id": "84376305",
+      "country": "SDN",
+      "year": 2025,
+      "reason": "no_change",
+      "detail": "Simplified geometry matches original",
+      "source_dataset": "data/SDN/SDN_combined_areas.topojson",
+      "from": "Sep 2025",
+      "to": "Sep 2025"
+    },
+    {
+      "title": "Al fasher",
+      "id": "84376311",
+      "country": "SDN",
+      "year": 2025,
+      "reason": "no_change",
+      "detail": "Simplified geometry matches original",
+      "source_dataset": "data/SDN/SDN_combined_areas.topojson",
+      "from": "Sep 2025",
+      "to": "Sep 2025"
+    },
+    {
+      "title": "Al lait",
+      "id": "84376319",
+      "country": "SDN",
+      "year": 2025,
+      "reason": "no_change",
+      "detail": "Simplified geometry matches original",
+      "source_dataset": "data/SDN/SDN_combined_areas.topojson",
+      "from": "Sep 2025",
+      "to": "Sep 2025"
+    },
+    {
+      "title": "Kadugli",
+      "id": "84376333",
+      "country": "SDN",
+      "year": 2025,
+      "reason": "no_change",
+      "detail": "Simplified geometry matches original",
+      "source_dataset": "data/SDN/SDN_combined_areas.topojson",
+      "from": "Sep 2025",
+      "to": "Sep 2025"
     }
   ]
 }

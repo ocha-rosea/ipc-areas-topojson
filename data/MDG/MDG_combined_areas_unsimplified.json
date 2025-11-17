@@ -1,7 +1,7 @@
 {
-  "generated_at": "2025-11-10T06:39:07Z",
+  "generated_at": "2025-11-17T06:37:52Z",
   "source_file": "data/MDG/MDG_combined_areas.topojson",
-  "total_unsimplified": 97,
+  "total_unsimplified": 102,
   "items": [
     {
       "title": "Taolagnaro",
@@ -213,6 +213,17 @@
       "to": "Dec 2021"
     },
     {
+      "title": "Toliara 2",
+      "id": "24505506",
+      "country": "MDG",
+      "year": 2021,
+      "reason": "no_change",
+      "detail": "Simplified geometry matches original",
+      "source_dataset": "data/MDG/MDG_combined_areas.topojson",
+      "from": "Nov 2021",
+      "to": "Dec 2021"
+    },
+    {
       "title": "Farafangana",
       "id": "24505509",
       "country": "MDG",
@@ -292,6 +303,17 @@
     {
       "title": "Bekily",
       "id": "26855155",
+      "country": "MDG",
+      "year": 2022,
+      "reason": "no_change",
+      "detail": "Simplified geometry matches original",
+      "source_dataset": "data/MDG/MDG_combined_areas.topojson",
+      "from": "Nov 2022",
+      "to": "Mar 2023"
+    },
+    {
+      "title": "Toliara ii",
+      "id": "26855157",
       "country": "MDG",
       "year": 2022,
       "reason": "no_change",
@@ -708,6 +730,17 @@
       "to": "Jan 2024"
     },
     {
+      "title": "Toliara II",
+      "id": "64948271",
+      "country": "MDG",
+      "year": 2023,
+      "reason": "no_change",
+      "detail": "Simplified geometry matches original",
+      "source_dataset": "data/MDG/MDG_combined_areas.topojson",
+      "from": "Oct 2023",
+      "to": "Jan 2024"
+    },
+    {
       "title": "Sakaraha",
       "id": "64948273",
       "country": "MDG",
@@ -950,6 +983,17 @@
       "to": "Dec 2024"
     },
     {
+      "title": "Toliara II",
+      "id": "75657812",
+      "country": "MDG",
+      "year": 2024,
+      "reason": "no_change",
+      "detail": "Simplified geometry matches original",
+      "source_dataset": "data/MDG/MDG_combined_areas.topojson",
+      "from": "Sep 2024",
+      "to": "Dec 2024"
+    },
+    {
       "title": "Vangaindrano",
       "id": "75657814",
       "country": "MDG",
@@ -1007,6 +1051,17 @@
     {
       "title": "Maroantsetra",
       "id": "75657825",
+      "country": "MDG",
+      "year": 2024,
+      "reason": "no_change",
+      "detail": "Simplified geometry matches original",
+      "source_dataset": "data/MDG/MDG_combined_areas.topojson",
+      "from": "Sep 2024",
+      "to": "Dec 2024"
+    },
+    {
+      "title": "Morombe",
+      "id": "75657827",
       "country": "MDG",
       "year": 2024,
       "reason": "no_change",

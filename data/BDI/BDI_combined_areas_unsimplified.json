@@ -1,7 +1,7 @@
 {
-  "generated_at": "2025-11-10T06:38:20Z",
+  "generated_at": "2025-11-17T06:37:05Z",
   "source_file": "data/BDI/BDI_combined_areas.topojson",
-  "total_unsimplified": 33,
+  "total_unsimplified": 36,
   "items": [
     {
       "title": "Buragane",
@@ -92,8 +92,41 @@
       "to": "Sep 2020"
     },
     {
+      "title": "D\u00e9pressions de l`Est",
+      "id": "24398140",
+      "country": "BDI",
+      "year": 2021,
+      "reason": "no_change",
+      "detail": "Simplified geometry matches original",
+      "source_dataset": "data/BDI/BDI_combined_areas.topojson",
+      "from": "Jun 2021",
+      "to": "Sep 2021"
+    },
+    {
+      "title": "D\u00e9pressions du nord",
+      "id": "24398142",
+      "country": "BDI",
+      "year": 2021,
+      "reason": "no_change",
+      "detail": "Simplified geometry matches original",
+      "source_dataset": "data/BDI/BDI_combined_areas.topojson",
+      "from": "Jun 2021",
+      "to": "Sep 2021"
+    },
+    {
       "title": "Buragane",
       "id": "24398150",
+      "country": "BDI",
+      "year": 2021,
+      "reason": "no_change",
+      "detail": "Simplified geometry matches original",
+      "source_dataset": "data/BDI/BDI_combined_areas.topojson",
+      "from": "Jun 2021",
+      "to": "Sep 2021"
+    },
+    {
+      "title": "Plateaux secs de l`Est",
+      "id": "24398154",
       "country": "BDI",
       "year": 2021,
       "reason": "no_change",

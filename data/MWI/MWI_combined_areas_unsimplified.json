@@ -1,7 +1,7 @@
 {
-  "generated_at": "2025-11-10T06:39:17Z",
+  "generated_at": "2025-11-17T06:38:02Z",
   "source_file": "data/MWI/MWI_combined_areas.topojson",
-  "total_unsimplified": 132,
+  "total_unsimplified": 136,
   "items": [
     {
       "title": "Phalombe",
@@ -455,6 +455,17 @@
       "to": "Dec 2021"
     },
     {
+      "title": "Mzuzu city",
+      "id": "24542485",
+      "country": "MWI",
+      "year": 2021,
+      "reason": "no_change",
+      "detail": "Simplified geometry matches original",
+      "source_dataset": "data/MWI/MWI_combined_areas.topojson",
+      "from": "Nov 2021",
+      "to": "Dec 2021"
+    },
+    {
       "title": "Neno",
       "id": "24542487",
       "country": "MWI",
@@ -688,6 +699,17 @@
     {
       "title": "Neno",
       "id": "26054606",
+      "country": "MWI",
+      "year": 2022,
+      "reason": "no_change",
+      "detail": "Simplified geometry matches original",
+      "source_dataset": "data/MWI/MWI_combined_areas.topojson",
+      "from": "Jun 2022",
+      "to": "Sep 2022"
+    },
+    {
+      "title": "Mzuzu city",
+      "id": "26054608",
       "country": "MWI",
       "year": 2022,
       "reason": "no_change",
@@ -950,6 +972,17 @@
       "to": "Sep 2023"
     },
     {
+      "title": "Mzuzu city",
+      "id": "57196321",
+      "country": "MWI",
+      "year": 2023,
+      "reason": "no_change",
+      "detail": "Simplified geometry matches original",
+      "source_dataset": "data/MWI/MWI_combined_areas.topojson",
+      "from": "Jul 2023",
+      "to": "Sep 2023"
+    },
+    {
       "title": "Salima",
       "id": "57196323",
       "country": "MWI",
@@ -1172,6 +1205,17 @@
     {
       "title": "Rumphi",
       "id": "68805074",
+      "country": "MWI",
+      "year": 2024,
+      "reason": "no_change",
+      "detail": "Simplified geometry matches original",
+      "source_dataset": "data/MWI/MWI_combined_areas.topojson",
+      "from": "May 2024",
+      "to": "Sep 2024"
+    },
+    {
+      "title": "Mzuzu city",
+      "id": "68805076",
       "country": "MWI",
       "year": 2024,
       "reason": "no_change",

@@ -1,7 +1,7 @@
 {
-  "generated_at": "2025-11-10T06:39:54Z",
+  "generated_at": "2025-11-17T06:38:39Z",
   "source_file": "data/MOZ/MOZ_combined_areas.topojson",
-  "total_unsimplified": 183,
+  "total_unsimplified": 186,
   "items": [
     {
       "title": "Chibuto",
@@ -28,6 +28,17 @@
     {
       "title": "Panda",
       "id": "21509462",
+      "country": "MOZ",
+      "year": 2020,
+      "reason": "no_change",
+      "detail": "Simplified geometry matches original",
+      "source_dataset": "data/MOZ/MOZ_combined_areas.topojson",
+      "from": "Oct 2020",
+      "to": "Dec 2020"
+    },
+    {
+      "title": "Mandlakaze",
+      "id": "21509479",
       "country": "MOZ",
       "year": 2020,
       "reason": "no_change",
@@ -314,6 +325,17 @@
     {
       "title": "Derre",
       "id": "24498860",
+      "country": "MOZ",
+      "year": 2021,
+      "reason": "no_change",
+      "detail": "Simplified geometry matches original",
+      "source_dataset": "data/MOZ/MOZ_combined_areas.topojson",
+      "from": "Nov 2021",
+      "to": "Mar 2022"
+    },
+    {
+      "title": "Inhassunge",
+      "id": "24498862",
       "country": "MOZ",
       "year": 2021,
       "reason": "no_change",
@@ -1007,6 +1029,17 @@
     {
       "title": "Mandimba",
       "id": "48057061",
+      "country": "MOZ",
+      "year": 2022,
+      "reason": "no_change",
+      "detail": "Simplified geometry matches original",
+      "source_dataset": "data/MOZ/MOZ_combined_areas.topojson",
+      "from": "Oct 2022",
+      "to": "Mar 2023"
+    },
+    {
+      "title": "Mandlakaze",
+      "id": "48057063",
       "country": "MOZ",
       "year": 2022,
       "reason": "no_change",
