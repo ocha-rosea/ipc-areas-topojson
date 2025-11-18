@@ -1,8 +1,19 @@
 {
-  "generated_at": "2025-11-10T06:40:21Z",
+  "generated_at": "2025-11-17T06:39:07Z",
   "source_file": "data/UGA/UGA_combined_areas.topojson",
-  "total_unsimplified": 79,
+  "total_unsimplified": 83,
   "items": [
+    {
+      "title": "Abim",
+      "id": "18724695",
+      "country": "UGA",
+      "year": 2020,
+      "reason": "no_change",
+      "detail": "Simplified geometry matches original",
+      "source_dataset": "data/UGA/UGA_combined_areas.topojson",
+      "from": "Jun 2020",
+      "to": "Aug 2020"
+    },
     {
       "title": "Kaabong",
       "id": "18724697",
@@ -268,6 +279,17 @@
       "to": "Jul 2021"
     },
     {
+      "title": "Abim",
+      "id": "23934899",
+      "country": "UGA",
+      "year": 2021,
+      "reason": "no_change",
+      "detail": "Simplified geometry matches original",
+      "source_dataset": "data/UGA/UGA_combined_areas.topojson",
+      "from": "Mar 2021",
+      "to": "Jul 2021"
+    },
+    {
       "title": "Kotido",
       "id": "23934901",
       "country": "UGA",
@@ -336,6 +358,17 @@
     {
       "title": "Moroto",
       "id": "26669921",
+      "country": "UGA",
+      "year": 2022,
+      "reason": "no_change",
+      "detail": "Simplified geometry matches original",
+      "source_dataset": "data/UGA/UGA_combined_areas.topojson",
+      "from": "Jun 2022",
+      "to": "Aug 2022"
+    },
+    {
+      "title": "Abim",
+      "id": "26669923",
       "country": "UGA",
       "year": 2022,
       "reason": "no_change",
@@ -622,6 +655,17 @@
     {
       "title": "Soroti",
       "id": "26670393",
+      "country": "UGA",
+      "year": 2022,
+      "reason": "no_change",
+      "detail": "Simplified geometry matches original",
+      "source_dataset": "data/UGA/UGA_combined_areas.topojson",
+      "from": "Jun 2022",
+      "to": "Aug 2022"
+    },
+    {
+      "title": "Yumbe",
+      "id": "26670405",
       "country": "UGA",
       "year": 2022,
       "reason": "no_change",

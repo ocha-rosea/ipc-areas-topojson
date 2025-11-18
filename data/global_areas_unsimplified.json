@@ -1,7 +1,7 @@
 {
-  "generated_at": "2025-11-10T06:43:46Z",
+  "generated_at": "2025-11-17T06:42:34Z",
   "source_file": "data/global_areas.topojson",
-  "total_unsimplified": 1124,
+  "total_unsimplified": 1130,
   "items": [
     {
       "title": "Korahe",
@@ -1115,8 +1115,19 @@
       "to": "May 2024"
     },
     {
-      "title": "Al burgaig",
-      "id": "84375958",
+      "title": "Ad dabbah",
+      "id": "84375929",
+      "country": "SDN",
+      "year": null,
+      "reason": "no_change",
+      "detail": "Simplified geometry matches original",
+      "source_dataset": "data/global_areas.topojson",
+      "from": "Sep 2025",
+      "to": "Sep 2025"
+    },
+    {
+      "title": "Al golid",
+      "id": "84375964",
       "country": "SDN",
       "year": null,
       "reason": "no_change",
@@ -1137,8 +1148,63 @@
       "to": "Sep 2025"
     },
     {
+      "title": "Madeinat al gedaref",
+      "id": "84376091",
+      "country": "SDN",
+      "year": null,
+      "reason": "no_change",
+      "detail": "Simplified geometry matches original",
+      "source_dataset": "data/global_areas.topojson",
+      "from": "Sep 2025",
+      "to": "Sep 2025"
+    },
+    {
+      "title": "Madeinat kassala",
+      "id": "84376093",
+      "country": "SDN",
+      "year": null,
+      "reason": "no_change",
+      "detail": "Simplified geometry matches original",
+      "source_dataset": "data/global_areas.topojson",
+      "from": "Sep 2025",
+      "to": "Sep 2025"
+    },
+    {
       "title": "Sawakin",
       "id": "84376273",
+      "country": "SDN",
+      "year": null,
+      "reason": "no_change",
+      "detail": "Simplified geometry matches original",
+      "source_dataset": "data/global_areas.topojson",
+      "from": "Sep 2025",
+      "to": "Sep 2025"
+    },
+    {
+      "title": "Sinkat",
+      "id": "84376297",
+      "country": "SDN",
+      "year": null,
+      "reason": "no_change",
+      "detail": "Simplified geometry matches original",
+      "source_dataset": "data/global_areas.topojson",
+      "from": "Sep 2025",
+      "to": "Sep 2025"
+    },
+    {
+      "title": "Sirba",
+      "id": "84376299",
+      "country": "SDN",
+      "year": null,
+      "reason": "no_change",
+      "detail": "Simplified geometry matches original",
+      "source_dataset": "data/global_areas.topojson",
+      "from": "Sep 2025",
+      "to": "Sep 2025"
+    },
+    {
+      "title": "Jebel awlia",
+      "id": "84376327",
       "country": "SDN",
       "year": null,
       "reason": "no_change",

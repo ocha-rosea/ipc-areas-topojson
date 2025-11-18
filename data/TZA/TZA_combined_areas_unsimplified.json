@@ -1,7 +1,7 @@
 {
-  "generated_at": "2025-11-10T06:41:13Z",
+  "generated_at": "2025-11-17T06:39:59Z",
   "source_file": "data/TZA/TZA_combined_areas.topojson",
-  "total_unsimplified": 60,
+  "total_unsimplified": 65,
   "items": [
     {
       "title": "Bahi DC",
@@ -61,6 +61,17 @@
     {
       "title": "Handeni DC",
       "id": "24602280",
+      "country": "TZA",
+      "year": 2021,
+      "reason": "no_change",
+      "detail": "Simplified geometry matches original",
+      "source_dataset": "data/TZA/TZA_combined_areas.topojson",
+      "from": "Nov 2021",
+      "to": "Apr 2022"
+    },
+    {
+      "title": "Monduli",
+      "id": "24602282",
       "country": "TZA",
       "year": 2021,
       "reason": "no_change",
@@ -180,6 +191,28 @@
       "to": "Feb 2023"
     },
     {
+      "title": "Kusini pemba",
+      "id": "26775730",
+      "country": "TZA",
+      "year": 2022,
+      "reason": "no_change",
+      "detail": "Simplified geometry matches original",
+      "source_dataset": "data/TZA/TZA_combined_areas.topojson",
+      "from": "Oct 2022",
+      "to": "Feb 2023"
+    },
+    {
+      "title": "Bunda",
+      "id": "26775732",
+      "country": "TZA",
+      "year": 2022,
+      "reason": "no_change",
+      "detail": "Simplified geometry matches original",
+      "source_dataset": "data/TZA/TZA_combined_areas.topojson",
+      "from": "Oct 2022",
+      "to": "Feb 2023"
+    },
+    {
       "title": "Korogwe",
       "id": "26775734",
       "country": "TZA",
@@ -204,6 +237,17 @@
     {
       "title": "Chemba",
       "id": "26775738",
+      "country": "TZA",
+      "year": 2022,
+      "reason": "no_change",
+      "detail": "Simplified geometry matches original",
+      "source_dataset": "data/TZA/TZA_combined_areas.topojson",
+      "from": "Oct 2022",
+      "to": "Feb 2023"
+    },
+    {
+      "title": "Longido",
+      "id": "26775740",
       "country": "TZA",
       "year": 2022,
       "reason": "no_change",
@@ -468,6 +512,17 @@
     {
       "title": "Shinyanga",
       "id": "64767609",
+      "country": "TZA",
+      "year": 2023,
+      "reason": "no_change",
+      "detail": "Simplified geometry matches original",
+      "source_dataset": "data/TZA/TZA_combined_areas.topojson",
+      "from": "Nov 2023",
+      "to": "Apr 2024"
+    },
+    {
+      "title": "Monduli",
+      "id": "64767611",
       "country": "TZA",
       "year": 2023,
       "reason": "no_change",
