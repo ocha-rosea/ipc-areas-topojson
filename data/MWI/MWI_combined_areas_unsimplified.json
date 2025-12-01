@@ -1,7 +1,7 @@
 {
-  "generated_at": "2025-11-17T06:38:02Z",
+  "generated_at": "2025-12-01T06:41:01Z",
   "source_file": "data/MWI/MWI_combined_areas.topojson",
-  "total_unsimplified": 136,
+  "total_unsimplified": 126,
   "items": [
     {
       "title": "Phalombe",
@@ -103,17 +103,6 @@
       "to": "Dec 2020"
     },
     {
-      "title": "Rumphi",
-      "id": "21180588",
-      "country": "MWI",
-      "year": 2020,
-      "reason": "no_change",
-      "detail": "Simplified geometry matches original",
-      "source_dataset": "data/MWI/MWI_combined_areas.topojson",
-      "from": "Nov 2020",
-      "to": "Dec 2020"
-    },
-    {
       "title": "Ntchisi",
       "id": "21180590",
       "country": "MWI",
@@ -160,17 +149,6 @@
     {
       "title": "Mangochi",
       "id": "21180600",
-      "country": "MWI",
-      "year": 2020,
-      "reason": "no_change",
-      "detail": "Simplified geometry matches original",
-      "source_dataset": "data/MWI/MWI_combined_areas.topojson",
-      "from": "Nov 2020",
-      "to": "Dec 2020"
-    },
-    {
-      "title": "Kasungu",
-      "id": "21180606",
       "country": "MWI",
       "year": 2020,
       "reason": "no_change",
@@ -347,17 +325,6 @@
     {
       "title": "Karonga",
       "id": "24542463",
-      "country": "MWI",
-      "year": 2021,
-      "reason": "no_change",
-      "detail": "Simplified geometry matches original",
-      "source_dataset": "data/MWI/MWI_combined_areas.topojson",
-      "from": "Nov 2021",
-      "to": "Dec 2021"
-    },
-    {
-      "title": "Kasungu",
-      "id": "24542465",
       "country": "MWI",
       "year": 2021,
       "reason": "no_change",
@@ -565,17 +532,6 @@
       "to": "Dec 2021"
     },
     {
-      "title": "Rumphi",
-      "id": "24542509",
-      "country": "MWI",
-      "year": 2021,
-      "reason": "no_change",
-      "detail": "Simplified geometry matches original",
-      "source_dataset": "data/MWI/MWI_combined_areas.topojson",
-      "from": "Nov 2021",
-      "to": "Dec 2021"
-    },
-    {
       "title": "Blantyre city",
       "id": "26054584",
       "country": "MWI",
@@ -611,17 +567,6 @@
     {
       "title": "Dedza",
       "id": "26054590",
-      "country": "MWI",
-      "year": 2022,
-      "reason": "no_change",
-      "detail": "Simplified geometry matches original",
-      "source_dataset": "data/MWI/MWI_combined_areas.topojson",
-      "from": "Jun 2022",
-      "to": "Sep 2022"
-    },
-    {
-      "title": "Kasungu",
-      "id": "26054592",
       "country": "MWI",
       "year": 2022,
       "reason": "no_change",
@@ -710,17 +655,6 @@
     {
       "title": "Mzuzu city",
       "id": "26054608",
-      "country": "MWI",
-      "year": 2022,
-      "reason": "no_change",
-      "detail": "Simplified geometry matches original",
-      "source_dataset": "data/MWI/MWI_combined_areas.topojson",
-      "from": "Jun 2022",
-      "to": "Sep 2022"
-    },
-    {
-      "title": "Rumphi",
-      "id": "26054610",
       "country": "MWI",
       "year": 2022,
       "reason": "no_change",
@@ -994,17 +928,6 @@
       "to": "Sep 2023"
     },
     {
-      "title": "Rumphi",
-      "id": "57196325",
-      "country": "MWI",
-      "year": 2023,
-      "reason": "no_change",
-      "detail": "Simplified geometry matches original",
-      "source_dataset": "data/MWI/MWI_combined_areas.topojson",
-      "from": "Jul 2023",
-      "to": "Sep 2023"
-    },
-    {
       "title": "Zomba city",
       "id": "57196327",
       "country": "MWI",
@@ -1126,17 +1049,6 @@
       "to": "Sep 2023"
     },
     {
-      "title": "Kasungu",
-      "id": "57196351",
-      "country": "MWI",
-      "year": 2023,
-      "reason": "no_change",
-      "detail": "Simplified geometry matches original",
-      "source_dataset": "data/MWI/MWI_combined_areas.topojson",
-      "from": "Jul 2023",
-      "to": "Sep 2023"
-    },
-    {
       "title": "Ntchisi",
       "id": "57196353",
       "country": "MWI",
@@ -1194,17 +1106,6 @@
     {
       "title": "Zomba city",
       "id": "68805072",
-      "country": "MWI",
-      "year": 2024,
-      "reason": "no_change",
-      "detail": "Simplified geometry matches original",
-      "source_dataset": "data/MWI/MWI_combined_areas.topojson",
-      "from": "May 2024",
-      "to": "Sep 2024"
-    },
-    {
-      "title": "Rumphi",
-      "id": "68805074",
       "country": "MWI",
       "year": 2024,
       "reason": "no_change",
@@ -1458,17 +1359,6 @@
     {
       "title": "Ntchisi",
       "id": "68805122",
-      "country": "MWI",
-      "year": 2024,
-      "reason": "no_change",
-      "detail": "Simplified geometry matches original",
-      "source_dataset": "data/MWI/MWI_combined_areas.topojson",
-      "from": "May 2024",
-      "to": "Sep 2024"
-    },
-    {
-      "title": "Kasungu",
-      "id": "68805124",
       "country": "MWI",
       "year": 2024,
       "reason": "no_change",
