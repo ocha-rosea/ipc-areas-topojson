@@ -1,7 +1,7 @@
 {
-  "generated_at": "2025-11-17T06:37:05Z",
+  "generated_at": "2025-12-01T06:40:04Z",
   "source_file": "data/BDI/BDI_combined_areas.topojson",
-  "total_unsimplified": 36,
+  "total_unsimplified": 37,
   "items": [
     {
       "title": "Buragane",
@@ -105,6 +105,17 @@
     {
       "title": "D\u00e9pressions du nord",
       "id": "24398142",
+      "country": "BDI",
+      "year": 2021,
+      "reason": "no_change",
+      "detail": "Simplified geometry matches original",
+      "source_dataset": "data/BDI/BDI_combined_areas.topojson",
+      "from": "Jun 2021",
+      "to": "Sep 2021"
+    },
+    {
+      "title": "Haute altitude",
+      "id": "24398144",
       "country": "BDI",
       "year": 2021,
       "reason": "no_change",

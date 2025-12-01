@@ -1,7 +1,7 @@
 {
-  "generated_at": "2025-11-17T06:39:28Z",
+  "generated_at": "2025-12-01T06:42:24Z",
   "source_file": "data/ZMB/ZMB_combined_areas.topojson",
-  "total_unsimplified": 377,
+  "total_unsimplified": 375,
   "items": [
     {
       "title": "Mkushi",
@@ -501,17 +501,6 @@
     {
       "title": "Kazungula",
       "id": "19345784",
-      "country": "ZMB",
-      "year": 2020,
-      "reason": "no_change",
-      "detail": "Simplified geometry matches original",
-      "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
-      "from": "Jul 2020",
-      "to": "Sep 2020"
-    },
-    {
-      "title": "Kalabo",
-      "id": "19345786",
       "country": "ZMB",
       "year": 2020,
       "reason": "no_change",
@@ -3317,17 +3306,6 @@
     {
       "title": "Nkeyema",
       "id": "69462134",
-      "country": "ZMB",
-      "year": 2024,
-      "reason": "no_change",
-      "detail": "Simplified geometry matches original",
-      "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
-      "from": "Jul 2024",
-      "to": "Sep 2024"
-    },
-    {
-      "title": "Kalabo",
-      "id": "69462136",
       "country": "ZMB",
       "year": 2024,
       "reason": "no_change",
