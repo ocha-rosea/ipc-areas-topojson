@@ -34,7 +34,7 @@ from .dates import (
     DATE_UPDATED_KEYS,
     first_present,
 )
-from .feature_utils import feature_key, sanitise_geometry, extract_polygonal_geometry
+from .feature_utils import feature_key, sanitise_geometry
 from .git_utils import resolve_release_tag
 from .index import IndexBuilder
 from .merge import extract_years, flatten_features, merge_features
@@ -453,10 +453,6 @@ class IPCAreaDownloader:
         for feature in selected_features:
             original_geometry = feature.get("geometry")
             geometry = sanitise_geometry(original_geometry)
-            if not geometry:
-                continue
-
-            geometry = extract_polygonal_geometry(geometry)
             if not geometry:
                 continue
 

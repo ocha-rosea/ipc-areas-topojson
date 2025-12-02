@@ -58,9 +58,45 @@ FailureRecord = Dict[str, Any]
 
 
 def simplify_geometry(geometry: Dict[str, Any], tolerance: float) -> Tuple[Dict[str, Any], Optional[FailureRecord]]:
+    """Simplify a geometry, preserving structure for GeometryCollections.
+
+    Points are passed through unchanged. LineStrings and Polygons are simplified.
+    GeometryCollections are handled recursively, preserving all members.
+    """
     if tolerance <= 0:
         return geometry, None
 
+    geom_type = geometry.get("type")
+
+    # Points cannot be simplified; pass through unchanged
+    if geom_type in {"Point", "MultiPoint"}:
+        return geometry, None
+
+    # Handle GeometryCollections recursively
+    if geom_type == "GeometryCollection":
+        members = geometry.get("geometries")
+        if not isinstance(members, list):
+            return geometry, {"reason": "invalid_geometry", "detail": "GeometryCollection has no geometries"}
+
+        simplified_members: List[Dict[str, Any]] = []
+        collected_failures: List[str] = []
+        for member in members:
+            if not isinstance(member, dict):
+                continue
+            simplified_member, failure = simplify_geometry(member, tolerance)
+            simplified_members.append(simplified_member)
+            if failure:
+                collected_failures.append(failure.get("detail", "unknown"))
+
+        result: Dict[str, Any] = {"type": "GeometryCollection", "geometries": simplified_members}
+        if "bbox" in geometry and isinstance(geometry["bbox"], list):
+            result["bbox"] = geometry["bbox"]
+
+        if collected_failures:
+            return result, {"reason": "partial_simplification", "detail": "; ".join(collected_failures)}
+        return result, None
+
+    # Standard simplification for line/polygon types
     if shape is None:
         print(
             "Warning: shapely is not installed, skipping simplification step.",
