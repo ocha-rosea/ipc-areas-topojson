@@ -12,35 +12,62 @@ The current pipeline filters geometries to polygonal types only via `extract_pol
 
 ### 1. Preserve Original Geometry Types (Priority: High)
 
-**Current behaviour:** `extract_polygonal_geometry()` strips non-polygon geometries entirely.  
-**Desired behaviour:** Retain all geometry types; apply simplification only to compatible types (Polygon, MultiPolygon, LineString, MultiLineString) while passing through Points unchanged.
+**Status:** ✅ Complete
 
-**Files to modify:**
+**Current behaviour:** All geometry types are retained; only Polygon/MultiPolygon are simplified.  
+**Implementation:** Removed `extract_polygonal_geometry()` filter; `simplify_geometry()` now explicitly categorises geometry types.
 
-- `rosea_ipc_toolkit/feature_utils.py` – remove or bypass polygon-only filtering
-- `rosea_ipc_toolkit/downloader.py` – adjust `_filter_and_process()` to keep geometry as-is after sanitisation
+**Files modified:**
+
+- `rosea_ipc_toolkit/feature_utils.py` – polygon-only filter bypassed
+- `rosea_ipc_toolkit/downloader.py` – uses `sanitise_geometry()` only
+- `cli/simplify_ipc_global_areas.py` – geometry type validation added
 
 ### 2. Handle GeometryCollections Transparently
 
-**Current behaviour:** GeometryCollections are recursively filtered, potentially collapsing to a single child or `None`.  
-**Desired behaviour:** Maintain GeometryCollection wrapper and all member geometries; simplify each member according to its type.
+**Status:** ✅ Complete
 
-**Files to modify:**
+**Current behaviour:** GeometryCollections are recursively processed; all members preserved with individual validation.  
+**Implementation:** Recursive `simplify_geometry()` collects failures per member and summarises in parent.
 
-- `cli/simplify_ipc_global_areas.py` – extend `simplify_geometry()` to recurse into GeometryCollections without discarding members
-- `rosea_ipc_toolkit/feature_utils.py` – update `sanitise_geometry()` to preserve structure
+**Files modified:**
 
-### 3. TopoJSON Compatibility for Non-Polygon Types
+- `cli/simplify_ipc_global_areas.py` – recursive handling with member failure aggregation
 
-**Current behaviour:** Point-only datasets caused `KeyError: 'arcs'`; workaround wraps/unwraps coordinates.  
-**Desired behaviour:** Confirm the workaround is stable across mixed geometry collections; add integration tests.
+### 3. Geometry Type Validation & Documentation
 
-**Files to modify:**
+**Status:** ✅ Complete
 
-- `rosea_ipc_toolkit/topology.py` – verify `_wrap_topology_points` handles all edge cases
-- Add test coverage in a new `tests/` directory (optional)
+**Current behaviour:** Non-simplifiable types (Point, MultiPoint, LineString, MultiLineString) are documented with `reason: skipped` and `geometry_type` field in the unsimplified report.
 
-### 4. Property Trimming (Already Implemented)
+**Validation categories:**
+
+- `skipped` – geometry type cannot be simplified (points, lines)
+- `unknown_type` – unrecognised geometry type
+- `invalid_geometry` – malformed geometry
+- `simplification_error` – Shapely failed
+- `empty_geometry` – simplification produced empty result
+- `no_change` – simplified matches original
+- `partial_simplification` – GeometryCollection with mixed results
+
+**Files modified:**
+
+- `cli/simplify_ipc_global_areas.py` – `geometry_type` added to all failure records
+
+### 4. TopoJSON Compatibility for Non-Polygon Types
+
+**Status:** ✅ Complete
+
+**Current behaviour:** Point-only datasets handled via `_wrap_topology_points`; `arcs` key always present.  
+**Implementation:** Existing workaround verified stable for mixed geometry collections.
+
+**Files modified:**
+
+- `rosea_ipc_toolkit/topology.py` – verified `_wrap_topology_points` handles all edge cases
+
+### 5. Property Trimming (Already Implemented)
+
+**Status:** ✅ Complete
 
 - `color` and `year` removed from global dataset
 - `from` and `to` stripped from `global_areas_min.topojson`

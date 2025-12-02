@@ -57,10 +57,26 @@ def round_nested(value: Any, digits: int) -> Any:
 FailureRecord = Dict[str, Any]
 
 
+# Geometry types that cannot or should not be simplified
+NON_SIMPLIFIABLE_TYPES = frozenset({
+    "Point",
+    "MultiPoint",
+    "LineString",
+    "MultiLineString",
+})
+
+# Geometry types that support simplification
+SIMPLIFIABLE_TYPES = frozenset({
+    "Polygon",
+    "MultiPolygon",
+})
+
+
 def simplify_geometry(geometry: Dict[str, Any], tolerance: float) -> Tuple[Dict[str, Any], Optional[FailureRecord]]:
     """Simplify a geometry, preserving structure for GeometryCollections.
 
-    Points are passed through unchanged. LineStrings and Polygons are simplified.
+    Only Polygon and MultiPolygon types are simplified. Points, LineStrings,
+    and their Multi variants pass through unchanged and are documented as skipped.
     GeometryCollections are handled recursively, preserving all members.
     """
     if tolerance <= 0:
@@ -68,60 +84,113 @@ def simplify_geometry(geometry: Dict[str, Any], tolerance: float) -> Tuple[Dict[
 
     geom_type = geometry.get("type")
 
-    # Points cannot be simplified; pass through unchanged
-    if geom_type in {"Point", "MultiPoint"}:
-        return geometry, None
+    # Non-simplifiable types pass through unchanged but are documented
+    if geom_type in NON_SIMPLIFIABLE_TYPES:
+        return geometry, {
+            "reason": "skipped",
+            "detail": f"{geom_type} geometry cannot be simplified",
+            "geometry_type": geom_type,
+        }
 
     # Handle GeometryCollections recursively
     if geom_type == "GeometryCollection":
         members = geometry.get("geometries")
         if not isinstance(members, list):
-            return geometry, {"reason": "invalid_geometry", "detail": "GeometryCollection has no geometries"}
+            return geometry, {
+                "reason": "invalid_geometry",
+                "detail": "GeometryCollection has no geometries",
+                "geometry_type": geom_type,
+            }
 
         simplified_members: List[Dict[str, Any]] = []
-        collected_failures: List[str] = []
+        collected_failures: List[Dict[str, Any]] = []
         for member in members:
             if not isinstance(member, dict):
                 continue
             simplified_member, failure = simplify_geometry(member, tolerance)
             simplified_members.append(simplified_member)
             if failure:
-                collected_failures.append(failure.get("detail", "unknown"))
+                collected_failures.append(failure)
 
         result: Dict[str, Any] = {"type": "GeometryCollection", "geometries": simplified_members}
         if "bbox" in geometry and isinstance(geometry["bbox"], list):
             result["bbox"] = geometry["bbox"]
 
         if collected_failures:
-            return result, {"reason": "partial_simplification", "detail": "; ".join(collected_failures)}
+            # Summarise member failures
+            skipped_types = [f.get("geometry_type", "unknown") for f in collected_failures if f.get("reason") == "skipped"]
+            other_failures = [f.get("detail", "unknown") for f in collected_failures if f.get("reason") != "skipped"]
+            detail_parts = []
+            if skipped_types:
+                detail_parts.append(f"skipped: {', '.join(skipped_types)}")
+            if other_failures:
+                detail_parts.append("; ".join(other_failures))
+            return result, {
+                "reason": "partial_simplification",
+                "detail": "; ".join(detail_parts) if detail_parts else "some members not simplified",
+                "geometry_type": geom_type,
+                "member_failures": collected_failures,
+            }
         return result, None
 
-    # Standard simplification for line/polygon types
+    # Unknown geometry type - pass through and document
+    if geom_type not in SIMPLIFIABLE_TYPES:
+        return geometry, {
+            "reason": "unknown_type",
+            "detail": f"Unrecognised geometry type: {geom_type}",
+            "geometry_type": geom_type,
+        }
+
+    # Standard simplification for polygon types only
     if shape is None:
         print(
             "Warning: shapely is not installed, skipping simplification step.",
             file=sys.stderr,
         )
-        return geometry, {"reason": "dependency_missing", "detail": "shapely is not installed"}
+        return geometry, {
+            "reason": "dependency_missing",
+            "detail": "shapely is not installed",
+            "geometry_type": geom_type,
+        }
 
     try:
         geom_obj: BaseGeometry = shape(geometry)  # type: ignore[arg-type]
     except Exception as exc:  # noqa: BLE001
-        return geometry, {"reason": "invalid_geometry", "detail": str(exc)}
+        return geometry, {
+            "reason": "invalid_geometry",
+            "detail": str(exc),
+            "geometry_type": geom_type,
+        }
 
     try:
         simplified = geom_obj.simplify(tolerance, preserve_topology=True)
     except Exception as exc:  # noqa: BLE001
-        return geometry, {"reason": "simplification_error", "detail": str(exc)}
+        return geometry, {
+            "reason": "simplification_error",
+            "detail": str(exc),
+            "geometry_type": geom_type,
+        }
 
     if simplified.is_empty:
-        return geometry, {"reason": "empty_geometry", "detail": "Simplification produced an empty geometry"}
+        return geometry, {
+            "reason": "empty_geometry",
+            "detail": "Simplification produced an empty geometry",
+            "geometry_type": geom_type,
+        }
 
     try:
         if simplified.equals(geom_obj):
-            return geometry, {"reason": "no_change", "detail": "Simplified geometry matches original"}
+            return geometry, {
+                "reason": "no_change",
+                "detail": "Simplified geometry matches original",
+                "geometry_type": geom_type,
+            }
     except Exception as exc:  # noqa: BLE001
-        return geometry, {"reason": "comparison_failed", "detail": str(exc)}
+        return geometry, {
+            "reason": "comparison_failed",
+            "detail": str(exc),
+            "geometry_type": geom_type,
+        }
 
     return json.loads(json.dumps(simplified.__geo_interface__)), None
 
@@ -177,6 +246,7 @@ def _build_failure_entry(
         "year": properties.get("year"),
         "reason": failure.get("reason"),
         "detail": failure.get("detail"),
+        "geometry_type": failure.get("geometry_type"),
         "source_dataset": source_display,
     }
 
