@@ -1,7 +1,7 @@
 {
-  "generated_at": "2025-12-01T06:40:19Z",
+  "generated_at": "2025-12-02T13:57:29Z",
   "source_file": "data/ETH/ETH_combined_areas.topojson",
-  "total_unsimplified": 126,
+  "total_unsimplified": 63,
   "items": [
     {
       "title": "Guraghe, cluster 1",
@@ -10,6 +10,7 @@
       "year": 2020,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ETH/ETH_combined_areas.topojson",
       "from": "Oct 2020",
       "to": "Dec 2020"
@@ -21,6 +22,7 @@
       "year": 2020,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ETH/ETH_combined_areas.topojson",
       "from": "Oct 2020",
       "to": "Dec 2020"
@@ -32,6 +34,7 @@
       "year": 2020,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ETH/ETH_combined_areas.topojson",
       "from": "Oct 2020",
       "to": "Dec 2020"
@@ -43,6 +46,7 @@
       "year": 2020,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ETH/ETH_combined_areas.topojson",
       "from": "Oct 2020",
       "to": "Dec 2020"
@@ -54,6 +58,7 @@
       "year": 2020,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ETH/ETH_combined_areas.topojson",
       "from": "Oct 2020",
       "to": "Dec 2020"
@@ -65,6 +70,7 @@
       "year": 2020,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ETH/ETH_combined_areas.topojson",
       "from": "Oct 2020",
       "to": "Dec 2020"
@@ -76,6 +82,7 @@
       "year": 2020,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ETH/ETH_combined_areas.topojson",
       "from": "Oct 2020",
       "to": "Dec 2020"
@@ -87,6 +94,7 @@
       "year": 2020,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "MultiPolygon",
       "source_dataset": "data/ETH/ETH_combined_areas.topojson",
       "from": "Oct 2020",
       "to": "Dec 2020"
@@ -98,6 +106,7 @@
       "year": 2020,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ETH/ETH_combined_areas.topojson",
       "from": "Oct 2020",
       "to": "Dec 2020"
@@ -109,6 +118,7 @@
       "year": 2020,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ETH/ETH_combined_areas.topojson",
       "from": "Oct 2020",
       "to": "Dec 2020"
@@ -120,6 +130,7 @@
       "year": 2020,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ETH/ETH_combined_areas.topojson",
       "from": "Oct 2020",
       "to": "Dec 2020"
@@ -131,6 +142,7 @@
       "year": 2020,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ETH/ETH_combined_areas.topojson",
       "from": "Oct 2020",
       "to": "Dec 2020"
@@ -142,6 +154,7 @@
       "year": 2020,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ETH/ETH_combined_areas.topojson",
       "from": "Oct 2020",
       "to": "Dec 2020"
@@ -153,6 +166,7 @@
       "year": 2020,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ETH/ETH_combined_areas.topojson",
       "from": "Oct 2020",
       "to": "Dec 2020"
@@ -164,6 +178,7 @@
       "year": 2020,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ETH/ETH_combined_areas.topojson",
       "from": "Oct 2020",
       "to": "Dec 2020"
@@ -175,6 +190,7 @@
       "year": 2020,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ETH/ETH_combined_areas.topojson",
       "from": "Oct 2020",
       "to": "Dec 2020"
@@ -186,6 +202,7 @@
       "year": 2020,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "MultiPolygon",
       "source_dataset": "data/ETH/ETH_combined_areas.topojson",
       "from": "Oct 2020",
       "to": "Dec 2020"
@@ -197,6 +214,7 @@
       "year": 2020,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ETH/ETH_combined_areas.topojson",
       "from": "Oct 2020",
       "to": "Dec 2020"
@@ -208,6 +226,7 @@
       "year": 2020,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ETH/ETH_combined_areas.topojson",
       "from": "Oct 2020",
       "to": "Dec 2020"
@@ -219,6 +238,7 @@
       "year": 2020,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ETH/ETH_combined_areas.topojson",
       "from": "Oct 2020",
       "to": "Dec 2020"
@@ -230,6 +250,7 @@
       "year": 2020,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ETH/ETH_combined_areas.topojson",
       "from": "Oct 2020",
       "to": "Dec 2020"
@@ -241,6 +262,7 @@
       "year": 2020,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ETH/ETH_combined_areas.topojson",
       "from": "Oct 2020",
       "to": "Dec 2020"
@@ -252,6 +274,7 @@
       "year": 2020,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ETH/ETH_combined_areas.topojson",
       "from": "Oct 2020",
       "to": "Dec 2020"
@@ -263,6 +286,7 @@
       "year": 2020,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "MultiPolygon",
       "source_dataset": "data/ETH/ETH_combined_areas.topojson",
       "from": "Oct 2020",
       "to": "Dec 2020"
@@ -274,6 +298,7 @@
       "year": 2020,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "MultiPolygon",
       "source_dataset": "data/ETH/ETH_combined_areas.topojson",
       "from": "Oct 2020",
       "to": "Dec 2020"
@@ -285,6 +310,7 @@
       "year": 2020,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ETH/ETH_combined_areas.topojson",
       "from": "Oct 2020",
       "to": "Dec 2020"
@@ -296,6 +322,7 @@
       "year": 2020,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ETH/ETH_combined_areas.topojson",
       "from": "Oct 2020",
       "to": "Dec 2020"
@@ -307,6 +334,7 @@
       "year": 2020,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ETH/ETH_combined_areas.topojson",
       "from": "Oct 2020",
       "to": "Dec 2020"
@@ -318,6 +346,7 @@
       "year": 2020,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "MultiPolygon",
       "source_dataset": "data/ETH/ETH_combined_areas.topojson",
       "from": "Oct 2020",
       "to": "Dec 2020"
@@ -329,6 +358,7 @@
       "year": 2020,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ETH/ETH_combined_areas.topojson",
       "from": "Oct 2020",
       "to": "Dec 2020"
@@ -340,6 +370,7 @@
       "year": 2020,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ETH/ETH_combined_areas.topojson",
       "from": "Oct 2020",
       "to": "Dec 2020"
@@ -351,6 +382,7 @@
       "year": 2020,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ETH/ETH_combined_areas.topojson",
       "from": "Oct 2020",
       "to": "Dec 2020"
@@ -362,6 +394,7 @@
       "year": 2020,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ETH/ETH_combined_areas.topojson",
       "from": "Oct 2020",
       "to": "Dec 2020"
@@ -373,6 +406,7 @@
       "year": 2020,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "MultiPolygon",
       "source_dataset": "data/ETH/ETH_combined_areas.topojson",
       "from": "Oct 2020",
       "to": "Dec 2020"
@@ -384,6 +418,7 @@
       "year": 2020,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "MultiPolygon",
       "source_dataset": "data/ETH/ETH_combined_areas.topojson",
       "from": "Oct 2020",
       "to": "Dec 2020"
@@ -395,6 +430,7 @@
       "year": 2020,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ETH/ETH_combined_areas.topojson",
       "from": "Oct 2020",
       "to": "Dec 2020"
@@ -406,6 +442,7 @@
       "year": 2020,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ETH/ETH_combined_areas.topojson",
       "from": "Oct 2020",
       "to": "Dec 2020"
@@ -417,6 +454,7 @@
       "year": 2020,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "MultiPolygon",
       "source_dataset": "data/ETH/ETH_combined_areas.topojson",
       "from": "Oct 2020",
       "to": "Dec 2020"
@@ -428,6 +466,7 @@
       "year": 2020,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ETH/ETH_combined_areas.topojson",
       "from": "Oct 2020",
       "to": "Dec 2020"
@@ -439,6 +478,7 @@
       "year": 2020,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ETH/ETH_combined_areas.topojson",
       "from": "Oct 2020",
       "to": "Dec 2020"
@@ -450,6 +490,7 @@
       "year": 2020,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ETH/ETH_combined_areas.topojson",
       "from": "Oct 2020",
       "to": "Dec 2020"
@@ -461,6 +502,7 @@
       "year": 2020,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ETH/ETH_combined_areas.topojson",
       "from": "Oct 2020",
       "to": "Dec 2020"
@@ -472,6 +514,7 @@
       "year": 2020,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ETH/ETH_combined_areas.topojson",
       "from": "Oct 2020",
       "to": "Dec 2020"
@@ -483,6 +526,7 @@
       "year": 2020,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ETH/ETH_combined_areas.topojson",
       "from": "Oct 2020",
       "to": "Dec 2020"
@@ -494,6 +538,7 @@
       "year": 2020,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "MultiPolygon",
       "source_dataset": "data/ETH/ETH_combined_areas.topojson",
       "from": "Oct 2020",
       "to": "Dec 2020"
@@ -505,6 +550,7 @@
       "year": 2020,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ETH/ETH_combined_areas.topojson",
       "from": "Oct 2020",
       "to": "Dec 2020"
@@ -516,6 +562,7 @@
       "year": 2020,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "MultiPolygon",
       "source_dataset": "data/ETH/ETH_combined_areas.topojson",
       "from": "Oct 2020",
       "to": "Dec 2020"
@@ -527,6 +574,7 @@
       "year": 2020,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ETH/ETH_combined_areas.topojson",
       "from": "Oct 2020",
       "to": "Dec 2020"
@@ -538,6 +586,7 @@
       "year": 2020,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ETH/ETH_combined_areas.topojson",
       "from": "Oct 2020",
       "to": "Dec 2020"
@@ -549,6 +598,7 @@
       "year": 2020,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ETH/ETH_combined_areas.topojson",
       "from": "Oct 2020",
       "to": "Dec 2020"
@@ -560,6 +610,7 @@
       "year": 2020,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ETH/ETH_combined_areas.topojson",
       "from": "Oct 2020",
       "to": "Dec 2020"
@@ -571,6 +622,7 @@
       "year": 2020,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ETH/ETH_combined_areas.topojson",
       "from": "Oct 2020",
       "to": "Dec 2020"
@@ -582,6 +634,7 @@
       "year": 2020,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ETH/ETH_combined_areas.topojson",
       "from": "Oct 2020",
       "to": "Dec 2020"
@@ -593,6 +646,7 @@
       "year": 2020,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ETH/ETH_combined_areas.topojson",
       "from": "Oct 2020",
       "to": "Dec 2020"
@@ -604,6 +658,7 @@
       "year": 2020,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ETH/ETH_combined_areas.topojson",
       "from": "Oct 2020",
       "to": "Dec 2020"
@@ -615,6 +670,7 @@
       "year": 2020,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "MultiPolygon",
       "source_dataset": "data/ETH/ETH_combined_areas.topojson",
       "from": "Oct 2020",
       "to": "Dec 2020"
@@ -626,6 +682,7 @@
       "year": 2020,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ETH/ETH_combined_areas.topojson",
       "from": "Oct 2020",
       "to": "Dec 2020"
@@ -637,6 +694,7 @@
       "year": 2020,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ETH/ETH_combined_areas.topojson",
       "from": "Oct 2020",
       "to": "Dec 2020"
@@ -648,6 +706,7 @@
       "year": 2020,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ETH/ETH_combined_areas.topojson",
       "from": "Oct 2020",
       "to": "Dec 2020"
@@ -659,6 +718,7 @@
       "year": 2020,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ETH/ETH_combined_areas.topojson",
       "from": "Oct 2020",
       "to": "Dec 2020"
@@ -670,6 +730,7 @@
       "year": 2020,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ETH/ETH_combined_areas.topojson",
       "from": "Oct 2020",
       "to": "Dec 2020"
@@ -681,6 +742,7 @@
       "year": 2020,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ETH/ETH_combined_areas.topojson",
       "from": "Oct 2020",
       "to": "Dec 2020"
@@ -692,702 +754,10 @@
       "year": 2020,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ETH/ETH_combined_areas.topojson",
       "from": "Oct 2020",
       "to": "Dec 2020"
-    },
-    {
-      "title": "North western, cluster 1",
-      "id": "25133842",
-      "country": "ETH",
-      "year": 2021,
-      "reason": "no_change",
-      "detail": "Simplified geometry matches original",
-      "source_dataset": "data/ETH/ETH_combined_areas.topojson",
-      "from": "May 2021",
-      "to": "Jun 2021"
-    },
-    {
-      "title": "Gofa",
-      "id": "25133845",
-      "country": "ETH",
-      "year": 2021,
-      "reason": "no_change",
-      "detail": "Simplified geometry matches original",
-      "source_dataset": "data/ETH/ETH_combined_areas.topojson",
-      "from": "May 2021",
-      "to": "Jun 2021"
-    },
-    {
-      "title": "West hararge, cluster 1",
-      "id": "25133848",
-      "country": "ETH",
-      "year": 2021,
-      "reason": "no_change",
-      "detail": "Simplified geometry matches original",
-      "source_dataset": "data/ETH/ETH_combined_areas.topojson",
-      "from": "May 2021",
-      "to": "Jun 2021"
-    },
-    {
-      "title": "Gedeo",
-      "id": "25133850",
-      "country": "ETH",
-      "year": 2021,
-      "reason": "no_change",
-      "detail": "Simplified geometry matches original",
-      "source_dataset": "data/ETH/ETH_combined_areas.topojson",
-      "from": "May 2021",
-      "to": "Jun 2021"
-    },
-    {
-      "title": "Liban",
-      "id": "25133853",
-      "country": "ETH",
-      "year": 2021,
-      "reason": "no_change",
-      "detail": "Simplified geometry matches original",
-      "source_dataset": "data/ETH/ETH_combined_areas.topojson",
-      "from": "May 2021",
-      "to": "Jun 2021"
-    },
-    {
-      "title": "Bale",
-      "id": "25133855",
-      "country": "ETH",
-      "year": 2021,
-      "reason": "no_change",
-      "detail": "Simplified geometry matches original",
-      "source_dataset": "data/ETH/ETH_combined_areas.topojson",
-      "from": "May 2021",
-      "to": "Jun 2021"
-    },
-    {
-      "title": "South wello",
-      "id": "25133858",
-      "country": "ETH",
-      "year": 2021,
-      "reason": "no_change",
-      "detail": "Simplified geometry matches original",
-      "source_dataset": "data/ETH/ETH_combined_areas.topojson",
-      "from": "May 2021",
-      "to": "Jun 2021"
-    },
-    {
-      "title": "Dawuro",
-      "id": "25133862",
-      "country": "ETH",
-      "year": 2021,
-      "reason": "no_change",
-      "detail": "Simplified geometry matches original",
-      "source_dataset": "data/ETH/ETH_combined_areas.topojson",
-      "from": "May 2021",
-      "to": "Jun 2021"
-    },
-    {
-      "title": "North wello",
-      "id": "25133864",
-      "country": "ETH",
-      "year": 2021,
-      "reason": "no_change",
-      "detail": "Simplified geometry matches original",
-      "source_dataset": "data/ETH/ETH_combined_areas.topojson",
-      "from": "May 2021",
-      "to": "Jun 2021"
-    },
-    {
-      "title": "South omo",
-      "id": "25133866",
-      "country": "ETH",
-      "year": 2021,
-      "reason": "no_change",
-      "detail": "Simplified geometry matches original",
-      "source_dataset": "data/ETH/ETH_combined_areas.topojson",
-      "from": "May 2021",
-      "to": "Jun 2021"
-    },
-    {
-      "title": "Afder",
-      "id": "25133868",
-      "country": "ETH",
-      "year": 2021,
-      "reason": "no_change",
-      "detail": "Simplified geometry matches original",
-      "source_dataset": "data/ETH/ETH_combined_areas.topojson",
-      "from": "May 2021",
-      "to": "Jun 2021"
-    },
-    {
-      "title": "Erer",
-      "id": "25133870",
-      "country": "ETH",
-      "year": 2021,
-      "reason": "no_change",
-      "detail": "Simplified geometry matches original",
-      "source_dataset": "data/ETH/ETH_combined_areas.topojson",
-      "from": "May 2021",
-      "to": "Jun 2021"
-    },
-    {
-      "title": "Segen",
-      "id": "25133874",
-      "country": "ETH",
-      "year": 2021,
-      "reason": "no_change",
-      "detail": "Simplified geometry matches original",
-      "source_dataset": "data/ETH/ETH_combined_areas.topojson",
-      "from": "May 2021",
-      "to": "Jun 2021"
-    },
-    {
-      "title": "Korahe",
-      "id": "25133876",
-      "country": "ETH",
-      "year": 2021,
-      "reason": "no_change",
-      "detail": "Simplified geometry matches original",
-      "source_dataset": "data/ETH/ETH_combined_areas.topojson",
-      "from": "May 2021",
-      "to": "Jun 2021"
-    },
-    {
-      "title": "Central gondar, cluster 1",
-      "id": "25133878",
-      "country": "ETH",
-      "year": 2021,
-      "reason": "no_change",
-      "detail": "Simplified geometry matches original",
-      "source_dataset": "data/ETH/ETH_combined_areas.topojson",
-      "from": "May 2021",
-      "to": "Jun 2021"
-    },
-    {
-      "title": "North shewa oromia, cluster 2",
-      "id": "25133880",
-      "country": "ETH",
-      "year": 2021,
-      "reason": "no_change",
-      "detail": "Simplified geometry matches original",
-      "source_dataset": "data/ETH/ETH_combined_areas.topojson",
-      "from": "May 2021",
-      "to": "Jun 2021"
-    },
-    {
-      "title": "Sidama",
-      "id": "25133883",
-      "country": "ETH",
-      "year": 2021,
-      "reason": "no_change",
-      "detail": "Simplified geometry matches original",
-      "source_dataset": "data/ETH/ETH_combined_areas.topojson",
-      "from": "May 2021",
-      "to": "Jun 2021"
-    },
-    {
-      "title": "Siti",
-      "id": "25133885",
-      "country": "ETH",
-      "year": 2021,
-      "reason": "no_change",
-      "detail": "Simplified geometry matches original",
-      "source_dataset": "data/ETH/ETH_combined_areas.topojson",
-      "from": "May 2021",
-      "to": "Jun 2021"
-    },
-    {
-      "title": "North shewa oromia, cluster 3",
-      "id": "25133887",
-      "country": "ETH",
-      "year": 2021,
-      "reason": "no_change",
-      "detail": "Simplified geometry matches original",
-      "source_dataset": "data/ETH/ETH_combined_areas.topojson",
-      "from": "May 2021",
-      "to": "Jun 2021"
-    },
-    {
-      "title": "North western, cluster 2",
-      "id": "25133889",
-      "country": "ETH",
-      "year": 2021,
-      "reason": "no_change",
-      "detail": "Simplified geometry matches original",
-      "source_dataset": "data/ETH/ETH_combined_areas.topojson",
-      "from": "May 2021",
-      "to": "Jun 2021"
-    },
-    {
-      "title": "Eastern, cluster 2",
-      "id": "25133891",
-      "country": "ETH",
-      "year": 2021,
-      "reason": "no_change",
-      "detail": "Simplified geometry matches original",
-      "source_dataset": "data/ETH/ETH_combined_areas.topojson",
-      "from": "May 2021",
-      "to": "Jun 2021"
-    },
-    {
-      "title": "West hararge, cluster 2",
-      "id": "25133893",
-      "country": "ETH",
-      "year": 2021,
-      "reason": "no_change",
-      "detail": "Simplified geometry matches original",
-      "source_dataset": "data/ETH/ETH_combined_areas.topojson",
-      "from": "May 2021",
-      "to": "Jun 2021"
-    },
-    {
-      "title": "Guraghe, cluster 1",
-      "id": "25133895",
-      "country": "ETH",
-      "year": 2021,
-      "reason": "no_change",
-      "detail": "Simplified geometry matches original",
-      "source_dataset": "data/ETH/ETH_combined_areas.topojson",
-      "from": "May 2021",
-      "to": "Jun 2021"
-    },
-    {
-      "title": "Shabelle",
-      "id": "25133897",
-      "country": "ETH",
-      "year": 2021,
-      "reason": "no_change",
-      "detail": "Simplified geometry matches original",
-      "source_dataset": "data/ETH/ETH_combined_areas.topojson",
-      "from": "May 2021",
-      "to": "Jun 2021"
-    },
-    {
-      "title": "East hararge, cluster 1",
-      "id": "25133899",
-      "country": "ETH",
-      "year": 2021,
-      "reason": "no_change",
-      "detail": "Simplified geometry matches original",
-      "source_dataset": "data/ETH/ETH_combined_areas.topojson",
-      "from": "May 2021",
-      "to": "Jun 2021"
-    },
-    {
-      "title": "Oromia, cluster 2",
-      "id": "25133901",
-      "country": "ETH",
-      "year": 2021,
-      "reason": "no_change",
-      "detail": "Simplified geometry matches original",
-      "source_dataset": "data/ETH/ETH_combined_areas.topojson",
-      "from": "May 2021",
-      "to": "Jun 2021"
-    },
-    {
-      "title": "Siltie, cluster 1",
-      "id": "25133903",
-      "country": "ETH",
-      "year": 2021,
-      "reason": "no_change",
-      "detail": "Simplified geometry matches original",
-      "source_dataset": "data/ETH/ETH_combined_areas.topojson",
-      "from": "May 2021",
-      "to": "Jun 2021"
-    },
-    {
-      "title": "Halaba special, cluster 1",
-      "id": "25133907",
-      "country": "ETH",
-      "year": 2021,
-      "reason": "no_change",
-      "detail": "Simplified geometry matches original",
-      "source_dataset": "data/ETH/ETH_combined_areas.topojson",
-      "from": "May 2021",
-      "to": "Jun 2021"
-    },
-    {
-      "title": "Southern",
-      "id": "25133909",
-      "country": "ETH",
-      "year": 2021,
-      "reason": "no_change",
-      "detail": "Simplified geometry matches original",
-      "source_dataset": "data/ETH/ETH_combined_areas.topojson",
-      "from": "May 2021",
-      "to": "Jun 2021"
-    },
-    {
-      "title": "Wolayita",
-      "id": "25133911",
-      "country": "ETH",
-      "year": 2021,
-      "reason": "no_change",
-      "detail": "Simplified geometry matches original",
-      "source_dataset": "data/ETH/ETH_combined_areas.topojson",
-      "from": "May 2021",
-      "to": "Jun 2021"
-    },
-    {
-      "title": "South gondar, cluster 1",
-      "id": "25133913",
-      "country": "ETH",
-      "year": 2021,
-      "reason": "no_change",
-      "detail": "Simplified geometry matches original",
-      "source_dataset": "data/ETH/ETH_combined_areas.topojson",
-      "from": "May 2021",
-      "to": "Jun 2021"
-    },
-    {
-      "title": "Guji",
-      "id": "25133915",
-      "country": "ETH",
-      "year": 2021,
-      "reason": "no_change",
-      "detail": "Simplified geometry matches original",
-      "source_dataset": "data/ETH/ETH_combined_areas.topojson",
-      "from": "May 2021",
-      "to": "Jun 2021"
-    },
-    {
-      "title": "West hararge, cluster 3",
-      "id": "25133917",
-      "country": "ETH",
-      "year": 2021,
-      "reason": "no_change",
-      "detail": "Simplified geometry matches original",
-      "source_dataset": "data/ETH/ETH_combined_areas.topojson",
-      "from": "May 2021",
-      "to": "Jun 2021"
-    },
-    {
-      "title": "North gondar, cluster 2",
-      "id": "25133919",
-      "country": "ETH",
-      "year": 2021,
-      "reason": "no_change",
-      "detail": "Simplified geometry matches original",
-      "source_dataset": "data/ETH/ETH_combined_areas.topojson",
-      "from": "May 2021",
-      "to": "Jun 2021"
-    },
-    {
-      "title": "Zone 4 (fantana rasu)",
-      "id": "25133922",
-      "country": "ETH",
-      "year": 2021,
-      "reason": "no_change",
-      "detail": "Simplified geometry matches original",
-      "source_dataset": "data/ETH/ETH_combined_areas.topojson",
-      "from": "May 2021",
-      "to": "Jun 2021"
-    },
-    {
-      "title": "West guji",
-      "id": "25133924",
-      "country": "ETH",
-      "year": 2021,
-      "reason": "no_change",
-      "detail": "Simplified geometry matches original",
-      "source_dataset": "data/ETH/ETH_combined_areas.topojson",
-      "from": "May 2021",
-      "to": "Jun 2021"
-    },
-    {
-      "title": "Nogob",
-      "id": "25133926",
-      "country": "ETH",
-      "year": 2021,
-      "reason": "no_change",
-      "detail": "Simplified geometry matches original",
-      "source_dataset": "data/ETH/ETH_combined_areas.topojson",
-      "from": "May 2021",
-      "to": "Jun 2021"
-    },
-    {
-      "title": "South eastern, cluster 1",
-      "id": "25133928",
-      "country": "ETH",
-      "year": 2021,
-      "reason": "no_change",
-      "detail": "Simplified geometry matches original",
-      "source_dataset": "data/ETH/ETH_combined_areas.topojson",
-      "from": "May 2021",
-      "to": "Jun 2021"
-    },
-    {
-      "title": "Wag hamra, cluster 1",
-      "id": "25133930",
-      "country": "ETH",
-      "year": 2021,
-      "reason": "no_change",
-      "detail": "Simplified geometry matches original",
-      "source_dataset": "data/ETH/ETH_combined_areas.topojson",
-      "from": "May 2021",
-      "to": "Jun 2021"
-    },
-    {
-      "title": "East shewa",
-      "id": "25133932",
-      "country": "ETH",
-      "year": 2021,
-      "reason": "no_change",
-      "detail": "Simplified geometry matches original",
-      "source_dataset": "data/ETH/ETH_combined_areas.topojson",
-      "from": "May 2021",
-      "to": "Jun 2021"
-    },
-    {
-      "title": "Jarar",
-      "id": "25133934",
-      "country": "ETH",
-      "year": 2021,
-      "reason": "no_change",
-      "detail": "Simplified geometry matches original",
-      "source_dataset": "data/ETH/ETH_combined_areas.topojson",
-      "from": "May 2021",
-      "to": "Jun 2021"
-    },
-    {
-      "title": "Gamo",
-      "id": "25133936",
-      "country": "ETH",
-      "year": 2021,
-      "reason": "no_change",
-      "detail": "Simplified geometry matches original",
-      "source_dataset": "data/ETH/ETH_combined_areas.topojson",
-      "from": "May 2021",
-      "to": "Jun 2021"
-    },
-    {
-      "title": "Borena",
-      "id": "25133938",
-      "country": "ETH",
-      "year": 2021,
-      "reason": "no_change",
-      "detail": "Simplified geometry matches original",
-      "source_dataset": "data/ETH/ETH_combined_areas.topojson",
-      "from": "May 2021",
-      "to": "Jun 2021"
-    },
-    {
-      "title": "West arsi",
-      "id": "25133942",
-      "country": "ETH",
-      "year": 2021,
-      "reason": "no_change",
-      "detail": "Simplified geometry matches original",
-      "source_dataset": "data/ETH/ETH_combined_areas.topojson",
-      "from": "May 2021",
-      "to": "Jun 2021"
-    },
-    {
-      "title": "Guraghe, cluster 2",
-      "id": "25133944",
-      "country": "ETH",
-      "year": 2021,
-      "reason": "no_change",
-      "detail": "Simplified geometry matches original",
-      "source_dataset": "data/ETH/ETH_combined_areas.topojson",
-      "from": "May 2021",
-      "to": "Jun 2021"
-    },
-    {
-      "title": "Zone 1 (awsi rasu)",
-      "id": "25133946",
-      "country": "ETH",
-      "year": 2021,
-      "reason": "no_change",
-      "detail": "Simplified geometry matches original",
-      "source_dataset": "data/ETH/ETH_combined_areas.topojson",
-      "from": "May 2021",
-      "to": "Jun 2021"
-    },
-    {
-      "title": "Zone 2 (kilbet rasu)",
-      "id": "25133948",
-      "country": "ETH",
-      "year": 2021,
-      "reason": "no_change",
-      "detail": "Simplified geometry matches original",
-      "source_dataset": "data/ETH/ETH_combined_areas.topojson",
-      "from": "May 2021",
-      "to": "Jun 2021"
-    },
-    {
-      "title": "Siltie, cluster 2",
-      "id": "25133950",
-      "country": "ETH",
-      "year": 2021,
-      "reason": "no_change",
-      "detail": "Simplified geometry matches original",
-      "source_dataset": "data/ETH/ETH_combined_areas.topojson",
-      "from": "May 2021",
-      "to": "Jun 2021"
-    },
-    {
-      "title": "Eastern, cluster 1",
-      "id": "25133954",
-      "country": "ETH",
-      "year": 2021,
-      "reason": "no_change",
-      "detail": "Simplified geometry matches original",
-      "source_dataset": "data/ETH/ETH_combined_areas.topojson",
-      "from": "May 2021",
-      "to": "Jun 2021"
-    },
-    {
-      "title": "Daawa",
-      "id": "25133956",
-      "country": "ETH",
-      "year": 2021,
-      "reason": "no_change",
-      "detail": "Simplified geometry matches original",
-      "source_dataset": "data/ETH/ETH_combined_areas.topojson",
-      "from": "May 2021",
-      "to": "Jun 2021"
-    },
-    {
-      "title": "Zone 5 (hari rasu)",
-      "id": "25133958",
-      "country": "ETH",
-      "year": 2021,
-      "reason": "no_change",
-      "detail": "Simplified geometry matches original",
-      "source_dataset": "data/ETH/ETH_combined_areas.topojson",
-      "from": "May 2021",
-      "to": "Jun 2021"
-    },
-    {
-      "title": "North gondar, cluster 1",
-      "id": "25133960",
-      "country": "ETH",
-      "year": 2021,
-      "reason": "no_change",
-      "detail": "Simplified geometry matches original",
-      "source_dataset": "data/ETH/ETH_combined_areas.topojson",
-      "from": "May 2021",
-      "to": "Jun 2021"
-    },
-    {
-      "title": "Central, cluster 2",
-      "id": "25133962",
-      "country": "ETH",
-      "year": 2021,
-      "reason": "no_change",
-      "detail": "Simplified geometry matches original",
-      "source_dataset": "data/ETH/ETH_combined_areas.topojson",
-      "from": "May 2021",
-      "to": "Jun 2021"
-    },
-    {
-      "title": "Fafan",
-      "id": "25133964",
-      "country": "ETH",
-      "year": 2021,
-      "reason": "no_change",
-      "detail": "Simplified geometry matches original",
-      "source_dataset": "data/ETH/ETH_combined_areas.topojson",
-      "from": "May 2021",
-      "to": "Jun 2021"
-    },
-    {
-      "title": "Doolo",
-      "id": "25133966",
-      "country": "ETH",
-      "year": 2021,
-      "reason": "no_change",
-      "detail": "Simplified geometry matches original",
-      "source_dataset": "data/ETH/ETH_combined_areas.topojson",
-      "from": "May 2021",
-      "to": "Jun 2021"
-    },
-    {
-      "title": "East gojam, cluster 1",
-      "id": "25133968",
-      "country": "ETH",
-      "year": 2021,
-      "reason": "no_change",
-      "detail": "Simplified geometry matches original",
-      "source_dataset": "data/ETH/ETH_combined_areas.topojson",
-      "from": "May 2021",
-      "to": "Jun 2021"
-    },
-    {
-      "title": "Hadiya, cluster 1",
-      "id": "25133970",
-      "country": "ETH",
-      "year": 2021,
-      "reason": "no_change",
-      "detail": "Simplified geometry matches original",
-      "source_dataset": "data/ETH/ETH_combined_areas.topojson",
-      "from": "May 2021",
-      "to": "Jun 2021"
-    },
-    {
-      "title": "Zone 3 (gabi rasu)",
-      "id": "25133972",
-      "country": "ETH",
-      "year": 2021,
-      "reason": "no_change",
-      "detail": "Simplified geometry matches original",
-      "source_dataset": "data/ETH/ETH_combined_areas.topojson",
-      "from": "May 2021",
-      "to": "Jun 2021"
-    },
-    {
-      "title": "Hadiya, cluster 2",
-      "id": "25133974",
-      "country": "ETH",
-      "year": 2021,
-      "reason": "no_change",
-      "detail": "Simplified geometry matches original",
-      "source_dataset": "data/ETH/ETH_combined_areas.topojson",
-      "from": "May 2021",
-      "to": "Jun 2021"
-    },
-    {
-      "title": "Central, cluster 1",
-      "id": "25133976",
-      "country": "ETH",
-      "year": 2021,
-      "reason": "no_change",
-      "detail": "Simplified geometry matches original",
-      "source_dataset": "data/ETH/ETH_combined_areas.topojson",
-      "from": "May 2021",
-      "to": "Jun 2021"
-    },
-    {
-      "title": "Kembata Tembaro",
-      "id": "25133978",
-      "country": "ETH",
-      "year": 2021,
-      "reason": "no_change",
-      "detail": "Simplified geometry matches original",
-      "source_dataset": "data/ETH/ETH_combined_areas.topojson",
-      "from": "May 2021",
-      "to": "Jun 2021"
-    },
-    {
-      "title": "East hararge, cluster 3",
-      "id": "25133980",
-      "country": "ETH",
-      "year": 2021,
-      "reason": "no_change",
-      "detail": "Simplified geometry matches original",
-      "source_dataset": "data/ETH/ETH_combined_areas.topojson",
-      "from": "May 2021",
-      "to": "Jun 2021"
-    },
-    {
-      "title": "Oromia, cluster 1",
-      "id": "25133982",
-      "country": "ETH",
-      "year": 2021,
-      "reason": "no_change",
-      "detail": "Simplified geometry matches original",
-      "source_dataset": "data/ETH/ETH_combined_areas.topojson",
-      "from": "May 2021",
-      "to": "Jun 2021"
     }
   ]
 }

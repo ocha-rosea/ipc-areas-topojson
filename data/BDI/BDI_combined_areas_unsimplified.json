@@ -1,7 +1,7 @@
 {
-  "generated_at": "2025-12-01T06:40:04Z",
+  "generated_at": "2025-12-02T13:57:01Z",
   "source_file": "data/BDI/BDI_combined_areas.topojson",
-  "total_unsimplified": 37,
+  "total_unsimplified": 8,
   "items": [
     {
       "title": "Buragane",
@@ -10,6 +10,7 @@
       "year": 2020,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/BDI/BDI_combined_areas.topojson",
       "from": "Aug 2020",
       "to": "Sep 2020"
@@ -21,6 +22,7 @@
       "year": 2020,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/BDI/BDI_combined_areas.topojson",
       "from": "Aug 2020",
       "to": "Sep 2020"
@@ -32,6 +34,7 @@
       "year": 2020,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/BDI/BDI_combined_areas.topojson",
       "from": "Aug 2020",
       "to": "Sep 2020"
@@ -43,6 +46,7 @@
       "year": 2020,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/BDI/BDI_combined_areas.topojson",
       "from": "Aug 2020",
       "to": "Sep 2020"
@@ -54,6 +58,7 @@
       "year": 2020,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/BDI/BDI_combined_areas.topojson",
       "from": "Aug 2020",
       "to": "Sep 2020"
@@ -65,6 +70,7 @@
       "year": 2020,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "MultiPolygon",
       "source_dataset": "data/BDI/BDI_combined_areas.topojson",
       "from": "Aug 2020",
       "to": "Sep 2020"
@@ -76,6 +82,7 @@
       "year": 2020,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/BDI/BDI_combined_areas.topojson",
       "from": "Aug 2020",
       "to": "Sep 2020"
@@ -87,328 +94,10 @@
       "year": 2020,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "MultiPolygon",
       "source_dataset": "data/BDI/BDI_combined_areas.topojson",
       "from": "Aug 2020",
       "to": "Sep 2020"
-    },
-    {
-      "title": "D\u00e9pressions de l`Est",
-      "id": "24398140",
-      "country": "BDI",
-      "year": 2021,
-      "reason": "no_change",
-      "detail": "Simplified geometry matches original",
-      "source_dataset": "data/BDI/BDI_combined_areas.topojson",
-      "from": "Jun 2021",
-      "to": "Sep 2021"
-    },
-    {
-      "title": "D\u00e9pressions du nord",
-      "id": "24398142",
-      "country": "BDI",
-      "year": 2021,
-      "reason": "no_change",
-      "detail": "Simplified geometry matches original",
-      "source_dataset": "data/BDI/BDI_combined_areas.topojson",
-      "from": "Jun 2021",
-      "to": "Sep 2021"
-    },
-    {
-      "title": "Haute altitude",
-      "id": "24398144",
-      "country": "BDI",
-      "year": 2021,
-      "reason": "no_change",
-      "detail": "Simplified geometry matches original",
-      "source_dataset": "data/BDI/BDI_combined_areas.topojson",
-      "from": "Jun 2021",
-      "to": "Sep 2021"
-    },
-    {
-      "title": "Buragane",
-      "id": "24398150",
-      "country": "BDI",
-      "year": 2021,
-      "reason": "no_change",
-      "detail": "Simplified geometry matches original",
-      "source_dataset": "data/BDI/BDI_combined_areas.topojson",
-      "from": "Jun 2021",
-      "to": "Sep 2021"
-    },
-    {
-      "title": "Plateaux secs de l`Est",
-      "id": "24398154",
-      "country": "BDI",
-      "year": 2021,
-      "reason": "no_change",
-      "detail": "Simplified geometry matches original",
-      "source_dataset": "data/BDI/BDI_combined_areas.topojson",
-      "from": "Jun 2021",
-      "to": "Sep 2021"
-    },
-    {
-      "title": "D\u00e9pressions de l\u2019est",
-      "id": "26178028",
-      "country": "BDI",
-      "year": 2022,
-      "reason": "no_change",
-      "detail": "Simplified geometry matches original",
-      "source_dataset": "data/BDI/BDI_combined_areas.topojson",
-      "from": "Jun 2022",
-      "to": "Sep 2022"
-    },
-    {
-      "title": "Cr\u00eate congo mil",
-      "id": "26178030",
-      "country": "BDI",
-      "year": 2022,
-      "reason": "no_change",
-      "detail": "Simplified geometry matches original",
-      "source_dataset": "data/BDI/BDI_combined_areas.topojson",
-      "from": "Jun 2022",
-      "to": "Sep 2022"
-    },
-    {
-      "title": "Buragane",
-      "id": "26178032",
-      "country": "BDI",
-      "year": 2022,
-      "reason": "no_change",
-      "detail": "Simplified geometry matches original",
-      "source_dataset": "data/BDI/BDI_combined_areas.topojson",
-      "from": "Jun 2022",
-      "to": "Sep 2022"
-    },
-    {
-      "title": "Plateaux humides",
-      "id": "26178034",
-      "country": "BDI",
-      "year": 2022,
-      "reason": "no_change",
-      "detail": "Simplified geometry matches original",
-      "source_dataset": "data/BDI/BDI_combined_areas.topojson",
-      "from": "Jun 2022",
-      "to": "Sep 2022"
-    },
-    {
-      "title": "Plateaux secs de l'est",
-      "id": "26178036",
-      "country": "BDI",
-      "year": 2022,
-      "reason": "no_change",
-      "detail": "Simplified geometry matches original",
-      "source_dataset": "data/BDI/BDI_combined_areas.topojson",
-      "from": "Jun 2022",
-      "to": "Sep 2022"
-    },
-    {
-      "title": "Haute altitude nord",
-      "id": "26178038",
-      "country": "BDI",
-      "year": 2022,
-      "reason": "no_change",
-      "detail": "Simplified geometry matches original",
-      "source_dataset": "data/BDI/BDI_combined_areas.topojson",
-      "from": "Jun 2022",
-      "to": "Sep 2022"
-    },
-    {
-      "title": "Plaine imbo",
-      "id": "26178040",
-      "country": "BDI",
-      "year": 2022,
-      "reason": "no_change",
-      "detail": "Simplified geometry matches original",
-      "source_dataset": "data/BDI/BDI_combined_areas.topojson",
-      "from": "Jun 2022",
-      "to": "Sep 2022"
-    },
-    {
-      "title": "D\u00e9pressions du nord",
-      "id": "26178042",
-      "country": "BDI",
-      "year": 2022,
-      "reason": "no_change",
-      "detail": "Simplified geometry matches original",
-      "source_dataset": "data/BDI/BDI_combined_areas.topojson",
-      "from": "Jun 2022",
-      "to": "Sep 2022"
-    },
-    {
-      "title": "Haute altitude nord",
-      "id": "62904585",
-      "country": "BDI",
-      "year": 2023,
-      "reason": "no_change",
-      "detail": "Simplified geometry matches original",
-      "source_dataset": "data/BDI/BDI_combined_areas.topojson",
-      "from": "Sep 2023",
-      "to": "Sep 2023"
-    },
-    {
-      "title": "Cr\u00eate congo mil",
-      "id": "62904587",
-      "country": "BDI",
-      "year": 2023,
-      "reason": "no_change",
-      "detail": "Simplified geometry matches original",
-      "source_dataset": "data/BDI/BDI_combined_areas.topojson",
-      "from": "Sep 2023",
-      "to": "Sep 2023"
-    },
-    {
-      "title": "D\u00e9pressions du nord",
-      "id": "62904589",
-      "country": "BDI",
-      "year": 2023,
-      "reason": "no_change",
-      "detail": "Simplified geometry matches original",
-      "source_dataset": "data/BDI/BDI_combined_areas.topojson",
-      "from": "Sep 2023",
-      "to": "Sep 2023"
-    },
-    {
-      "title": "Plaine imbo",
-      "id": "62904591",
-      "country": "BDI",
-      "year": 2023,
-      "reason": "no_change",
-      "detail": "Simplified geometry matches original",
-      "source_dataset": "data/BDI/BDI_combined_areas.topojson",
-      "from": "Sep 2023",
-      "to": "Sep 2023"
-    },
-    {
-      "title": "Plateaux humides",
-      "id": "62904593",
-      "country": "BDI",
-      "year": 2023,
-      "reason": "no_change",
-      "detail": "Simplified geometry matches original",
-      "source_dataset": "data/BDI/BDI_combined_areas.topojson",
-      "from": "Sep 2023",
-      "to": "Sep 2023"
-    },
-    {
-      "title": "Buragane",
-      "id": "62904595",
-      "country": "BDI",
-      "year": 2023,
-      "reason": "no_change",
-      "detail": "Simplified geometry matches original",
-      "source_dataset": "data/BDI/BDI_combined_areas.topojson",
-      "from": "Sep 2023",
-      "to": "Sep 2023"
-    },
-    {
-      "title": "Plateaux secs de l'est",
-      "id": "62904597",
-      "country": "BDI",
-      "year": 2023,
-      "reason": "no_change",
-      "detail": "Simplified geometry matches original",
-      "source_dataset": "data/BDI/BDI_combined_areas.topojson",
-      "from": "Sep 2023",
-      "to": "Sep 2023"
-    },
-    {
-      "title": "D\u00e9pressions de l\u2019est",
-      "id": "62904599",
-      "country": "BDI",
-      "year": 2023,
-      "reason": "no_change",
-      "detail": "Simplified geometry matches original",
-      "source_dataset": "data/BDI/BDI_combined_areas.topojson",
-      "from": "Sep 2023",
-      "to": "Sep 2023"
-    },
-    {
-      "title": "Cr\u00eate congo Nil",
-      "id": "72802182",
-      "country": "BDI",
-      "year": 2024,
-      "reason": "no_change",
-      "detail": "Simplified geometry matches original",
-      "source_dataset": "data/BDI/BDI_combined_areas.topojson",
-      "from": "Nov 2024",
-      "to": "Dec 2024"
-    },
-    {
-      "title": "Plateaux secs de l'est",
-      "id": "72802184",
-      "country": "BDI",
-      "year": 2024,
-      "reason": "no_change",
-      "detail": "Simplified geometry matches original",
-      "source_dataset": "data/BDI/BDI_combined_areas.topojson",
-      "from": "Nov 2024",
-      "to": "Dec 2024"
-    },
-    {
-      "title": "Buragane",
-      "id": "72802186",
-      "country": "BDI",
-      "year": 2024,
-      "reason": "no_change",
-      "detail": "Simplified geometry matches original",
-      "source_dataset": "data/BDI/BDI_combined_areas.topojson",
-      "from": "Nov 2024",
-      "to": "Dec 2024"
-    },
-    {
-      "title": "D\u00e9pressions de l\u2019est",
-      "id": "72802188",
-      "country": "BDI",
-      "year": 2024,
-      "reason": "no_change",
-      "detail": "Simplified geometry matches original",
-      "source_dataset": "data/BDI/BDI_combined_areas.topojson",
-      "from": "Nov 2024",
-      "to": "Dec 2024"
-    },
-    {
-      "title": "Haute altitude nord",
-      "id": "72802190",
-      "country": "BDI",
-      "year": 2024,
-      "reason": "no_change",
-      "detail": "Simplified geometry matches original",
-      "source_dataset": "data/BDI/BDI_combined_areas.topojson",
-      "from": "Nov 2024",
-      "to": "Dec 2024"
-    },
-    {
-      "title": "Plateaux humides",
-      "id": "72802192",
-      "country": "BDI",
-      "year": 2024,
-      "reason": "no_change",
-      "detail": "Simplified geometry matches original",
-      "source_dataset": "data/BDI/BDI_combined_areas.topojson",
-      "from": "Nov 2024",
-      "to": "Dec 2024"
-    },
-    {
-      "title": "D\u00e9pressions du nord",
-      "id": "72802194",
-      "country": "BDI",
-      "year": 2024,
-      "reason": "no_change",
-      "detail": "Simplified geometry matches original",
-      "source_dataset": "data/BDI/BDI_combined_areas.topojson",
-      "from": "Nov 2024",
-      "to": "Dec 2024"
-    },
-    {
-      "title": "Plaine imbo",
-      "id": "72802196",
-      "country": "BDI",
-      "year": 2024,
-      "reason": "no_change",
-      "detail": "Simplified geometry matches original",
-      "source_dataset": "data/BDI/BDI_combined_areas.topojson",
-      "from": "Nov 2024",
-      "to": "Dec 2024"
     }
   ]
 }

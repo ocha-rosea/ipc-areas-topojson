@@ -1,7 +1,7 @@
 {
-  "generated_at": "2025-12-01T06:42:24Z",
+  "generated_at": "2025-12-02T14:00:27Z",
   "source_file": "data/ZMB/ZMB_combined_areas.topojson",
-  "total_unsimplified": 375,
+  "total_unsimplified": 355,
   "items": [
     {
       "title": "Mkushi",
@@ -10,6 +10,7 @@
       "year": 2020,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Jul 2020",
       "to": "Sep 2020"
@@ -21,6 +22,7 @@
       "year": 2020,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Jul 2020",
       "to": "Sep 2020"
@@ -32,6 +34,7 @@
       "year": 2020,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Jul 2020",
       "to": "Sep 2020"
@@ -43,6 +46,7 @@
       "year": 2020,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Jul 2020",
       "to": "Sep 2020"
@@ -54,6 +58,7 @@
       "year": 2020,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Jul 2020",
       "to": "Sep 2020"
@@ -65,6 +70,7 @@
       "year": 2020,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Jul 2020",
       "to": "Sep 2020"
@@ -76,6 +82,7 @@
       "year": 2020,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Jul 2020",
       "to": "Sep 2020"
@@ -87,6 +94,7 @@
       "year": 2020,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Jul 2020",
       "to": "Sep 2020"
@@ -98,6 +106,7 @@
       "year": 2020,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Jul 2020",
       "to": "Sep 2020"
@@ -109,6 +118,7 @@
       "year": 2020,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Jul 2020",
       "to": "Sep 2020"
@@ -120,6 +130,7 @@
       "year": 2020,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Jul 2020",
       "to": "Sep 2020"
@@ -131,6 +142,7 @@
       "year": 2020,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Jul 2020",
       "to": "Sep 2020"
@@ -142,6 +154,7 @@
       "year": 2020,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Jul 2020",
       "to": "Sep 2020"
@@ -153,6 +166,7 @@
       "year": 2020,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Jul 2020",
       "to": "Sep 2020"
@@ -164,6 +178,7 @@
       "year": 2020,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Jul 2020",
       "to": "Sep 2020"
@@ -175,6 +190,7 @@
       "year": 2020,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Jul 2020",
       "to": "Sep 2020"
@@ -186,6 +202,7 @@
       "year": 2020,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Jul 2020",
       "to": "Sep 2020"
@@ -197,6 +214,7 @@
       "year": 2020,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Jul 2020",
       "to": "Sep 2020"
@@ -208,6 +226,7 @@
       "year": 2020,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Jul 2020",
       "to": "Sep 2020"
@@ -219,6 +238,7 @@
       "year": 2020,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Jul 2020",
       "to": "Sep 2020"
@@ -230,6 +250,7 @@
       "year": 2020,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Jul 2020",
       "to": "Sep 2020"
@@ -241,6 +262,7 @@
       "year": 2020,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Jul 2020",
       "to": "Sep 2020"
@@ -252,6 +274,7 @@
       "year": 2020,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Jul 2020",
       "to": "Sep 2020"
@@ -263,6 +286,7 @@
       "year": 2020,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Jul 2020",
       "to": "Sep 2020"
@@ -274,6 +298,7 @@
       "year": 2020,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Jul 2020",
       "to": "Sep 2020"
@@ -285,6 +310,7 @@
       "year": 2020,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Jul 2020",
       "to": "Sep 2020"
@@ -296,6 +322,7 @@
       "year": 2020,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "MultiPolygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Jul 2020",
       "to": "Sep 2020"
@@ -307,6 +334,7 @@
       "year": 2020,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Jul 2020",
       "to": "Sep 2020"
@@ -318,6 +346,7 @@
       "year": 2020,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Jul 2020",
       "to": "Sep 2020"
@@ -329,6 +358,7 @@
       "year": 2020,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Jul 2020",
       "to": "Sep 2020"
@@ -340,6 +370,7 @@
       "year": 2020,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Jul 2020",
       "to": "Sep 2020"
@@ -351,6 +382,7 @@
       "year": 2020,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Jul 2020",
       "to": "Sep 2020"
@@ -362,6 +394,7 @@
       "year": 2020,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Jul 2020",
       "to": "Sep 2020"
@@ -373,6 +406,7 @@
       "year": 2020,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Jul 2020",
       "to": "Sep 2020"
@@ -384,6 +418,7 @@
       "year": 2020,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Jul 2020",
       "to": "Sep 2020"
@@ -395,6 +430,7 @@
       "year": 2020,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Jul 2020",
       "to": "Sep 2020"
@@ -406,6 +442,7 @@
       "year": 2020,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Jul 2020",
       "to": "Sep 2020"
@@ -417,6 +454,7 @@
       "year": 2020,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Jul 2020",
       "to": "Sep 2020"
@@ -428,6 +466,7 @@
       "year": 2020,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Jul 2020",
       "to": "Sep 2020"
@@ -439,6 +478,7 @@
       "year": 2020,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Jul 2020",
       "to": "Sep 2020"
@@ -450,17 +490,7 @@
       "year": 2020,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
-      "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
-      "from": "Jul 2020",
-      "to": "Sep 2020"
-    },
-    {
-      "title": "Mulobezi",
-      "id": "19345775",
-      "country": "ZMB",
-      "year": 2020,
-      "reason": "no_change",
-      "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Jul 2020",
       "to": "Sep 2020"
@@ -472,6 +502,7 @@
       "year": 2020,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Jul 2020",
       "to": "Sep 2020"
@@ -483,6 +514,7 @@
       "year": 2020,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Jul 2020",
       "to": "Sep 2020"
@@ -494,6 +526,7 @@
       "year": 2020,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Jul 2020",
       "to": "Sep 2020"
@@ -505,6 +538,19 @@
       "year": 2020,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
+      "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
+      "from": "Jul 2020",
+      "to": "Sep 2020"
+    },
+    {
+      "title": "Kalabo",
+      "id": "19345786",
+      "country": "ZMB",
+      "year": 2020,
+      "reason": "no_change",
+      "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Jul 2020",
       "to": "Sep 2020"
@@ -516,6 +562,7 @@
       "year": 2020,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Jul 2020",
       "to": "Sep 2020"
@@ -527,6 +574,7 @@
       "year": 2020,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Jul 2020",
       "to": "Sep 2020"
@@ -538,6 +586,7 @@
       "year": 2020,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Jul 2020",
       "to": "Sep 2020"
@@ -549,6 +598,7 @@
       "year": 2020,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Jul 2020",
       "to": "Sep 2020"
@@ -560,6 +610,7 @@
       "year": 2020,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Jul 2020",
       "to": "Sep 2020"
@@ -571,6 +622,7 @@
       "year": 2020,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Jul 2020",
       "to": "Sep 2020"
@@ -582,6 +634,7 @@
       "year": 2020,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Jul 2020",
       "to": "Sep 2020"
@@ -593,6 +646,7 @@
       "year": 2020,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Jul 2020",
       "to": "Sep 2020"
@@ -604,6 +658,7 @@
       "year": 2021,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Jul 2021",
       "to": "Sep 2021"
@@ -615,6 +670,7 @@
       "year": 2021,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Jul 2021",
       "to": "Sep 2021"
@@ -626,6 +682,7 @@
       "year": 2021,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Jul 2021",
       "to": "Sep 2021"
@@ -637,6 +694,7 @@
       "year": 2021,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Jul 2021",
       "to": "Sep 2021"
@@ -648,6 +706,7 @@
       "year": 2021,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Jul 2021",
       "to": "Sep 2021"
@@ -659,6 +718,7 @@
       "year": 2021,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "MultiPolygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Jul 2021",
       "to": "Sep 2021"
@@ -670,6 +730,7 @@
       "year": 2021,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Jul 2021",
       "to": "Sep 2021"
@@ -681,6 +742,7 @@
       "year": 2021,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Jul 2021",
       "to": "Sep 2021"
@@ -692,6 +754,7 @@
       "year": 2021,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Jul 2021",
       "to": "Sep 2021"
@@ -703,28 +766,19 @@
       "year": 2021,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Jul 2021",
       "to": "Sep 2021"
     },
     {
-      "title": "Chama",
-      "id": "24152693",
+      "title": "Mungwi",
+      "id": "24152699",
       "country": "ZMB",
       "year": 2021,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
-      "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
-      "from": "Jul 2021",
-      "to": "Sep 2021"
-    },
-    {
-      "title": "Chilanga",
-      "id": "24152697",
-      "country": "ZMB",
-      "year": 2021,
-      "reason": "no_change",
-      "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Jul 2021",
       "to": "Sep 2021"
@@ -736,17 +790,7 @@
       "year": 2021,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
-      "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
-      "from": "Jul 2021",
-      "to": "Sep 2021"
-    },
-    {
-      "title": "Kapiri mposhi",
-      "id": "24152703",
-      "country": "ZMB",
-      "year": 2021,
-      "reason": "no_change",
-      "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Jul 2021",
       "to": "Sep 2021"
@@ -758,6 +802,7 @@
       "year": 2021,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Jul 2021",
       "to": "Sep 2021"
@@ -769,6 +814,19 @@
       "year": 2021,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
+      "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
+      "from": "Jul 2021",
+      "to": "Sep 2021"
+    },
+    {
+      "title": "Zimba",
+      "id": "24152716",
+      "country": "ZMB",
+      "year": 2021,
+      "reason": "no_change",
+      "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Jul 2021",
       "to": "Sep 2021"
@@ -780,6 +838,7 @@
       "year": 2021,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Jul 2021",
       "to": "Sep 2021"
@@ -791,6 +850,7 @@
       "year": 2021,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Jul 2021",
       "to": "Sep 2021"
@@ -802,6 +862,7 @@
       "year": 2021,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Jul 2021",
       "to": "Sep 2021"
@@ -813,6 +874,7 @@
       "year": 2021,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Jul 2021",
       "to": "Sep 2021"
@@ -824,6 +886,7 @@
       "year": 2021,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Jul 2021",
       "to": "Sep 2021"
@@ -835,6 +898,7 @@
       "year": 2021,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Jul 2021",
       "to": "Sep 2021"
@@ -846,6 +910,7 @@
       "year": 2021,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Jul 2021",
       "to": "Sep 2021"
@@ -857,6 +922,7 @@
       "year": 2021,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Jul 2021",
       "to": "Sep 2021"
@@ -868,6 +934,7 @@
       "year": 2021,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Jul 2021",
       "to": "Sep 2021"
@@ -879,17 +946,7 @@
       "year": 2021,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
-      "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
-      "from": "Jul 2021",
-      "to": "Sep 2021"
-    },
-    {
-      "title": "Kafue",
-      "id": "24152758",
-      "country": "ZMB",
-      "year": 2021,
-      "reason": "no_change",
-      "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Jul 2021",
       "to": "Sep 2021"
@@ -901,6 +958,7 @@
       "year": 2021,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Jul 2021",
       "to": "Sep 2021"
@@ -912,6 +970,7 @@
       "year": 2021,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Jul 2021",
       "to": "Sep 2021"
@@ -923,6 +982,7 @@
       "year": 2021,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Jul 2021",
       "to": "Sep 2021"
@@ -934,6 +994,7 @@
       "year": 2021,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Jul 2021",
       "to": "Sep 2021"
@@ -945,6 +1006,19 @@
       "year": 2021,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "MultiPolygon",
+      "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
+      "from": "Jul 2021",
+      "to": "Sep 2021"
+    },
+    {
+      "title": "Mbala",
+      "id": "24152780",
+      "country": "ZMB",
+      "year": 2021,
+      "reason": "no_change",
+      "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Jul 2021",
       "to": "Sep 2021"
@@ -956,6 +1030,7 @@
       "year": 2021,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Jul 2021",
       "to": "Sep 2021"
@@ -967,6 +1042,7 @@
       "year": 2021,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "MultiPolygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Jul 2021",
       "to": "Sep 2021"
@@ -978,6 +1054,7 @@
       "year": 2021,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Jul 2021",
       "to": "Sep 2021"
@@ -989,6 +1066,7 @@
       "year": 2021,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Jul 2021",
       "to": "Sep 2021"
@@ -1000,6 +1078,7 @@
       "year": 2021,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Jul 2021",
       "to": "Sep 2021"
@@ -1011,6 +1090,7 @@
       "year": 2021,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Jul 2021",
       "to": "Sep 2021"
@@ -1022,6 +1102,7 @@
       "year": 2021,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Jul 2021",
       "to": "Sep 2021"
@@ -1033,17 +1114,7 @@
       "year": 2021,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
-      "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
-      "from": "Jul 2021",
-      "to": "Sep 2021"
-    },
-    {
-      "title": "Senanga",
-      "id": "24152818",
-      "country": "ZMB",
-      "year": 2021,
-      "reason": "no_change",
-      "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Jul 2021",
       "to": "Sep 2021"
@@ -1055,6 +1126,7 @@
       "year": 2021,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Jul 2021",
       "to": "Sep 2021"
@@ -1066,6 +1138,7 @@
       "year": 2021,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Jul 2021",
       "to": "Sep 2021"
@@ -1077,6 +1150,7 @@
       "year": 2021,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Jul 2021",
       "to": "Sep 2021"
@@ -1088,39 +1162,19 @@
       "year": 2021,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Jul 2021",
       "to": "Sep 2021"
     },
     {
-      "title": "Lumezi",
-      "id": "24152828",
+      "title": "Kanchibiya",
+      "id": "24152834",
       "country": "ZMB",
       "year": 2021,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
-      "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
-      "from": "Jul 2021",
-      "to": "Sep 2021"
-    },
-    {
-      "title": "Lunga",
-      "id": "24152830",
-      "country": "ZMB",
-      "year": 2021,
-      "reason": "no_change",
-      "detail": "Simplified geometry matches original",
-      "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
-      "from": "Jul 2021",
-      "to": "Sep 2021"
-    },
-    {
-      "title": "Rufunsa",
-      "id": "24152832",
-      "country": "ZMB",
-      "year": 2021,
-      "reason": "no_change",
-      "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Jul 2021",
       "to": "Sep 2021"
@@ -1132,6 +1186,7 @@
       "year": 2021,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Jul 2021",
       "to": "Sep 2021"
@@ -1143,6 +1198,19 @@
       "year": 2021,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
+      "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
+      "from": "Jul 2021",
+      "to": "Sep 2021"
+    },
+    {
+      "title": "Limulunga",
+      "id": "24152840",
+      "country": "ZMB",
+      "year": 2021,
+      "reason": "no_change",
+      "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Jul 2021",
       "to": "Sep 2021"
@@ -1154,6 +1222,7 @@
       "year": 2021,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Jul 2021",
       "to": "Sep 2021"
@@ -1165,6 +1234,7 @@
       "year": 2021,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Jul 2021",
       "to": "Sep 2021"
@@ -1176,28 +1246,7 @@
       "year": 2021,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
-      "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
-      "from": "Jul 2021",
-      "to": "Sep 2021"
-    },
-    {
-      "title": "Nalolo",
-      "id": "24152848",
-      "country": "ZMB",
-      "year": 2021,
-      "reason": "no_change",
-      "detail": "Simplified geometry matches original",
-      "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
-      "from": "Jul 2021",
-      "to": "Sep 2021"
-    },
-    {
-      "title": "Sikongo",
-      "id": "24152850",
-      "country": "ZMB",
-      "year": 2021,
-      "reason": "no_change",
-      "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Jul 2021",
       "to": "Sep 2021"
@@ -1209,6 +1258,7 @@
       "year": 2022,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Jun 2022",
       "to": "Sep 2022"
@@ -1220,17 +1270,7 @@
       "year": 2022,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
-      "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
-      "from": "Jun 2022",
-      "to": "Sep 2022"
-    },
-    {
-      "title": "Kafue",
-      "id": "26097001",
-      "country": "ZMB",
-      "year": 2022,
-      "reason": "no_change",
-      "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Jun 2022",
       "to": "Sep 2022"
@@ -1242,6 +1282,7 @@
       "year": 2022,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Jun 2022",
       "to": "Sep 2022"
@@ -1253,6 +1294,19 @@
       "year": 2022,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
+      "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
+      "from": "Jun 2022",
+      "to": "Sep 2022"
+    },
+    {
+      "title": "Limulunga",
+      "id": "26097009",
+      "country": "ZMB",
+      "year": 2022,
+      "reason": "no_change",
+      "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Jun 2022",
       "to": "Sep 2022"
@@ -1264,6 +1318,7 @@
       "year": 2022,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Jun 2022",
       "to": "Sep 2022"
@@ -1275,17 +1330,7 @@
       "year": 2022,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
-      "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
-      "from": "Jun 2022",
-      "to": "Sep 2022"
-    },
-    {
-      "title": "Lumezi",
-      "id": "26097017",
-      "country": "ZMB",
-      "year": 2022,
-      "reason": "no_change",
-      "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Jun 2022",
       "to": "Sep 2022"
@@ -1297,6 +1342,7 @@
       "year": 2022,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Jun 2022",
       "to": "Sep 2022"
@@ -1308,17 +1354,7 @@
       "year": 2022,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
-      "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
-      "from": "Jun 2022",
-      "to": "Sep 2022"
-    },
-    {
-      "title": "Kapiri mposhi",
-      "id": "26097024",
-      "country": "ZMB",
-      "year": 2022,
-      "reason": "no_change",
-      "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Jun 2022",
       "to": "Sep 2022"
@@ -1330,6 +1366,7 @@
       "year": 2022,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Jun 2022",
       "to": "Sep 2022"
@@ -1341,6 +1378,7 @@
       "year": 2022,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Jun 2022",
       "to": "Sep 2022"
@@ -1352,6 +1390,19 @@
       "year": 2022,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
+      "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
+      "from": "Jun 2022",
+      "to": "Sep 2022"
+    },
+    {
+      "title": "Mbala",
+      "id": "26097033",
+      "country": "ZMB",
+      "year": 2022,
+      "reason": "no_change",
+      "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Jun 2022",
       "to": "Sep 2022"
@@ -1363,6 +1414,7 @@
       "year": 2022,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Jun 2022",
       "to": "Sep 2022"
@@ -1374,6 +1426,7 @@
       "year": 2022,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Jun 2022",
       "to": "Sep 2022"
@@ -1385,6 +1438,7 @@
       "year": 2022,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Jun 2022",
       "to": "Sep 2022"
@@ -1396,6 +1450,7 @@
       "year": 2022,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Jun 2022",
       "to": "Sep 2022"
@@ -1407,6 +1462,7 @@
       "year": 2022,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Jun 2022",
       "to": "Sep 2022"
@@ -1418,6 +1474,7 @@
       "year": 2022,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Jun 2022",
       "to": "Sep 2022"
@@ -1429,6 +1486,7 @@
       "year": 2022,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Jun 2022",
       "to": "Sep 2022"
@@ -1440,6 +1498,7 @@
       "year": 2022,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "MultiPolygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Jun 2022",
       "to": "Sep 2022"
@@ -1451,6 +1510,7 @@
       "year": 2022,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Jun 2022",
       "to": "Sep 2022"
@@ -1462,6 +1522,19 @@
       "year": 2022,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
+      "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
+      "from": "Jun 2022",
+      "to": "Sep 2022"
+    },
+    {
+      "title": "Mungwi",
+      "id": "26097055",
+      "country": "ZMB",
+      "year": 2022,
+      "reason": "no_change",
+      "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Jun 2022",
       "to": "Sep 2022"
@@ -1473,17 +1546,7 @@
       "year": 2022,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
-      "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
-      "from": "Jun 2022",
-      "to": "Sep 2022"
-    },
-    {
-      "title": "Kalabo/Sikongo",
-      "id": "26097059",
-      "country": "ZMB",
-      "year": 2022,
-      "reason": "no_change",
-      "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Jun 2022",
       "to": "Sep 2022"
@@ -1495,6 +1558,7 @@
       "year": 2022,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Jun 2022",
       "to": "Sep 2022"
@@ -1506,6 +1570,7 @@
       "year": 2022,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "MultiPolygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Jun 2022",
       "to": "Sep 2022"
@@ -1517,6 +1582,7 @@
       "year": 2022,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Jun 2022",
       "to": "Sep 2022"
@@ -1528,6 +1594,7 @@
       "year": 2022,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Jun 2022",
       "to": "Sep 2022"
@@ -1539,6 +1606,7 @@
       "year": 2022,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Jun 2022",
       "to": "Sep 2022"
@@ -1550,6 +1618,7 @@
       "year": 2022,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Jun 2022",
       "to": "Sep 2022"
@@ -1561,28 +1630,7 @@
       "year": 2022,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
-      "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
-      "from": "Jun 2022",
-      "to": "Sep 2022"
-    },
-    {
-      "title": "Lunga",
-      "id": "26097080",
-      "country": "ZMB",
-      "year": 2022,
-      "reason": "no_change",
-      "detail": "Simplified geometry matches original",
-      "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
-      "from": "Jun 2022",
-      "to": "Sep 2022"
-    },
-    {
-      "title": "Chilanga",
-      "id": "26097082",
-      "country": "ZMB",
-      "year": 2022,
-      "reason": "no_change",
-      "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Jun 2022",
       "to": "Sep 2022"
@@ -1594,6 +1642,7 @@
       "year": 2022,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "MultiPolygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Jun 2022",
       "to": "Sep 2022"
@@ -1605,6 +1654,19 @@
       "year": 2022,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
+      "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
+      "from": "Jun 2022",
+      "to": "Sep 2022"
+    },
+    {
+      "title": "Kanchibiya",
+      "id": "26097088",
+      "country": "ZMB",
+      "year": 2022,
+      "reason": "no_change",
+      "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Jun 2022",
       "to": "Sep 2022"
@@ -1616,6 +1678,7 @@
       "year": 2022,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Jun 2022",
       "to": "Sep 2022"
@@ -1627,6 +1690,7 @@
       "year": 2022,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Jun 2022",
       "to": "Sep 2022"
@@ -1638,39 +1702,7 @@
       "year": 2022,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
-      "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
-      "from": "Jun 2022",
-      "to": "Sep 2022"
-    },
-    {
-      "title": "Katete",
-      "id": "26097096",
-      "country": "ZMB",
-      "year": 2022,
-      "reason": "no_change",
-      "detail": "Simplified geometry matches original",
-      "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
-      "from": "Jun 2022",
-      "to": "Sep 2022"
-    },
-    {
-      "title": "Chama",
-      "id": "26097098",
-      "country": "ZMB",
-      "year": 2022,
-      "reason": "no_change",
-      "detail": "Simplified geometry matches original",
-      "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
-      "from": "Jun 2022",
-      "to": "Sep 2022"
-    },
-    {
-      "title": "Lundazi",
-      "id": "26097100",
-      "country": "ZMB",
-      "year": 2022,
-      "reason": "no_change",
-      "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Jun 2022",
       "to": "Sep 2022"
@@ -1682,6 +1714,7 @@
       "year": 2022,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Jun 2022",
       "to": "Sep 2022"
@@ -1693,6 +1726,7 @@
       "year": 2022,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Jun 2022",
       "to": "Sep 2022"
@@ -1704,6 +1738,7 @@
       "year": 2022,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "MultiPolygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Jun 2022",
       "to": "Sep 2022"
@@ -1715,6 +1750,7 @@
       "year": 2022,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Jun 2022",
       "to": "Sep 2022"
@@ -1726,6 +1762,7 @@
       "year": 2022,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Jun 2022",
       "to": "Sep 2022"
@@ -1737,6 +1774,19 @@
       "year": 2022,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
+      "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
+      "from": "Jun 2022",
+      "to": "Sep 2022"
+    },
+    {
+      "title": "Chipili",
+      "id": "26097116",
+      "country": "ZMB",
+      "year": 2022,
+      "reason": "no_change",
+      "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Jun 2022",
       "to": "Sep 2022"
@@ -1748,6 +1798,7 @@
       "year": 2022,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Jun 2022",
       "to": "Sep 2022"
@@ -1759,6 +1810,7 @@
       "year": 2022,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Jun 2022",
       "to": "Sep 2022"
@@ -1770,6 +1822,7 @@
       "year": 2022,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Jun 2022",
       "to": "Sep 2022"
@@ -1781,6 +1834,7 @@
       "year": 2022,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Jun 2022",
       "to": "Sep 2022"
@@ -1792,6 +1846,19 @@
       "year": 2022,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "MultiPolygon",
+      "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
+      "from": "Jun 2022",
+      "to": "Sep 2022"
+    },
+    {
+      "title": "Zimba",
+      "id": "26097128",
+      "country": "ZMB",
+      "year": 2022,
+      "reason": "no_change",
+      "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Jun 2022",
       "to": "Sep 2022"
@@ -1803,6 +1870,7 @@
       "year": 2022,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Jun 2022",
       "to": "Sep 2022"
@@ -1814,6 +1882,19 @@
       "year": 2022,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
+      "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
+      "from": "Jun 2022",
+      "to": "Sep 2022"
+    },
+    {
+      "title": "Chitambo",
+      "id": "26097134",
+      "country": "ZMB",
+      "year": 2022,
+      "reason": "no_change",
+      "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Jun 2022",
       "to": "Sep 2022"
@@ -1825,17 +1906,7 @@
       "year": 2022,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
-      "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
-      "from": "Jun 2022",
-      "to": "Sep 2022"
-    },
-    {
-      "title": "Chongwe",
-      "id": "26097138",
-      "country": "ZMB",
-      "year": 2022,
-      "reason": "no_change",
-      "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Jun 2022",
       "to": "Sep 2022"
@@ -1847,6 +1918,7 @@
       "year": 2022,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "MultiPolygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Jun 2022",
       "to": "Sep 2022"
@@ -1858,6 +1930,7 @@
       "year": 2022,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Jun 2022",
       "to": "Sep 2022"
@@ -1869,6 +1942,7 @@
       "year": 2022,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Jun 2022",
       "to": "Sep 2022"
@@ -1880,6 +1954,7 @@
       "year": 2022,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Jun 2022",
       "to": "Sep 2022"
@@ -1891,6 +1966,7 @@
       "year": 2022,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Jun 2022",
       "to": "Sep 2022"
@@ -1902,6 +1978,7 @@
       "year": 2022,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Jun 2022",
       "to": "Sep 2022"
@@ -1913,6 +1990,7 @@
       "year": 2022,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Jun 2022",
       "to": "Sep 2022"
@@ -1924,6 +2002,7 @@
       "year": 2022,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Jun 2022",
       "to": "Sep 2022"
@@ -1935,6 +2014,7 @@
       "year": 2022,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Jun 2022",
       "to": "Sep 2022"
@@ -1946,6 +2026,7 @@
       "year": 2022,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Jun 2022",
       "to": "Sep 2022"
@@ -1957,17 +2038,7 @@
       "year": 2022,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
-      "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
-      "from": "Jun 2022",
-      "to": "Sep 2022"
-    },
-    {
-      "title": "Nalolo",
-      "id": "26097162",
-      "country": "ZMB",
-      "year": 2022,
-      "reason": "no_change",
-      "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Jun 2022",
       "to": "Sep 2022"
@@ -1979,6 +2050,7 @@
       "year": 2022,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Jun 2022",
       "to": "Sep 2022"
@@ -1990,17 +2062,7 @@
       "year": 2022,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
-      "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
-      "from": "Jun 2022",
-      "to": "Sep 2022"
-    },
-    {
-      "title": "Rufunsa",
-      "id": "26097168",
-      "country": "ZMB",
-      "year": 2022,
-      "reason": "no_change",
-      "detail": "Simplified geometry matches original",
+      "geometry_type": "MultiPolygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Jun 2022",
       "to": "Sep 2022"
@@ -2012,6 +2074,19 @@
       "year": 2022,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
+      "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
+      "from": "Jun 2022",
+      "to": "Sep 2022"
+    },
+    {
+      "title": "Shiwang'andu",
+      "id": "26097172",
+      "country": "ZMB",
+      "year": 2022,
+      "reason": "no_change",
+      "detail": "Simplified geometry matches original",
+      "geometry_type": "MultiPolygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Jun 2022",
       "to": "Sep 2022"
@@ -2023,6 +2098,7 @@
       "year": 2022,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Jun 2022",
       "to": "Sep 2022"
@@ -2034,6 +2110,7 @@
       "year": 2022,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Jun 2022",
       "to": "Sep 2022"
@@ -2045,6 +2122,7 @@
       "year": 2022,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Jun 2022",
       "to": "Sep 2022"
@@ -2056,6 +2134,7 @@
       "year": 2022,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Jun 2022",
       "to": "Sep 2022"
@@ -2067,6 +2146,7 @@
       "year": 2022,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Jun 2022",
       "to": "Sep 2022"
@@ -2078,6 +2158,19 @@
       "year": 2022,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
+      "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
+      "from": "Jun 2022",
+      "to": "Sep 2022"
+    },
+    {
+      "title": "Kasama",
+      "id": "26097186",
+      "country": "ZMB",
+      "year": 2022,
+      "reason": "no_change",
+      "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Jun 2022",
       "to": "Sep 2022"
@@ -2089,17 +2182,7 @@
       "year": 2022,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
-      "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
-      "from": "Jun 2022",
-      "to": "Sep 2022"
-    },
-    {
-      "title": "Kabompo",
-      "id": "26097192",
-      "country": "ZMB",
-      "year": 2022,
-      "reason": "no_change",
-      "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Jun 2022",
       "to": "Sep 2022"
@@ -2111,6 +2194,7 @@
       "year": 2022,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Jun 2022",
       "to": "Sep 2022"
@@ -2122,6 +2206,7 @@
       "year": 2022,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Jun 2022",
       "to": "Sep 2022"
@@ -2133,6 +2218,7 @@
       "year": 2022,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Jun 2022",
       "to": "Sep 2022"
@@ -2144,6 +2230,7 @@
       "year": 2022,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Jun 2022",
       "to": "Sep 2022"
@@ -2155,6 +2242,7 @@
       "year": 2022,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "MultiPolygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Jun 2022",
       "to": "Sep 2022"
@@ -2166,6 +2254,7 @@
       "year": 2022,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "MultiPolygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Jun 2022",
       "to": "Sep 2022"
@@ -2177,6 +2266,19 @@
       "year": 2022,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
+      "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
+      "from": "Jun 2022",
+      "to": "Sep 2022"
+    },
+    {
+      "title": "Mporokoso",
+      "id": "26097210",
+      "country": "ZMB",
+      "year": 2022,
+      "reason": "no_change",
+      "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Jun 2022",
       "to": "Sep 2022"
@@ -2188,6 +2290,19 @@
       "year": 2022,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
+      "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
+      "from": "Jun 2022",
+      "to": "Sep 2022"
+    },
+    {
+      "title": "Mpika",
+      "id": "26097214",
+      "country": "ZMB",
+      "year": 2022,
+      "reason": "no_change",
+      "detail": "Simplified geometry matches original",
+      "geometry_type": "MultiPolygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Jun 2022",
       "to": "Sep 2022"
@@ -2199,6 +2314,7 @@
       "year": 2022,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Jun 2022",
       "to": "Sep 2022"
@@ -2210,6 +2326,7 @@
       "year": 2022,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Jun 2022",
       "to": "Sep 2022"
@@ -2221,6 +2338,7 @@
       "year": 2022,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Jun 2022",
       "to": "Sep 2022"
@@ -2232,17 +2350,7 @@
       "year": 2022,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
-      "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
-      "from": "Jun 2022",
-      "to": "Sep 2022"
-    },
-    {
-      "title": "Ngabwe",
-      "id": "26097224",
-      "country": "ZMB",
-      "year": 2022,
-      "reason": "no_change",
-      "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Jun 2022",
       "to": "Sep 2022"
@@ -2254,17 +2362,19 @@
       "year": 2022,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Jun 2022",
       "to": "Sep 2022"
     },
     {
-      "title": "Senanga",
-      "id": "26097230",
+      "title": "Senga hill",
+      "id": "26097228",
       "country": "ZMB",
       "year": 2022,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Jun 2022",
       "to": "Sep 2022"
@@ -2276,9 +2386,22 @@
       "year": 2022,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Jun 2022",
       "to": "Sep 2022"
+    },
+    {
+      "title": "Senga hill",
+      "id": "63026060",
+      "country": "ZMB",
+      "year": 2023,
+      "reason": "no_change",
+      "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
+      "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
+      "from": "Aug 2023",
+      "to": "Sep 2023"
     },
     {
       "title": "Mwinilunga",
@@ -2287,6 +2410,7 @@
       "year": 2023,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Aug 2023",
       "to": "Sep 2023"
@@ -2298,17 +2422,7 @@
       "year": 2023,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
-      "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
-      "from": "Aug 2023",
-      "to": "Sep 2023"
-    },
-    {
-      "title": "Kalabo",
-      "id": "63026068",
-      "country": "ZMB",
-      "year": 2023,
-      "reason": "no_change",
-      "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Aug 2023",
       "to": "Sep 2023"
@@ -2320,6 +2434,7 @@
       "year": 2023,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Aug 2023",
       "to": "Sep 2023"
@@ -2331,6 +2446,7 @@
       "year": 2023,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Aug 2023",
       "to": "Sep 2023"
@@ -2342,6 +2458,7 @@
       "year": 2023,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Aug 2023",
       "to": "Sep 2023"
@@ -2353,6 +2470,7 @@
       "year": 2023,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Aug 2023",
       "to": "Sep 2023"
@@ -2364,17 +2482,7 @@
       "year": 2023,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
-      "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
-      "from": "Aug 2023",
-      "to": "Sep 2023"
-    },
-    {
-      "title": "Ngabwe",
-      "id": "63026083",
-      "country": "ZMB",
-      "year": 2023,
-      "reason": "no_change",
-      "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Aug 2023",
       "to": "Sep 2023"
@@ -2386,6 +2494,7 @@
       "year": 2023,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Aug 2023",
       "to": "Sep 2023"
@@ -2397,6 +2506,7 @@
       "year": 2023,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Aug 2023",
       "to": "Sep 2023"
@@ -2408,6 +2518,7 @@
       "year": 2023,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Aug 2023",
       "to": "Sep 2023"
@@ -2419,6 +2530,7 @@
       "year": 2023,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Aug 2023",
       "to": "Sep 2023"
@@ -2430,6 +2542,7 @@
       "year": 2023,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Aug 2023",
       "to": "Sep 2023"
@@ -2441,6 +2554,7 @@
       "year": 2023,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Aug 2023",
       "to": "Sep 2023"
@@ -2452,6 +2566,31 @@
       "year": 2023,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
+      "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
+      "from": "Aug 2023",
+      "to": "Sep 2023"
+    },
+    {
+      "title": "Zimba",
+      "id": "63026103",
+      "country": "ZMB",
+      "year": 2023,
+      "reason": "no_change",
+      "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
+      "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
+      "from": "Aug 2023",
+      "to": "Sep 2023"
+    },
+    {
+      "title": "Kanchibiya",
+      "id": "63026106",
+      "country": "ZMB",
+      "year": 2023,
+      "reason": "no_change",
+      "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Aug 2023",
       "to": "Sep 2023"
@@ -2463,17 +2602,7 @@
       "year": 2023,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
-      "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
-      "from": "Aug 2023",
-      "to": "Sep 2023"
-    },
-    {
-      "title": "Chama",
-      "id": "63026110",
-      "country": "ZMB",
-      "year": 2023,
-      "reason": "no_change",
-      "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Aug 2023",
       "to": "Sep 2023"
@@ -2485,17 +2614,7 @@
       "year": 2023,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
-      "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
-      "from": "Aug 2023",
-      "to": "Sep 2023"
-    },
-    {
-      "title": "Kafue",
-      "id": "63026115",
-      "country": "ZMB",
-      "year": 2023,
-      "reason": "no_change",
-      "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Aug 2023",
       "to": "Sep 2023"
@@ -2507,6 +2626,7 @@
       "year": 2023,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Aug 2023",
       "to": "Sep 2023"
@@ -2518,6 +2638,7 @@
       "year": 2023,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Aug 2023",
       "to": "Sep 2023"
@@ -2529,17 +2650,7 @@
       "year": 2023,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
-      "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
-      "from": "Aug 2023",
-      "to": "Sep 2023"
-    },
-    {
-      "title": "Sikongo",
-      "id": "63026123",
-      "country": "ZMB",
-      "year": 2023,
-      "reason": "no_change",
-      "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Aug 2023",
       "to": "Sep 2023"
@@ -2551,6 +2662,7 @@
       "year": 2023,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Aug 2023",
       "to": "Sep 2023"
@@ -2562,17 +2674,19 @@
       "year": 2023,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Aug 2023",
       "to": "Sep 2023"
     },
     {
-      "title": "Lumezi",
-      "id": "63026129",
+      "title": "Chitambo",
+      "id": "63026131",
       "country": "ZMB",
       "year": 2023,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Aug 2023",
       "to": "Sep 2023"
@@ -2584,6 +2698,7 @@
       "year": 2023,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Aug 2023",
       "to": "Sep 2023"
@@ -2595,17 +2710,7 @@
       "year": 2023,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
-      "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
-      "from": "Aug 2023",
-      "to": "Sep 2023"
-    },
-    {
-      "title": "Kabompo",
-      "id": "63026137",
-      "country": "ZMB",
-      "year": 2023,
-      "reason": "no_change",
-      "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Aug 2023",
       "to": "Sep 2023"
@@ -2617,6 +2722,7 @@
       "year": 2023,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Aug 2023",
       "to": "Sep 2023"
@@ -2628,6 +2734,7 @@
       "year": 2023,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Aug 2023",
       "to": "Sep 2023"
@@ -2639,6 +2746,7 @@
       "year": 2023,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Aug 2023",
       "to": "Sep 2023"
@@ -2650,6 +2758,7 @@
       "year": 2023,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Aug 2023",
       "to": "Sep 2023"
@@ -2661,6 +2770,7 @@
       "year": 2023,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Aug 2023",
       "to": "Sep 2023"
@@ -2672,6 +2782,7 @@
       "year": 2023,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Aug 2023",
       "to": "Sep 2023"
@@ -2683,6 +2794,7 @@
       "year": 2023,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Aug 2023",
       "to": "Sep 2023"
@@ -2694,6 +2806,7 @@
       "year": 2023,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Aug 2023",
       "to": "Sep 2023"
@@ -2705,6 +2818,7 @@
       "year": 2023,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Aug 2023",
       "to": "Sep 2023"
@@ -2716,17 +2830,7 @@
       "year": 2023,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
-      "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
-      "from": "Aug 2023",
-      "to": "Sep 2023"
-    },
-    {
-      "title": "Lunga",
-      "id": "63026161",
-      "country": "ZMB",
-      "year": 2023,
-      "reason": "no_change",
-      "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Aug 2023",
       "to": "Sep 2023"
@@ -2738,6 +2842,7 @@
       "year": 2023,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Aug 2023",
       "to": "Sep 2023"
@@ -2749,6 +2854,7 @@
       "year": 2023,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "MultiPolygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Aug 2023",
       "to": "Sep 2023"
@@ -2760,6 +2866,7 @@
       "year": 2023,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Aug 2023",
       "to": "Sep 2023"
@@ -2771,6 +2878,7 @@
       "year": 2023,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Aug 2023",
       "to": "Sep 2023"
@@ -2782,6 +2890,7 @@
       "year": 2023,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Aug 2023",
       "to": "Sep 2023"
@@ -2793,6 +2902,7 @@
       "year": 2023,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Aug 2023",
       "to": "Sep 2023"
@@ -2804,6 +2914,7 @@
       "year": 2023,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Aug 2023",
       "to": "Sep 2023"
@@ -2815,6 +2926,7 @@
       "year": 2023,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Aug 2023",
       "to": "Sep 2023"
@@ -2826,6 +2938,7 @@
       "year": 2023,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Aug 2023",
       "to": "Sep 2023"
@@ -2837,6 +2950,7 @@
       "year": 2023,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Aug 2023",
       "to": "Sep 2023"
@@ -2848,6 +2962,7 @@
       "year": 2023,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Aug 2023",
       "to": "Sep 2023"
@@ -2859,6 +2974,7 @@
       "year": 2023,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Aug 2023",
       "to": "Sep 2023"
@@ -2870,6 +2986,7 @@
       "year": 2023,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Aug 2023",
       "to": "Sep 2023"
@@ -2881,6 +2998,19 @@
       "year": 2023,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "MultiPolygon",
+      "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
+      "from": "Aug 2023",
+      "to": "Sep 2023"
+    },
+    {
+      "title": "Chipili",
+      "id": "63026191",
+      "country": "ZMB",
+      "year": 2023,
+      "reason": "no_change",
+      "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Aug 2023",
       "to": "Sep 2023"
@@ -2892,6 +3022,7 @@
       "year": 2023,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Aug 2023",
       "to": "Sep 2023"
@@ -2903,6 +3034,7 @@
       "year": 2023,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Aug 2023",
       "to": "Sep 2023"
@@ -2914,17 +3046,7 @@
       "year": 2023,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
-      "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
-      "from": "Aug 2023",
-      "to": "Sep 2023"
-    },
-    {
-      "title": "Rufunsa",
-      "id": "63026199",
-      "country": "ZMB",
-      "year": 2023,
-      "reason": "no_change",
-      "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Aug 2023",
       "to": "Sep 2023"
@@ -2936,39 +3058,31 @@
       "year": 2023,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Aug 2023",
       "to": "Sep 2023"
     },
     {
-      "title": "Lundazi",
-      "id": "63026205",
+      "title": "Mpika",
+      "id": "63026203",
       "country": "ZMB",
       "year": 2023,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "MultiPolygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Aug 2023",
       "to": "Sep 2023"
     },
     {
-      "title": "Nalolo",
-      "id": "63026209",
+      "title": "Limulunga",
+      "id": "63026207",
       "country": "ZMB",
       "year": 2023,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
-      "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
-      "from": "Aug 2023",
-      "to": "Sep 2023"
-    },
-    {
-      "title": "Senanga",
-      "id": "63026211",
-      "country": "ZMB",
-      "year": 2023,
-      "reason": "no_change",
-      "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Aug 2023",
       "to": "Sep 2023"
@@ -2980,6 +3094,19 @@
       "year": 2023,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
+      "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
+      "from": "Aug 2023",
+      "to": "Sep 2023"
+    },
+    {
+      "title": "Mbala",
+      "id": "63026215",
+      "country": "ZMB",
+      "year": 2023,
+      "reason": "no_change",
+      "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Aug 2023",
       "to": "Sep 2023"
@@ -2991,6 +3118,7 @@
       "year": 2023,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Aug 2023",
       "to": "Sep 2023"
@@ -3002,9 +3130,22 @@
       "year": 2023,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "MultiPolygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Aug 2023",
       "to": "Sep 2023"
+    },
+    {
+      "title": "Shiwang'andu",
+      "id": "69462039",
+      "country": "ZMB",
+      "year": 2024,
+      "reason": "no_change",
+      "detail": "Simplified geometry matches original",
+      "geometry_type": "MultiPolygon",
+      "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
+      "from": "Jul 2024",
+      "to": "Sep 2024"
     },
     {
       "title": "Chilubi",
@@ -3013,6 +3154,7 @@
       "year": 2024,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "MultiPolygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Jul 2024",
       "to": "Sep 2024"
@@ -3024,6 +3166,7 @@
       "year": 2024,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Jul 2024",
       "to": "Sep 2024"
@@ -3035,6 +3178,7 @@
       "year": 2024,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Jul 2024",
       "to": "Sep 2024"
@@ -3046,6 +3190,7 @@
       "year": 2024,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Jul 2024",
       "to": "Sep 2024"
@@ -3057,6 +3202,7 @@
       "year": 2024,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Jul 2024",
       "to": "Sep 2024"
@@ -3068,6 +3214,7 @@
       "year": 2024,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Jul 2024",
       "to": "Sep 2024"
@@ -3079,6 +3226,7 @@
       "year": 2024,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Jul 2024",
       "to": "Sep 2024"
@@ -3090,17 +3238,7 @@
       "year": 2024,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
-      "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
-      "from": "Jul 2024",
-      "to": "Sep 2024"
-    },
-    {
-      "title": "Rufunsa",
-      "id": "69462071",
-      "country": "ZMB",
-      "year": 2024,
-      "reason": "no_change",
-      "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Jul 2024",
       "to": "Sep 2024"
@@ -3112,6 +3250,7 @@
       "year": 2024,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Jul 2024",
       "to": "Sep 2024"
@@ -3123,6 +3262,7 @@
       "year": 2024,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Jul 2024",
       "to": "Sep 2024"
@@ -3134,6 +3274,19 @@
       "year": 2024,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
+      "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
+      "from": "Jul 2024",
+      "to": "Sep 2024"
+    },
+    {
+      "title": "Chitambo",
+      "id": "69462084",
+      "country": "ZMB",
+      "year": 2024,
+      "reason": "no_change",
+      "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Jul 2024",
       "to": "Sep 2024"
@@ -3145,17 +3298,7 @@
       "year": 2024,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
-      "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
-      "from": "Jul 2024",
-      "to": "Sep 2024"
-    },
-    {
-      "title": "Kapiri mposhi",
-      "id": "69462090",
-      "country": "ZMB",
-      "year": 2024,
-      "reason": "no_change",
-      "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Jul 2024",
       "to": "Sep 2024"
@@ -3167,17 +3310,7 @@
       "year": 2024,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
-      "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
-      "from": "Jul 2024",
-      "to": "Sep 2024"
-    },
-    {
-      "title": "Mufumbwe",
-      "id": "69462096",
-      "country": "ZMB",
-      "year": 2024,
-      "reason": "no_change",
-      "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Jul 2024",
       "to": "Sep 2024"
@@ -3189,6 +3322,7 @@
       "year": 2024,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Jul 2024",
       "to": "Sep 2024"
@@ -3200,6 +3334,19 @@
       "year": 2024,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
+      "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
+      "from": "Jul 2024",
+      "to": "Sep 2024"
+    },
+    {
+      "title": "Mporokoso",
+      "id": "69462106",
+      "country": "ZMB",
+      "year": 2024,
+      "reason": "no_change",
+      "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Jul 2024",
       "to": "Sep 2024"
@@ -3211,6 +3358,7 @@
       "year": 2024,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Jul 2024",
       "to": "Sep 2024"
@@ -3222,6 +3370,7 @@
       "year": 2024,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Jul 2024",
       "to": "Sep 2024"
@@ -3233,6 +3382,7 @@
       "year": 2024,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Jul 2024",
       "to": "Sep 2024"
@@ -3244,6 +3394,7 @@
       "year": 2024,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Jul 2024",
       "to": "Sep 2024"
@@ -3255,6 +3406,7 @@
       "year": 2024,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "MultiPolygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Jul 2024",
       "to": "Sep 2024"
@@ -3266,6 +3418,7 @@
       "year": 2024,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Jul 2024",
       "to": "Sep 2024"
@@ -3277,6 +3430,7 @@
       "year": 2024,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "MultiPolygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Jul 2024",
       "to": "Sep 2024"
@@ -3288,6 +3442,7 @@
       "year": 2024,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Jul 2024",
       "to": "Sep 2024"
@@ -3299,6 +3454,7 @@
       "year": 2024,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Jul 2024",
       "to": "Sep 2024"
@@ -3310,6 +3466,7 @@
       "year": 2024,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Jul 2024",
       "to": "Sep 2024"
@@ -3321,6 +3478,7 @@
       "year": 2024,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "MultiPolygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Jul 2024",
       "to": "Sep 2024"
@@ -3332,17 +3490,7 @@
       "year": 2024,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
-      "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
-      "from": "Jul 2024",
-      "to": "Sep 2024"
-    },
-    {
-      "title": "Nalolo",
-      "id": "69462142",
-      "country": "ZMB",
-      "year": 2024,
-      "reason": "no_change",
-      "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Jul 2024",
       "to": "Sep 2024"
@@ -3354,17 +3502,7 @@
       "year": 2024,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
-      "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
-      "from": "Jul 2024",
-      "to": "Sep 2024"
-    },
-    {
-      "title": "Chilanga",
-      "id": "69462150",
-      "country": "ZMB",
-      "year": 2024,
-      "reason": "no_change",
-      "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Jul 2024",
       "to": "Sep 2024"
@@ -3376,6 +3514,7 @@
       "year": 2024,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Jul 2024",
       "to": "Sep 2024"
@@ -3387,28 +3526,7 @@
       "year": 2024,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
-      "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
-      "from": "Jul 2024",
-      "to": "Sep 2024"
-    },
-    {
-      "title": "Kafue",
-      "id": "69462156",
-      "country": "ZMB",
-      "year": 2024,
-      "reason": "no_change",
-      "detail": "Simplified geometry matches original",
-      "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
-      "from": "Jul 2024",
-      "to": "Sep 2024"
-    },
-    {
-      "title": "Ngabwe",
-      "id": "69462158",
-      "country": "ZMB",
-      "year": 2024,
-      "reason": "no_change",
-      "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Jul 2024",
       "to": "Sep 2024"
@@ -3420,6 +3538,7 @@
       "year": 2024,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Jul 2024",
       "to": "Sep 2024"
@@ -3431,6 +3550,7 @@
       "year": 2024,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Jul 2024",
       "to": "Sep 2024"
@@ -3442,6 +3562,7 @@
       "year": 2024,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Jul 2024",
       "to": "Sep 2024"
@@ -3453,6 +3574,7 @@
       "year": 2024,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Jul 2024",
       "to": "Sep 2024"
@@ -3464,6 +3586,7 @@
       "year": 2024,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Jul 2024",
       "to": "Sep 2024"
@@ -3475,6 +3598,19 @@
       "year": 2024,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
+      "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
+      "from": "Jul 2024",
+      "to": "Sep 2024"
+    },
+    {
+      "title": "Limulunga",
+      "id": "69462178",
+      "country": "ZMB",
+      "year": 2024,
+      "reason": "no_change",
+      "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Jul 2024",
       "to": "Sep 2024"
@@ -3486,6 +3622,7 @@
       "year": 2024,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Jul 2024",
       "to": "Sep 2024"
@@ -3497,6 +3634,7 @@
       "year": 2024,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Jul 2024",
       "to": "Sep 2024"
@@ -3508,6 +3646,7 @@
       "year": 2024,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Jul 2024",
       "to": "Sep 2024"
@@ -3519,17 +3658,19 @@
       "year": 2024,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Jul 2024",
       "to": "Sep 2024"
     },
     {
-      "title": "Senanga",
-      "id": "69462192",
+      "title": "Mpika",
+      "id": "69462194",
       "country": "ZMB",
       "year": 2024,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "MultiPolygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Jul 2024",
       "to": "Sep 2024"
@@ -3541,6 +3682,7 @@
       "year": 2024,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Jul 2024",
       "to": "Sep 2024"
@@ -3552,6 +3694,7 @@
       "year": 2024,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Jul 2024",
       "to": "Sep 2024"
@@ -3563,6 +3706,19 @@
       "year": 2024,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
+      "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
+      "from": "Jul 2024",
+      "to": "Sep 2024"
+    },
+    {
+      "title": "Zimba",
+      "id": "69462202",
+      "country": "ZMB",
+      "year": 2024,
+      "reason": "no_change",
+      "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Jul 2024",
       "to": "Sep 2024"
@@ -3574,6 +3730,7 @@
       "year": 2024,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Jul 2024",
       "to": "Sep 2024"
@@ -3585,6 +3742,7 @@
       "year": 2024,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Jul 2024",
       "to": "Sep 2024"
@@ -3596,6 +3754,7 @@
       "year": 2024,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Jul 2024",
       "to": "Sep 2024"
@@ -3607,6 +3766,7 @@
       "year": 2024,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Jul 2024",
       "to": "Sep 2024"
@@ -3618,17 +3778,7 @@
       "year": 2024,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
-      "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
-      "from": "Jul 2024",
-      "to": "Sep 2024"
-    },
-    {
-      "title": "Chongwe",
-      "id": "69462214",
-      "country": "ZMB",
-      "year": 2024,
-      "reason": "no_change",
-      "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Jul 2024",
       "to": "Sep 2024"
@@ -3640,6 +3790,19 @@
       "year": 2024,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
+      "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
+      "from": "Jul 2024",
+      "to": "Sep 2024"
+    },
+    {
+      "title": "Mungwi",
+      "id": "69462224",
+      "country": "ZMB",
+      "year": 2024,
+      "reason": "no_change",
+      "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Jul 2024",
       "to": "Sep 2024"
@@ -3651,17 +3814,7 @@
       "year": 2024,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
-      "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
-      "from": "Jul 2024",
-      "to": "Sep 2024"
-    },
-    {
-      "title": "Kabompo",
-      "id": "69462232",
-      "country": "ZMB",
-      "year": 2024,
-      "reason": "no_change",
-      "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Jul 2024",
       "to": "Sep 2024"
@@ -3673,6 +3826,7 @@
       "year": 2024,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Jul 2024",
       "to": "Sep 2024"
@@ -3684,17 +3838,7 @@
       "year": 2024,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
-      "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
-      "from": "Jul 2024",
-      "to": "Sep 2024"
-    },
-    {
-      "title": "Chama",
-      "id": "69465099",
-      "country": "ZMB",
-      "year": 2024,
-      "reason": "no_change",
-      "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Jul 2024",
       "to": "Sep 2024"
@@ -3706,6 +3850,7 @@
       "year": 2024,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Jul 2024",
       "to": "Sep 2024"
@@ -3717,6 +3862,7 @@
       "year": 2024,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Jul 2024",
       "to": "Sep 2024"
@@ -3728,6 +3874,7 @@
       "year": 2024,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Jul 2024",
       "to": "Sep 2024"
@@ -3739,6 +3886,7 @@
       "year": 2024,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Jul 2024",
       "to": "Sep 2024"
@@ -3750,17 +3898,7 @@
       "year": 2024,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
-      "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
-      "from": "Jul 2024",
-      "to": "Sep 2024"
-    },
-    {
-      "title": "Lundazi",
-      "id": "69465157",
-      "country": "ZMB",
-      "year": 2024,
-      "reason": "no_change",
-      "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Jul 2024",
       "to": "Sep 2024"
@@ -3772,6 +3910,7 @@
       "year": 2024,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "MultiPolygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Jul 2024",
       "to": "Sep 2024"
@@ -3783,6 +3922,7 @@
       "year": 2024,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "MultiPolygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Jul 2024",
       "to": "Sep 2024"
@@ -3794,39 +3934,7 @@
       "year": 2024,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
-      "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
-      "from": "Jul 2024",
-      "to": "Sep 2024"
-    },
-    {
-      "title": "Lunga",
-      "id": "69465179",
-      "country": "ZMB",
-      "year": 2024,
-      "reason": "no_change",
-      "detail": "Simplified geometry matches original",
-      "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
-      "from": "Jul 2024",
-      "to": "Sep 2024"
-    },
-    {
-      "title": "Lumezi",
-      "id": "69465199",
-      "country": "ZMB",
-      "year": 2024,
-      "reason": "no_change",
-      "detail": "Simplified geometry matches original",
-      "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
-      "from": "Jul 2024",
-      "to": "Sep 2024"
-    },
-    {
-      "title": "Katete",
-      "id": "69465205",
-      "country": "ZMB",
-      "year": 2024,
-      "reason": "no_change",
-      "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Jul 2024",
       "to": "Sep 2024"
@@ -3838,6 +3946,7 @@
       "year": 2024,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Jul 2024",
       "to": "Sep 2024"
@@ -3849,6 +3958,7 @@
       "year": 2024,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Jul 2024",
       "to": "Sep 2024"
@@ -3860,6 +3970,7 @@
       "year": 2024,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Jul 2024",
       "to": "Sep 2024"
@@ -3871,6 +3982,7 @@
       "year": 2024,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Jul 2024",
       "to": "Sep 2024"
@@ -3882,6 +3994,7 @@
       "year": 2024,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Jul 2024",
       "to": "Sep 2024"
@@ -3893,6 +4006,7 @@
       "year": 2024,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Jul 2024",
       "to": "Sep 2024"
@@ -3904,6 +4018,7 @@
       "year": 2025,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Apr 2025",
       "to": "Sep 2025"
@@ -3915,6 +4030,7 @@
       "year": 2025,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Apr 2025",
       "to": "Sep 2025"
@@ -3926,6 +4042,7 @@
       "year": 2025,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "MultiPolygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Apr 2025",
       "to": "Sep 2025"
@@ -3937,6 +4054,7 @@
       "year": 2025,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Apr 2025",
       "to": "Sep 2025"
@@ -3948,6 +4066,7 @@
       "year": 2025,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Apr 2025",
       "to": "Sep 2025"
@@ -3959,6 +4078,7 @@
       "year": 2025,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Apr 2025",
       "to": "Sep 2025"
@@ -3970,6 +4090,7 @@
       "year": 2025,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Apr 2025",
       "to": "Sep 2025"
@@ -3981,6 +4102,7 @@
       "year": 2025,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Apr 2025",
       "to": "Sep 2025"
@@ -3992,6 +4114,7 @@
       "year": 2025,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Apr 2025",
       "to": "Sep 2025"
@@ -4003,6 +4126,7 @@
       "year": 2025,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Apr 2025",
       "to": "Sep 2025"
@@ -4014,6 +4138,7 @@
       "year": 2025,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Apr 2025",
       "to": "Sep 2025"
@@ -4025,6 +4150,7 @@
       "year": 2025,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Apr 2025",
       "to": "Sep 2025"
@@ -4036,6 +4162,7 @@
       "year": 2025,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Apr 2025",
       "to": "Sep 2025"
@@ -4047,6 +4174,7 @@
       "year": 2025,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Apr 2025",
       "to": "Sep 2025"
@@ -4058,6 +4186,7 @@
       "year": 2025,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Apr 2025",
       "to": "Sep 2025"
@@ -4069,6 +4198,7 @@
       "year": 2025,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Apr 2025",
       "to": "Sep 2025"
@@ -4080,6 +4210,7 @@
       "year": 2025,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Apr 2025",
       "to": "Sep 2025"
@@ -4091,6 +4222,7 @@
       "year": 2025,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Apr 2025",
       "to": "Sep 2025"
@@ -4102,6 +4234,7 @@
       "year": 2025,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Apr 2025",
       "to": "Sep 2025"
@@ -4113,6 +4246,7 @@
       "year": 2025,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Apr 2025",
       "to": "Sep 2025"
@@ -4124,6 +4258,7 @@
       "year": 2025,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
+      "geometry_type": "MultiPolygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Apr 2025",
       "to": "Sep 2025"
