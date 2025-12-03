@@ -5,6 +5,7 @@ from __future__ import annotations
 import copy
 from typing import Any, Dict, Iterable, List, Optional
 
+from .dates import DATE_FROM_KEYS, DATE_TO_KEYS, DATE_UPDATED_KEYS, first_present
 from .feature_utils import feature_key
 
 Feature = Dict[str, Any]
@@ -39,10 +40,10 @@ def merge_features(
             "source_year": props.get("year") if props.get("year") is not None else source_year,
             "source_label": source_label,
             "title": props.get("title"),
-            # Extract analysis date info for tie-breaking
-            "to_date": props.get("to"),
-            "from_date": props.get("from"),
-            "updated_at": props.get("updated_at"),
+            # Extract analysis date info for tie-breaking using robust key lookup
+            "to_date": first_present(props, DATE_TO_KEYS),
+            "from_date": first_present(props, DATE_FROM_KEYS),
+            "updated_at": first_present(props, DATE_UPDATED_KEYS),
         }
 
         existing = aggregate.get(key)
