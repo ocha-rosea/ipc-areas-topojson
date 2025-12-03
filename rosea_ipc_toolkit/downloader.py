@@ -556,10 +556,10 @@ class IPCAreaDownloader:
 
         final_features = flatten_features(aggregate)
         
-        # Remove color and year properties from global dataset features to reduce file size
+        # Remove year property from global dataset features to reduce file size
+        # (color is retained for styling purposes)
         for feature in final_features:
             if "properties" in feature:
-                feature["properties"].pop("color", None)
                 feature["properties"].pop("year", None)
         
         final_topology = convert_geojson_to_topology(

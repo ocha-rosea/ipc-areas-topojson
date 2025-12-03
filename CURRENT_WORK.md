@@ -65,13 +65,17 @@ The current pipeline filters geometries to polygonal types only via `extract_pol
 
 - `rosea_ipc_toolkit/topology.py` – verified `_wrap_topology_points` handles all edge cases
 
-### 5. Property Trimming (Already Implemented)
+### 5. Property Retention
 
 **Status:** ✅ Complete
 
-- `color` and `year` removed from global dataset
-- `from` and `to` stripped from `global_areas_min.topojson`
-- No further changes required unless new properties surface
+- `color` retained in all outputs (country combined + global datasets) for styling
+- `year` removed from global dataset only (still present in country combined files)
+- `from` and `to` stripped only from `global_areas_min.topojson` for size reduction
+
+**Files modified:**
+
+- `rosea_ipc_toolkit/downloader.py` – removed color stripping from global dataset
 
 ## Acceptance Criteria
 
