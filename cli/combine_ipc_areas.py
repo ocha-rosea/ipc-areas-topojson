@@ -18,9 +18,9 @@ from typing import Any, Dict, Iterable, List, Optional
 sys.path.insert(0, str(Path(__file__).parent.parent))
 
 try:
-    from .simplify_ipc_global_areas import simplify_topojson
+    from .simplify_ipc_combined_areas import simplify_topojson
 except ImportError:  # pragma: no cover - fallback for direct script execution
-    from simplify_ipc_global_areas import simplify_topojson
+    from simplify_ipc_combined_areas import simplify_topojson
 
 from rosea_ipc_toolkit.feature_utils import feature_key
 from rosea_ipc_toolkit.topology import (
@@ -32,7 +32,7 @@ from rosea_ipc_toolkit.topology import (
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 DATA_DIR = REPO_ROOT / "data"
-DEFAULT_OUTPUT_FILENAME = "global_areas.topojson"
+DEFAULT_OUTPUT_FILENAME = "combined_areas.topojson"
 COMBINED_SUFFIX = "_combined_areas.topojson"
 
 
