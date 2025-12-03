@@ -5,12 +5,12 @@
   "items": [
     {
       "country": "Global",
-      "relative_path": "data/global_areas.topojson",
-      "file_name": "global_areas.topojson",
+      "relative_path": "data/combined_areas.topojson",
+      "file_name": "combined_areas.topojson",
       "feature_count": 4443,
-      "cdn_url": "https://cdn.jsdelivr.net/gh/im4sea/ipc-areas@v1.6/data/global_areas.topojson",
+      "cdn_url": "https://cdn.jsdelivr.net/gh/im4sea/ipc-areas@v1.6/data/combined_areas.topojson",
       "updated_at": "2025-12-02T14:02:48Z",
-      "variant": "global"
+      "variant": "combined"
     },
     {
       "country": "Angola",

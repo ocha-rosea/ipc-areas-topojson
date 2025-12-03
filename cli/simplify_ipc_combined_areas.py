@@ -34,7 +34,7 @@ except ImportError:  # pragma: no cover - simplification is optional
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 DATA_DIR = REPO_ROOT / "data"
-DEFAULT_SOURCE_NAME = "ipc_global_areas.topojson"
+DEFAULT_SOURCE_NAME = "combined_areas.topojson"
 
 
 def ensure_source(path: Path) -> None:
@@ -42,7 +42,7 @@ def ensure_source(path: Path) -> None:
         raise FileNotFoundError(f"Could not find {path}")
 
 
-def load_global_features(source: Path) -> List[Dict[str, Any]]:
+def load_combined_features(source: Path) -> List[Dict[str, Any]]:
     return load_topojson_features(source)
 
 
@@ -319,7 +319,7 @@ def simplify_topojson(
 ) -> Dict[str, int | float]:
     ensure_source(source)
 
-    features = load_global_features(source)
+    features = load_combined_features(source)
     if not features:
         raise ValueError("No features available to simplify")
 
@@ -402,7 +402,7 @@ def main(argv: List[str] | None = None) -> int:
         "--input",
         type=Path,
         default=DATA_DIR / DEFAULT_SOURCE_NAME,
-        help="Path to the source global TopoJSON file",
+        help="Path to the source combined TopoJSON file",
     )
     parser.add_argument(
         "--simplify-tolerance",

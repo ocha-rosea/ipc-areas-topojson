@@ -21,7 +21,7 @@ The current pipeline filters geometries to polygonal types only via `extract_pol
 
 - `rosea_ipc_toolkit/feature_utils.py` – polygon-only filter bypassed
 - `rosea_ipc_toolkit/downloader.py` – uses `sanitise_geometry()` only
-- `cli/simplify_ipc_global_areas.py` – geometry type validation added
+- `cli/simplify_ipc_combined_areas.py` – geometry type validation added
 
 ### 2. Handle GeometryCollections Transparently
 
@@ -32,7 +32,7 @@ The current pipeline filters geometries to polygonal types only via `extract_pol
 
 **Files modified:**
 
-- `cli/simplify_ipc_global_areas.py` – recursive handling with member failure aggregation
+- `cli/simplify_ipc_combined_areas.py` – recursive handling with member failure aggregation
 
 ### 3. Geometry Type Validation & Documentation
 
@@ -52,7 +52,7 @@ The current pipeline filters geometries to polygonal types only via `extract_pol
 
 **Files modified:**
 
-- `cli/simplify_ipc_global_areas.py` – `geometry_type` added to all failure records
+- `cli/simplify_ipc_combined_areas.py` – `geometry_type` added to all failure records
 
 ### 4. TopoJSON Compatibility for Non-Polygon Types
 
@@ -69,13 +69,13 @@ The current pipeline filters geometries to polygonal types only via `extract_pol
 
 **Status:** ✅ Complete
 
-- `color` retained in all outputs (country combined + global datasets) for styling
-- `year` removed from global dataset only (still present in country combined files)
-- `from` and `to` stripped only from `global_areas_min.topojson` for size reduction
+- `color` retained in all outputs for styling
+- `year` removed from combined dataset to reduce file size
+- `from` and `to` stripped from `combined_areas_min.topojson`
 
 **Files modified:**
 
-- `rosea_ipc_toolkit/downloader.py` – removed color stripping from global dataset
+- `rosea_ipc_toolkit/downloader.py` – property retention/stripping logic
 
 ## Acceptance Criteria
 
@@ -89,7 +89,7 @@ The current pipeline filters geometries to polygonal types only via `extract_pol
 
 - IPC API sometimes returns mixed GeometryCollections (polygons + points for area centroids)
 - Simplification tolerance and precision flags should continue to work as documented
-- Extra-minified global output (`global_areas_min.topojson`) still strips `from`/`to`
+- Extra-minified combined output (`combined_areas_min.topojson`) still strips `from`/`to`
 
 ## Comparison with PySpark Pipeline
 

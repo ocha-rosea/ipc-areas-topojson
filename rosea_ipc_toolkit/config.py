@@ -10,11 +10,11 @@ DATA_DIR = REPO_ROOT / "data"
 COUNTRIES_CSV = REPO_ROOT / "countries.csv"
 COUNTRY_FILENAME_SUFFIX = "_areas.topojson"
 COUNTRY_COMBINED_SUFFIX = "_combined_areas.topojson"
-GLOBAL_FILENAME = "global_areas.topojson"
-GLOBAL_OUTPUT_PATH = DATA_DIR / GLOBAL_FILENAME
-GLOBAL_EXTRA_FILENAME = "global_areas_min.topojson"
-GLOBAL_EXTRA_OUTPUT_PATH = DATA_DIR / GLOBAL_EXTRA_FILENAME
-GLOBAL_INFO = {"name": "Global", "iso2": "GL", "iso3": "GLB"}
+COMBINED_FILENAME = "combined_areas.topojson"
+COMBINED_OUTPUT_PATH = DATA_DIR / COMBINED_FILENAME
+COMBINED_EXTRA_FILENAME = "combined_areas_min.topojson"
+COMBINED_EXTRA_OUTPUT_PATH = DATA_DIR / COMBINED_EXTRA_FILENAME
+COMBINED_INFO = {"name": "Combined", "iso2": "CB", "iso3": "CMB"}
 
 API_BASE_URL = "https://api.ipcinfo.org/areas"
 CURRENT_YEAR = datetime.utcnow().year

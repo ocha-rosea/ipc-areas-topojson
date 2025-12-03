@@ -53,7 +53,7 @@ class IndexBuilder:
             "variant": variant,
         }
 
-        if variant == "global":
+        if variant == "combined":
             for field in ("iso2", "iso3", "year"):
                 entry.pop(field, None)
 

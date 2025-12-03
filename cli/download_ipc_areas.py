@@ -72,14 +72,14 @@ def parse_cli_args(argv: Optional[List[str]] = None) -> argparse.Namespace:
         help="Disable index.json generation (useful for ad-hoc runs)",
     )
     parser.add_argument(
-        "--extra-global-simplification",
+        "--extra-combined-simplification",
         action="store_true",
-        help="Write an additional aggressively simplified global_areas_min.topojson",
+        help="Write an additional aggressively simplified combined_areas_min.topojson",
     )
     parser.add_argument(
-        "--extra-global-only",
+        "--extra-combined-only",
         action="store_true",
-        help="Skip downloads and regenerate only the extra simplified global_areas_min.topojson",
+        help="Skip downloads and regenerate only the extra simplified combined_areas_min.topojson",
     )
     return parser.parse_args(argv)
 
@@ -87,7 +87,7 @@ def parse_cli_args(argv: Optional[List[str]] = None) -> argparse.Namespace:
 def main(argv: Optional[List[str]] = None) -> int:
     args = parse_cli_args(argv)
 
-    extra_global_only = args.extra_global_only
+    extra_combined_only = args.extra_combined_only
 
     config = DownloadConfig(
         years_to_try=args.years,
@@ -98,9 +98,9 @@ def main(argv: Optional[List[str]] = None) -> int:
         retry_delay=args.retry_delay,
         rate_limit_delay=args.rate_limit_delay,
         country_codes=args.countries,
-        build_index=False if extra_global_only else not args.skip_index,
-        extra_global_simplification=args.extra_global_simplification or extra_global_only,
-        extra_global_only=extra_global_only,
+        build_index=False if extra_combined_only else not args.skip_index,
+        extra_combined_simplification=args.extra_combined_simplification or extra_combined_only,
+        extra_combined_only=extra_combined_only,
     )
 
     try:

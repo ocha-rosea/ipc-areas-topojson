@@ -5,8 +5,8 @@ Automation for downloading and harmonising IPC (Integrated Food Security Phase C
 ## Outputs
 
 - `data/{ISO3}/{ISO3}_combined_areas.topojson` – all assessments for a country, deduplicated by IPC ID with rounded coordinates.
-- `data/global_areas.topojson` – aggregation of every combined country file with configurable rounding and simplification (defaults to conservative values).
-- `data/global_areas_min.topojson` – optional extra-minified global dataset produced when requested for lightweight previews.
+- `data/combined_areas.topojson` – aggregation of every combined country file with configurable rounding and simplification (defaults to conservative values).
+- `data/combined_areas_min.topojson` – optional extra-minified combined dataset produced when requested for lightweight previews.
 - `data/index.json` – catalogue of exported datasets, feature counts, timestamps, and optional CDN URLs.
 - `data/**/*_unsimplified.json` – optional reports listing features kept at full detail when simplification fails or has no effect.
 
@@ -22,7 +22,7 @@ Automation for downloading and harmonising IPC (Integrated Food Security Phase C
 - Limit scope: `python -m cli.download_ipc_areas --countries SD --years 2025 2024`
 - Custom precision: `python -m cli.download_ipc_areas --precision 2 --simplify-tolerance 0.0005`
 - Rebuild global only: `python -m cli.combine_ipc_areas`
-- Simplify an existing file: `python -m cli.simplify_ipc_global_areas --help`
+- Simplify an existing file: `python -m cli.simplify_ipc_combined_areas --help`
 - Programmatic use: `from rosea_ipc_toolkit import DownloadConfig, IPCAreaDownloader`
 - Skip index generation: `python -m cli.download_ipc_areas --skip-index`
 - Generate extra-minified global output: `python -m cli.download_ipc_areas --extra-global-simplification`

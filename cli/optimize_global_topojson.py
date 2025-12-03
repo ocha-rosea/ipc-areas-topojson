@@ -1,11 +1,11 @@
 #!/usr/bin/env python3
-"""One-off helper to shrink and validate the global IPC TopoJSON dataset.
+"""One-off helper to shrink and validate the combined IPC TopoJSON dataset.
 
-The existing downloader already writes a `global_areas.topojson` file with
+The existing downloader already writes a `combined_areas.topojson` file with
 rounded coordinates. This utility provides a slightly more aggressive
 post-processing pass without modifying the downloader itself. It:
 
-* loads the global TopoJSON dataset
+* loads the combined TopoJSON dataset
 * validates that geometry ids remain unique within each country
 * applies additional rounding/simplification using the shared helper
 
@@ -13,7 +13,7 @@ Usage example:
 
     python cli/optimize_global_topojson.py --precision 3 --simplify-tolerance 0.0005
 
-By default the output is written to ``data/global_areas_optimized_plus.topojson`` so
+By default the output is written to ``data/combined_areas_optimized_plus.topojson`` so
 the original artefact is kept for comparison.
 """
 
@@ -26,13 +26,13 @@ from pathlib import Path
 from typing import Dict, Iterable, List, Tuple
 
 try:  # allow execution via `python cli/optimize_global_topojson.py`
-    from .simplify_ipc_global_areas import simplify_topojson
+    from .simplify_ipc_combined_areas import simplify_topojson
 except ImportError:  # pragma: no cover - fallback when not running as package
-    from simplify_ipc_global_areas import simplify_topojson
+    from simplify_ipc_combined_areas import simplify_topojson
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
-DEFAULT_INPUT = REPO_ROOT / "data" / "global_areas.topojson"
-DEFAULT_OUTPUT = REPO_ROOT / "data" / "global_areas_optimized_plus.topojson"
+DEFAULT_INPUT = REPO_ROOT / "data" / "combined_areas.topojson"
+DEFAULT_OUTPUT = REPO_ROOT / "data" / "combined_areas_optimized_plus.topojson"
 
 
 def load_geometries(topo_path: Path) -> List[Dict]:
@@ -100,7 +100,7 @@ def main(argv: List[str] | None = None) -> int:
         "--output",
         type=Path,
         default=DEFAULT_OUTPUT,
-        help="Where to write the optimized file (default: data/global_areas_optimized_plus.topojson)",
+        help="Where to write the optimized file (default: data/combined_areas_optimized_plus.topojson)",
     )
     parser.add_argument(
         "--precision",

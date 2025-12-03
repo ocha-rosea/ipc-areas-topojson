@@ -20,9 +20,9 @@ from .config import (
     DATA_DIR,
     DEFAULT_YEARS,
     AVAILABLE_YEARS,
-    GLOBAL_EXTRA_OUTPUT_PATH,
-    GLOBAL_INFO,
-    GLOBAL_OUTPUT_PATH,
+    COMBINED_EXTRA_OUTPUT_PATH,
+    COMBINED_INFO,
+    COMBINED_OUTPUT_PATH,
 )
 from .countries import load_countries as load_country_rows
 from .dates import (
@@ -57,16 +57,16 @@ class DownloadConfig:
     rate_limit_delay: float = 1.0
     country_codes: Optional[List[str]] = None
     build_index: bool = True
-    extra_global_simplification: bool = False
-    extra_global_only: bool = False
+    extra_combined_simplification: bool = False
+    extra_combined_only: bool = False
 
 
 class IPCAreaDownloader:
     def __init__(self, config: DownloadConfig) -> None:
         self.config = config
-        self.extra_global_only = config.extra_global_only
+        self.extra_combined_only = config.extra_combined_only
         self.ipc_key = resolve_ipc_key()
-        if not self.ipc_key and not self.extra_global_only:
+        if not self.ipc_key and not self.extra_combined_only:
             raise ValueError("IPC_KEY environment variable is required")
 
         self.years_to_try = self._normalise_years(config.years_to_try)
@@ -81,10 +81,10 @@ class IPCAreaDownloader:
         self.release_tag = resolve_release_tag()
         self.index_builder = (
             IndexBuilder(release_tag=self.release_tag, output_dir=DATA_DIR)
-            if config.build_index and not self.extra_global_only
+            if config.build_index and not self.extra_combined_only
             else None
         )
-        self.extra_global_simplification = config.extra_global_simplification or self.extra_global_only
+        self.extra_combined_simplification = config.extra_combined_simplification or self.extra_combined_only
         self.country_combined_files: List[Path] = []
         self.country_combined_feature_map: Dict[str, List[Dict[str, Any]]] = {}
         self.iso2_to_iso3: Dict[str, str] = {}
@@ -181,8 +181,8 @@ class IPCAreaDownloader:
         # Ensure the data directory exists
         DATA_DIR.mkdir(exist_ok=True)
 
-        if self.extra_global_only:
-            self._generate_extra_global_only()
+        if self.extra_combined_only:
+            self._generate_extra_combined_only()
             return
         
         print("Loading countries data…")
@@ -223,7 +223,7 @@ class IPCAreaDownloader:
 
             time.sleep(self.config.rate_limit_delay)
 
-        self.build_global_dataset()
+        self.build_combined_dataset()
         if self.index_builder:
             self.index_builder.write()
 
@@ -319,7 +319,7 @@ class IPCAreaDownloader:
 
             topojson_payload = convert_geojson_to_topology(geojson)
             year_path = country_dir / f"{iso3}_{year}{COUNTRY_FILENAME_SUFFIX}"
-            # Skip saving individual year files to save space - only save combined and global files
+            # Skip saving individual year files to save space - only save combined files
             # save_topology(topojson_payload, year_path)
             # print(f"    Saved: {display_relative(year_path)}")
 
@@ -502,9 +502,9 @@ class IPCAreaDownloader:
 
         return {"type": "FeatureCollection", "features": cleaned_features}, analysis_meta
 
-    # Global dataset -----------------------------------------------------
-    def build_global_dataset(self) -> None:
-        print("\nBuilding global dataset…")
+    # Combined dataset -----------------------------------------------------
+    def build_combined_dataset(self) -> None:
+        print("\nBuilding combined dataset…")
 
         aggregate: Dict[str, Dict[str, Any]] = {}
 
@@ -551,12 +551,12 @@ class IPCAreaDownloader:
             )
 
         if not aggregate:
-            print("  Warning: no features discovered while building the global dataset")
+            print("  Warning: no features discovered while building the combined dataset")
             return
 
         final_features = flatten_features(aggregate)
         
-        # Remove year property from global dataset features to reduce file size
+        # Remove year property from combined dataset features to reduce file size
         # (color is retained for styling purposes)
         for feature in final_features:
             if "properties" in feature:
@@ -566,107 +566,116 @@ class IPCAreaDownloader:
             {"type": "FeatureCollection", "features": final_features}
         )
         
-        # Apply aggressive coordinate rounding to reduce global dataset size
+        # Apply aggressive coordinate rounding to reduce combined dataset size
         if 'arcs' in final_topology:
             final_topology['arcs'] = self._round_coordinates(final_topology['arcs'], precision=2)
-        saved_global = save_topology(final_topology, GLOBAL_OUTPUT_PATH)
+        saved_combined = save_topology(final_topology, COMBINED_OUTPUT_PATH)
         
-        # Apply aggressive simplification to global dataset
-        extra_global_path: Optional[Path] = None
+        # Apply aggressive simplification to combined dataset
+        extra_combined_path: Optional[Path] = None
 
         try:
             # Import here to avoid circular import
-            from cli.simplify_ipc_global_areas import simplify_topojson
+            from cli.simplify_ipc_combined_areas import simplify_topojson
             
             simplify_topojson(
-                saved_global,
-                precision=2,  # More aggressive precision for global file
-                simplify_tolerance=0.002,  # Higher tolerance for global file
+                saved_combined,
+                precision=2,  # More aggressive precision for combined file
+                simplify_tolerance=0.002,  # Higher tolerance for combined file
                 quiet=True,
             )
 
-            if self.extra_global_simplification:
-                extra_global_path = GLOBAL_EXTRA_OUTPUT_PATH
+            if self.extra_combined_simplification:
+                extra_combined_path = COMBINED_EXTRA_OUTPUT_PATH
                 simplify_topojson(
-                    saved_global,
-                    output=extra_global_path,
+                    saved_combined,
+                    output=extra_combined_path,
                     precision=1,
                     simplify_tolerance=0.01,
                     quiet=True,
                 )
-                self._strip_global_properties(extra_global_path, keys=("from", "to"))
+                self._strip_combined_properties(extra_combined_path, keys=("from", "to"))
         except Exception as exc:  # noqa: BLE001
-            print(f"    Warning: unable to apply additional simplification to global dataset: {exc}")
+            print(f"    Warning: unable to apply additional simplification to combined dataset: {exc}")
 
         years_seen = extract_years(aggregate)
         representative_year = years_seen[-1] if years_seen else None
 
         if self.index_builder:
             self.index_builder.add_entry(
-                GLOBAL_INFO,
+                COMBINED_INFO,
                 year=representative_year,
-                path=saved_global,
+                path=saved_combined,
                 feature_count=len(final_features),
-                variant="global",
+                variant="combined",
             )
 
-            if self.extra_global_simplification and extra_global_path and extra_global_path.exists():
+            if self.extra_combined_simplification and extra_combined_path and extra_combined_path.exists():
                 self.index_builder.add_entry(
-                    GLOBAL_INFO,
+                    COMBINED_INFO,
                     year=representative_year,
-                    path=extra_global_path,
+                    path=extra_combined_path,
                     feature_count=len(final_features),
-                    variant="global_min",
+                    variant="combined_min",
                 )
 
-        if self.extra_global_simplification and extra_global_path and extra_global_path.exists():
+        if self.extra_combined_simplification and extra_combined_path and extra_combined_path.exists():
             print(
-                "  Extra simplified global dataset saved to "
-                f"{display_relative(extra_global_path)}"
+                "  Extra simplified combined dataset saved to "
+                f"{display_relative(extra_combined_path)}"
             )
 
         legacy_path = DATA_DIR / "ipc_global_areas.topojson"
-        if legacy_path.exists() and legacy_path != saved_global:
+        if legacy_path.exists() and legacy_path != saved_combined:
             try:
                 legacy_path.unlink()
-                print(f"  Removed legacy global dataset {display_relative(legacy_path)}")
+                print(f"  Removed legacy combined dataset {display_relative(legacy_path)}")
             except OSError as exc:  # noqa: BLE001
-                print(f"  Warning: unable to remove legacy global dataset {legacy_path}: {exc}")
+                print(f"  Warning: unable to remove legacy combined dataset {legacy_path}: {exc}")
+        
+        # Also remove old global_areas.topojson if it exists (renamed to combined_areas)
+        old_global_path = DATA_DIR / "global_areas.topojson"
+        if old_global_path.exists() and old_global_path != saved_combined:
+            try:
+                old_global_path.unlink()
+                print(f"  Removed old global_areas dataset {display_relative(old_global_path)}")
+            except OSError as exc:  # noqa: BLE001
+                print(f"  Warning: unable to remove old global_areas dataset {old_global_path}: {exc}")
 
         print(
-            f"  Global dataset saved to {display_relative(saved_global)} "
+            f"  Combined dataset saved to {display_relative(saved_combined)} "
             f"with {len(final_features)} features"
         )
 
-    def _generate_extra_global_only(self) -> None:
-        print("Extra global-only mode: skipping downloads and regenerating minified global dataset")
+    def _generate_extra_combined_only(self) -> None:
+        print("Extra combined-only mode: skipping downloads and regenerating minified combined dataset")
 
-        if not GLOBAL_OUTPUT_PATH.exists():
+        if not COMBINED_OUTPUT_PATH.exists():
             raise FileNotFoundError(
-                f"Global dataset not found at {display_relative(GLOBAL_OUTPUT_PATH)}. "
-                "Run without --extra-global-only to rebuild it first."
+                f"Combined dataset not found at {display_relative(COMBINED_OUTPUT_PATH)}. "
+                "Run without --extra-combined-only to rebuild it first."
             )
 
         try:
-            from cli.simplify_ipc_global_areas import simplify_topojson
+            from cli.simplify_ipc_combined_areas import simplify_topojson
 
             simplify_topojson(
-                GLOBAL_OUTPUT_PATH,
-                output=GLOBAL_EXTRA_OUTPUT_PATH,
+                COMBINED_OUTPUT_PATH,
+                output=COMBINED_EXTRA_OUTPUT_PATH,
                 precision=1,
                 simplify_tolerance=0.01,
                 quiet=True,
             )
 
-            self._strip_global_properties(GLOBAL_EXTRA_OUTPUT_PATH, keys=("from", "to"))
+            self._strip_combined_properties(COMBINED_EXTRA_OUTPUT_PATH, keys=("from", "to"))
         except Exception as exc:  # noqa: BLE001
             raise RuntimeError(
-                f"Unable to regenerate extra simplified global dataset: {exc}"
+                f"Unable to regenerate extra simplified combined dataset: {exc}"
             ) from exc
 
         print(
-            "  Extra simplified global dataset saved to "
-            f"{display_relative(GLOBAL_EXTRA_OUTPUT_PATH)}"
+            "  Extra simplified combined dataset saved to "
+            f"{display_relative(COMBINED_EXTRA_OUTPUT_PATH)}"
         )
 
     # Utility functions --------------------------------------------------
@@ -711,7 +720,7 @@ class IPCAreaDownloader:
     def _simplify_output(self, topo_path: Path) -> None:
         try:
             # Import here to avoid circular import
-            from cli.simplify_ipc_global_areas import simplify_topojson
+            from cli.simplify_ipc_combined_areas import simplify_topojson
             
             # Apply geometric simplification
             simplify_topojson(
@@ -747,7 +756,7 @@ class IPCAreaDownloader:
         except Exception as exc:  # noqa: BLE001
             print(f"    Warning: unable to round coordinates in {topo_path.name}: {exc}")
 
-    def _strip_global_properties(self, topo_path: Path, keys: Tuple[str, ...]) -> None:
+    def _strip_combined_properties(self, topo_path: Path, keys: Tuple[str, ...]) -> None:
         try:
             with topo_path.open("r", encoding="utf-8") as handle:
                 payload = json.load(handle)

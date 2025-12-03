@@ -9,7 +9,7 @@ sys.path.insert(0, str(Path(__file__).parent.parent))
 from rosea_ipc_toolkit import IPCAreaDownloader
 
 from .combine_ipc_areas import main as combine_main
-from .simplify_ipc_global_areas import simplify_topojson, minify_topojson
+from .simplify_ipc_combined_areas import simplify_topojson, minify_topojson
 
 __all__ = [
     "IPCAreaDownloader",
