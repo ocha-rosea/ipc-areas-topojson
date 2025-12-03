@@ -87,6 +87,19 @@ The current pipeline filters geometries to polygonal types only via `extract_pol
 - Simplification tolerance and precision flags should continue to work as documented
 - Extra-minified global output (`global_areas_min.topojson`) still strips `from`/`to`
 
+## Comparison with PySpark Pipeline
+
+The Python toolkit and the PySpark `ipc_analysis_area_last_round` table now use equivalent logic:
+
+| Aspect | PySpark | Python Toolkit (per country) |
+|--------|---------|------------------------------|
+| Partition | `(country, year)` | `feature_key` = `id::{country}::{year}::{area_id}` |
+| Date fallback | `coalesce(to_date, from_date)` | `to_date` → `from_date` → `updated_at` |
+| Same area in multiple years | Keeps both (separate partitions) | Keeps both (year in key) ✅ |
+| Deduplication | `dropDuplicates(["id", "country", "title", "year"])` | `feature_key()` includes year |
+
+**Result:** Combined country TopoJSON contains **one feature per area per year** (latest analysis for that year), matching PySpark behaviour.
+
 ---
 
-Last updated: 2025-12-02
+Last updated: 2025-12-03

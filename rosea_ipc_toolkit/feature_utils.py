@@ -19,16 +19,30 @@ def normalize_title(title: str | None) -> str:
 
 
 def feature_key(feature: Feature) -> str:
+    """Generate a unique key for a feature, including year for per-year deduplication.
+    
+    Keys are structured as:
+    - id::{country}::{year}::{area_id} (preferred)
+    - title::{country}::{year}::{title} (fallback)
+    - geometry::{hash} (last resort)
+    
+    Including year ensures one feature per area per year is retained,
+    matching PySpark's partitionBy("country", "year") behaviour.
+    """
     props = feature.get("properties") or {}
     area_id = props.get("id")
     iso_value = (props.get("iso3") or props.get("country") or "").strip().lower()
+    year_value = props.get("year")
+    year_str = str(year_value) if year_value is not None else ""
 
     if area_id is not None:
-        return f"id::{iso_value}::{str(area_id).strip()}"
+        return f"id::{iso_value}::{year_str}::{str(area_id).strip()}"
 
     title_key = normalize_title(props.get("title"))
     if title_key:
-        return f"title::{iso_value}::{title_key}" if iso_value else f"title::{title_key}"
+        if iso_value:
+            return f"title::{iso_value}::{year_str}::{title_key}"
+        return f"title::{year_str}::{title_key}" if year_str else f"title::{title_key}"
 
     geometry = feature.get("geometry")
     if geometry:
