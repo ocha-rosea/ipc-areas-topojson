@@ -29,8 +29,8 @@ on:
         description: 'Simplification tolerance in coordinate units (default: 0.001; set to 0 to disable).'
         required: false
         default: '0.001'
-      extra_global_simplification:
-        description: 'Generate an additional aggressively simplified global TopoJSON output.'
+      extra_combined_simplification:
+        description: 'Generate an additional aggressively simplified combined TopoJSON output.'
         required: false
         default: 'false'
 
@@ -101,8 +101,8 @@ jobs:
             ARGS+=("--skip-index")
           fi
 
-          if [ "${{ github.event.inputs.extra_global_simplification }}" = "true" ]; then
-            ARGS+=("--extra-global-simplification")
+          if [ "${{ github.event.inputs.extra_combined_simplification }}" = "true" ]; then
+            ARGS+=("--extra-combined-simplification")
           fi
 
           ARGS=$(printf '%s ' "${ARGS[@]}" | xargs)
@@ -133,4 +133,4 @@ jobs:
             Automated data refresh triggered by `${{ github.event_name }}`.
             - CLI arguments: `${{ steps.args.outputs.args }}`
             - Available year window: `${{ steps.args.outputs.available_years }}`
-            - Downloader stores combined country files and a refreshed `data/global_areas.topojson`.
+            - Downloader stores combined country files and a refreshed `data/combined_areas.topojson`.
