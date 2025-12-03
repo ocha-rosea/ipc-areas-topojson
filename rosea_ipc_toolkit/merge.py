@@ -5,7 +5,7 @@ from __future__ import annotations
 import copy
 from typing import Any, Dict, Iterable, List, Optional
 
-from .dates import DATE_FROM_KEYS, DATE_TO_KEYS, DATE_UPDATED_KEYS, first_present
+from .dates import DATE_FROM_KEYS, DATE_TO_KEYS, first_present
 from .feature_utils import feature_key
 
 Feature = Dict[str, Any]
@@ -23,6 +23,7 @@ def merge_features(
     """Merge feature collections favouring newer or higher-priority entries.
     
     When priorities and years are equal, prefer features with more recent analysis dates.
+    This matches the PySpark deduplication logic for parity.
     """
 
     stats = {"added": 0, "updated": 0, "skipped": 0}
@@ -43,7 +44,6 @@ def merge_features(
             # Extract analysis date info for tie-breaking using robust key lookup
             "to_date": first_present(props, DATE_TO_KEYS),
             "from_date": first_present(props, DATE_FROM_KEYS),
-            "updated_at": first_present(props, DATE_UPDATED_KEYS),
         }
 
         existing = aggregate.get(key)
@@ -74,7 +74,14 @@ def merge_features(
 
 
 def _should_replace_by_dates(candidate: Dict[str, Any], existing: Dict[str, Any]) -> bool:
-    """Compare analysis dates to determine if candidate should replace existing feature."""
+    """Compare analysis dates to determine if candidate should replace existing feature.
+    
+    Prefers records with:
+    1. Later 'to' date (analysis end date)
+    2. Later 'from' date when 'to' dates are equal
+    
+    This matches the PySpark deduplication logic for parity.
+    """
     from .dates import parse_iso_datetime
     
     # Compare 'to' dates first (analysis end date)
@@ -104,15 +111,6 @@ def _should_replace_by_dates(candidate: Dict[str, Any], existing: Dict[str, Any]
         return True
     elif existing_from and not candidate_from:
         return False
-    
-    # If period dates are equal/missing, compare updated_at timestamps
-    candidate_updated = parse_iso_datetime(candidate.get("updated_at"))
-    existing_updated = parse_iso_datetime(existing.get("updated_at"))
-    
-    if candidate_updated and existing_updated:
-        return candidate_updated > existing_updated
-    elif candidate_updated and not existing_updated:
-        return True
     
     # Default: don't replace if we can't determine recency
     return False
