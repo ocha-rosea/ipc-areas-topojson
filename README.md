@@ -47,11 +47,12 @@ Automation for downloading and harmonising IPC (Integrated Food Security Phase C
 - Converts `data/combined_areas.topojson` to line-delimited GeoJSON and uploads to Mapbox Tiling Service (MTS).
 - Creates/updates a tileset with recipe specifying `minzoom: 0` and `maxzoom: 14` for visibility at all zoom levels.
 - Required secrets (configure in GitHub repo settings):
-  - `MAPBOX_USERNAME` – your Mapbox account username.
-  - `MAPBOX_ACCESS_TOKEN` – Mapbox access token with `tilesets:write` and `tilesets:read` scopes.
-  - `TILESET_SOURCE_ID` – identifier for the tileset source (e.g., `ipc-areas-source`, max 32 chars, only `-` and `_` allowed).
-  - `TILESET_ID` – identifier for the tileset (e.g., `ipc-areas`, max 32 chars).
+  - `MAPBOX_USERNAME` – your Mapbox account username (e.g., `ocha-rosea-1`).
+  - `MAPBOX_ACCESS_TOKEN` – Mapbox access token with `tilesets:write`, `tilesets:read`, and `tilesets:list` scopes.
+  - `TILESET_SOURCE_ID` – identifier for the tileset source (e.g., `rosea-ipc-combined-areas-src`, max 32 chars, only `-` and `_` allowed).
+  - `TILESET_ID` – identifier for the tileset (e.g., `rosea-ipc-combined-areas`, max 32 chars).
 - The tileset will be publicly accessible and can be added to Mapbox styles using the ID `{username}.{TILESET_ID}`.
+- **Important**: Tilesets created with the old Uploads API cannot have their recipes updated via MTS. If you're migrating from an older tileset, create a new one with MTS.
 
 ## Development Notes
 

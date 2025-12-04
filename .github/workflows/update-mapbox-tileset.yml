@@ -101,8 +101,8 @@ jobs:
             cat > /tmp/tileset_create.json << EOF
           {
             "recipe": $(cat /tmp/recipe.json),
-            "name": "IPC Food Security Areas",
-            "description": "IPC (Integrated Food Security Phase Classification) area boundaries from ROSEA toolkit",
+            "name": "ROSEA IPC Combined Areas",
+            "description": "IPC (Integrated Food Security Phase Classification) area boundaries for ROSEA region",
             "private": false
           }
           EOF
