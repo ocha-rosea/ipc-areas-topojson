@@ -1,7 +1,7 @@
 {
-  "generated_at": "2025-12-03T10:44:13Z",
+  "generated_at": "2025-12-04T10:40:38Z",
   "source_file": "data/SDN/SDN_combined_areas.topojson",
-  "total_unsimplified": 101,
+  "total_unsimplified": 145,
   "items": [
     {
       "title": "Kadugli Refugees",
@@ -520,8 +520,32 @@
       "to": "Sep 2020"
     },
     {
+      "title": "Gereida",
+      "id": "18151838",
+      "country": "SDN",
+      "year": 2020,
+      "reason": "no_change",
+      "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
+      "source_dataset": "data/SDN/SDN_combined_areas.topojson",
+      "from": "Jun 2020",
+      "to": "Sep 2020"
+    },
+    {
       "title": "Um dafoug",
       "id": "18151859",
+      "country": "SDN",
+      "year": 2020,
+      "reason": "no_change",
+      "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
+      "source_dataset": "data/SDN/SDN_combined_areas.topojson",
+      "from": "Jun 2020",
+      "to": "Sep 2020"
+    },
+    {
+      "title": "Al dibab",
+      "id": "18151892",
       "country": "SDN",
       "year": 2020,
       "reason": "no_change",
@@ -568,6 +592,18 @@
       "to": "Sep 2020"
     },
     {
+      "title": "Nyala janoub",
+      "id": "18151947",
+      "country": "SDN",
+      "year": 2020,
+      "reason": "no_change",
+      "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
+      "source_dataset": "data/SDN/SDN_combined_areas.topojson",
+      "from": "Jun 2020",
+      "to": "Sep 2020"
+    },
+    {
       "title": "Mershing",
       "id": "18151963",
       "country": "SDN",
@@ -580,8 +616,68 @@
       "to": "Sep 2020"
     },
     {
+      "title": "Merwoe",
+      "id": "18151975",
+      "country": "SDN",
+      "year": 2020,
+      "reason": "no_change",
+      "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
+      "source_dataset": "data/SDN/SDN_combined_areas.topojson",
+      "from": "Jun 2020",
+      "to": "Sep 2020"
+    },
+    {
       "title": "At tadamon - bn",
       "id": "18151977",
+      "country": "SDN",
+      "year": 2020,
+      "reason": "no_change",
+      "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
+      "source_dataset": "data/SDN/SDN_combined_areas.topojson",
+      "from": "Jun 2020",
+      "to": "Sep 2020"
+    },
+    {
+      "title": "As serief",
+      "id": "18151983",
+      "country": "SDN",
+      "year": 2020,
+      "reason": "no_change",
+      "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
+      "source_dataset": "data/SDN/SDN_combined_areas.topojson",
+      "from": "Jun 2020",
+      "to": "Sep 2020"
+    },
+    {
+      "title": "Ad diwaim",
+      "id": "18151993",
+      "country": "SDN",
+      "year": 2020,
+      "reason": "no_change",
+      "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
+      "source_dataset": "data/SDN/SDN_combined_areas.topojson",
+      "from": "Jun 2020",
+      "to": "Sep 2020"
+    },
+    {
+      "title": "Ar reif ash shargi",
+      "id": "18152015",
+      "country": "SDN",
+      "year": 2020,
+      "reason": "no_change",
+      "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
+      "source_dataset": "data/SDN/SDN_combined_areas.topojson",
+      "from": "Jun 2020",
+      "to": "Sep 2020"
+    },
+    {
+      "title": "Aj jabalain",
+      "id": "18152049",
       "country": "SDN",
       "year": 2020,
       "reason": "no_change",
@@ -640,6 +736,30 @@
       "to": "Sep 2020"
     },
     {
+      "title": "Nitega",
+      "id": "18152115",
+      "country": "SDN",
+      "year": 2020,
+      "reason": "no_change",
+      "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
+      "source_dataset": "data/SDN/SDN_combined_areas.topojson",
+      "from": "Jun 2020",
+      "to": "Sep 2020"
+    },
+    {
+      "title": "Reifi gharb kassala",
+      "id": "18152129",
+      "country": "SDN",
+      "year": 2020,
+      "reason": "no_change",
+      "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
+      "source_dataset": "data/SDN/SDN_combined_areas.topojson",
+      "from": "Jun 2020",
+      "to": "Sep 2020"
+    },
+    {
       "title": "Sinkat",
       "id": "18152137",
       "country": "SDN",
@@ -654,6 +774,18 @@
     {
       "title": "Sinja",
       "id": "24004130",
+      "country": "SDN",
+      "year": 2021,
+      "reason": "no_change",
+      "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
+      "source_dataset": "data/SDN/SDN_combined_areas.topojson",
+      "from": "Apr 2021",
+      "to": "May 2021"
+    },
+    {
+      "title": "Ad diwaim",
+      "id": "24004147",
       "country": "SDN",
       "year": 2021,
       "reason": "no_change",
@@ -688,6 +820,18 @@
       "to": "May 2021"
     },
     {
+      "title": "Merwoe",
+      "id": "24004189",
+      "country": "SDN",
+      "year": 2021,
+      "reason": "no_change",
+      "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
+      "source_dataset": "data/SDN/SDN_combined_areas.topojson",
+      "from": "Apr 2021",
+      "to": "May 2021"
+    },
+    {
       "title": "At tadamon - bn",
       "id": "24004191",
       "country": "SDN",
@@ -712,8 +856,32 @@
       "to": "May 2021"
     },
     {
+      "title": "Reifi gharb kassala",
+      "id": "24004267",
+      "country": "SDN",
+      "year": 2021,
+      "reason": "no_change",
+      "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
+      "source_dataset": "data/SDN/SDN_combined_areas.topojson",
+      "from": "Apr 2021",
+      "to": "May 2021"
+    },
+    {
       "title": "Al fasher",
       "id": "24004297",
+      "country": "SDN",
+      "year": 2021,
+      "reason": "no_change",
+      "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
+      "source_dataset": "data/SDN/SDN_combined_areas.topojson",
+      "from": "Apr 2021",
+      "to": "May 2021"
+    },
+    {
+      "title": "As serief",
+      "id": "24004305",
       "country": "SDN",
       "year": 2021,
       "reason": "no_change",
@@ -760,6 +928,30 @@
       "to": "May 2021"
     },
     {
+      "title": "Gereida",
+      "id": "24004393",
+      "country": "SDN",
+      "year": 2021,
+      "reason": "no_change",
+      "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
+      "source_dataset": "data/SDN/SDN_combined_areas.topojson",
+      "from": "Apr 2021",
+      "to": "May 2021"
+    },
+    {
+      "title": "Nitega",
+      "id": "24004403",
+      "country": "SDN",
+      "year": 2021,
+      "reason": "no_change",
+      "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
+      "source_dataset": "data/SDN/SDN_combined_areas.topojson",
+      "from": "Apr 2021",
+      "to": "May 2021"
+    },
+    {
       "title": "Nyala shimal",
       "id": "24004405",
       "country": "SDN",
@@ -772,8 +964,44 @@
       "to": "May 2021"
     },
     {
+      "title": "Nyala janoub",
+      "id": "24004407",
+      "country": "SDN",
+      "year": 2021,
+      "reason": "no_change",
+      "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
+      "source_dataset": "data/SDN/SDN_combined_areas.topojson",
+      "from": "Apr 2021",
+      "to": "May 2021"
+    },
+    {
       "title": "Um dafoug",
       "id": "24004417",
+      "country": "SDN",
+      "year": 2021,
+      "reason": "no_change",
+      "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
+      "source_dataset": "data/SDN/SDN_combined_areas.topojson",
+      "from": "Apr 2021",
+      "to": "May 2021"
+    },
+    {
+      "title": "Ar reif ash shargi",
+      "id": "24004431",
+      "country": "SDN",
+      "year": 2021,
+      "reason": "no_change",
+      "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
+      "source_dataset": "data/SDN/SDN_combined_areas.topojson",
+      "from": "Apr 2021",
+      "to": "May 2021"
+    },
+    {
+      "title": "Al dibab",
+      "id": "24004457",
       "country": "SDN",
       "year": 2021,
       "reason": "no_change",
@@ -808,6 +1036,18 @@
       "to": "May 2021"
     },
     {
+      "title": "Aj jabalain",
+      "id": "24004483",
+      "country": "SDN",
+      "year": 2021,
+      "reason": "no_change",
+      "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
+      "source_dataset": "data/SDN/SDN_combined_areas.topojson",
+      "from": "Apr 2021",
+      "to": "May 2021"
+    },
+    {
       "title": "At tadamon - bn",
       "id": "25857840",
       "country": "SDN",
@@ -820,8 +1060,32 @@
       "to": "May 2022"
     },
     {
+      "title": "Merwoe",
+      "id": "25857906",
+      "country": "SDN",
+      "year": 2022,
+      "reason": "no_change",
+      "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
+      "source_dataset": "data/SDN/SDN_combined_areas.topojson",
+      "from": "Apr 2022",
+      "to": "May 2022"
+    },
+    {
       "title": "Abu hujar",
       "id": "25857909",
+      "country": "SDN",
+      "year": 2022,
+      "reason": "no_change",
+      "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
+      "source_dataset": "data/SDN/SDN_combined_areas.topojson",
+      "from": "Apr 2022",
+      "to": "May 2022"
+    },
+    {
+      "title": "Nyala janoub",
+      "id": "25857917",
       "country": "SDN",
       "year": 2022,
       "reason": "no_change",
@@ -868,8 +1132,44 @@
       "to": "May 2022"
     },
     {
+      "title": "Ar reif ash shargi",
+      "id": "25857952",
+      "country": "SDN",
+      "year": 2022,
+      "reason": "no_change",
+      "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
+      "source_dataset": "data/SDN/SDN_combined_areas.topojson",
+      "from": "Apr 2022",
+      "to": "May 2022"
+    },
+    {
       "title": "Ad dali",
       "id": "25857961",
+      "country": "SDN",
+      "year": 2022,
+      "reason": "no_change",
+      "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
+      "source_dataset": "data/SDN/SDN_combined_areas.topojson",
+      "from": "Apr 2022",
+      "to": "May 2022"
+    },
+    {
+      "title": "Ad diwaim",
+      "id": "25857971",
+      "country": "SDN",
+      "year": 2022,
+      "reason": "no_change",
+      "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
+      "source_dataset": "data/SDN/SDN_combined_areas.topojson",
+      "from": "Apr 2022",
+      "to": "May 2022"
+    },
+    {
+      "title": "Aj jabalain",
+      "id": "25857980",
       "country": "SDN",
       "year": 2022,
       "reason": "no_change",
@@ -892,8 +1192,32 @@
       "to": "May 2022"
     },
     {
+      "title": "Al dibab",
+      "id": "25857992",
+      "country": "SDN",
+      "year": 2022,
+      "reason": "no_change",
+      "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
+      "source_dataset": "data/SDN/SDN_combined_areas.topojson",
+      "from": "Apr 2022",
+      "to": "May 2022"
+    },
+    {
       "title": "Al fasher",
       "id": "25858000",
+      "country": "SDN",
+      "year": 2022,
+      "reason": "no_change",
+      "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
+      "source_dataset": "data/SDN/SDN_combined_areas.topojson",
+      "from": "Apr 2022",
+      "to": "May 2022"
+    },
+    {
+      "title": "As serief",
+      "id": "25858006",
       "country": "SDN",
       "year": 2022,
       "reason": "no_change",
@@ -916,8 +1240,44 @@
       "to": "May 2022"
     },
     {
+      "title": "Gereida",
+      "id": "25858066",
+      "country": "SDN",
+      "year": 2022,
+      "reason": "no_change",
+      "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
+      "source_dataset": "data/SDN/SDN_combined_areas.topojson",
+      "from": "Apr 2022",
+      "to": "May 2022"
+    },
+    {
       "title": "Mershing",
       "id": "25858122",
+      "country": "SDN",
+      "year": 2022,
+      "reason": "no_change",
+      "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
+      "source_dataset": "data/SDN/SDN_combined_areas.topojson",
+      "from": "Apr 2022",
+      "to": "May 2022"
+    },
+    {
+      "title": "Nitega",
+      "id": "25858126",
+      "country": "SDN",
+      "year": 2022,
+      "reason": "no_change",
+      "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
+      "source_dataset": "data/SDN/SDN_combined_areas.topojson",
+      "from": "Apr 2022",
+      "to": "May 2022"
+    },
+    {
+      "title": "Reifi gharb kassala",
+      "id": "25858134",
       "country": "SDN",
       "year": 2022,
       "reason": "no_change",
@@ -964,8 +1324,44 @@
       "to": "May 2022"
     },
     {
+      "title": "Rural West Kassala",
+      "id": "58836517",
+      "country": "SDN",
+      "year": 2023,
+      "reason": "no_change",
+      "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
+      "source_dataset": "data/SDN/SDN_combined_areas.topojson",
+      "from": "Jun 2023",
+      "to": "Jun 2023"
+    },
+    {
       "title": "Al fasher",
       "id": "58836535",
+      "country": "SDN",
+      "year": 2023,
+      "reason": "no_change",
+      "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
+      "source_dataset": "data/SDN/SDN_combined_areas.topojson",
+      "from": "Jun 2023",
+      "to": "Jun 2023"
+    },
+    {
+      "title": "As serief",
+      "id": "58836537",
+      "country": "SDN",
+      "year": 2023,
+      "reason": "no_change",
+      "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
+      "source_dataset": "data/SDN/SDN_combined_areas.topojson",
+      "from": "Jun 2023",
+      "to": "Jun 2023"
+    },
+    {
+      "title": "Gereida",
+      "id": "58836572",
       "country": "SDN",
       "year": 2023,
       "reason": "no_change",
@@ -988,8 +1384,32 @@
       "to": "Jun 2023"
     },
     {
+      "title": "Nitega",
+      "id": "58836590",
+      "country": "SDN",
+      "year": 2023,
+      "reason": "no_change",
+      "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
+      "source_dataset": "data/SDN/SDN_combined_areas.topojson",
+      "from": "Jun 2023",
+      "to": "Jun 2023"
+    },
+    {
       "title": "Nyala shimal",
       "id": "58836592",
+      "country": "SDN",
+      "year": 2023,
+      "reason": "no_change",
+      "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
+      "source_dataset": "data/SDN/SDN_combined_areas.topojson",
+      "from": "Jun 2023",
+      "to": "Jun 2023"
+    },
+    {
+      "title": "Nyala janoub",
+      "id": "58836594",
       "country": "SDN",
       "year": 2023,
       "reason": "no_change",
@@ -1048,6 +1468,30 @@
       "to": "Jun 2023"
     },
     {
+      "title": "Ad diwaim",
+      "id": "58836675",
+      "country": "SDN",
+      "year": 2023,
+      "reason": "no_change",
+      "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
+      "source_dataset": "data/SDN/SDN_combined_areas.topojson",
+      "from": "Jun 2023",
+      "to": "Jun 2023"
+    },
+    {
+      "title": "Aj jabalain",
+      "id": "58836677",
+      "country": "SDN",
+      "year": 2023,
+      "reason": "no_change",
+      "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
+      "source_dataset": "data/SDN/SDN_combined_areas.topojson",
+      "from": "Jun 2023",
+      "to": "Jun 2023"
+    },
+    {
       "title": "Abyei",
       "id": "58836711",
       "country": "SDN",
@@ -1060,8 +1504,32 @@
       "to": "Jun 2023"
     },
     {
+      "title": "Al dibab",
+      "id": "58836713",
+      "country": "SDN",
+      "year": 2023,
+      "reason": "no_change",
+      "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
+      "source_dataset": "data/SDN/SDN_combined_areas.topojson",
+      "from": "Jun 2023",
+      "to": "Jun 2023"
+    },
+    {
       "title": "Babanusa",
       "id": "58836723",
+      "country": "SDN",
+      "year": 2023,
+      "reason": "no_change",
+      "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
+      "source_dataset": "data/SDN/SDN_combined_areas.topojson",
+      "from": "Jun 2023",
+      "to": "Jun 2023"
+    },
+    {
+      "title": "Ar reif ash shargi",
+      "id": "58836754",
       "country": "SDN",
       "year": 2023,
       "reason": "no_change",
@@ -1098,6 +1566,18 @@
     {
       "title": "Sinja",
       "id": "58836813",
+      "country": "SDN",
+      "year": 2023,
+      "reason": "no_change",
+      "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
+      "source_dataset": "data/SDN/SDN_combined_areas.topojson",
+      "from": "Jun 2023",
+      "to": "Jun 2023"
+    },
+    {
+      "title": "Merwoe",
+      "id": "58836828",
       "country": "SDN",
       "year": 2023,
       "reason": "no_change",
@@ -1156,6 +1636,18 @@
       "to": "May 2024"
     },
     {
+      "title": "Merwoe",
+      "id": "68887791",
+      "country": "SDN",
+      "year": 2024,
+      "reason": "no_change",
+      "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
+      "source_dataset": "data/SDN/SDN_combined_areas.topojson",
+      "from": "Apr 2024",
+      "to": "May 2024"
+    },
+    {
       "title": "Sinja",
       "id": "68887834",
       "country": "SDN",
@@ -1204,8 +1696,44 @@
       "to": "May 2024"
     },
     {
+      "title": "Aj jabalain",
+      "id": "68887866",
+      "country": "SDN",
+      "year": 2024,
+      "reason": "no_change",
+      "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
+      "source_dataset": "data/SDN/SDN_combined_areas.topojson",
+      "from": "Apr 2024",
+      "to": "May 2024"
+    },
+    {
+      "title": "Rural West Kassala",
+      "id": "68887868",
+      "country": "SDN",
+      "year": 2024,
+      "reason": "no_change",
+      "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
+      "source_dataset": "data/SDN/SDN_combined_areas.topojson",
+      "from": "Apr 2024",
+      "to": "May 2024"
+    },
+    {
       "title": "Abu hujar",
       "id": "68887918",
+      "country": "SDN",
+      "year": 2024,
+      "reason": "no_change",
+      "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
+      "source_dataset": "data/SDN/SDN_combined_areas.topojson",
+      "from": "Apr 2024",
+      "to": "May 2024"
+    },
+    {
+      "title": "Ar reif ash shargi",
+      "id": "68887924",
       "country": "SDN",
       "year": 2024,
       "reason": "no_change",
