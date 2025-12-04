@@ -322,6 +322,10 @@ def convert_geojson_to_topology(geojson: Dict[str, Any]) -> Dict[str, Any]:
     # Sanitize features
     features = sanitize_features(geojson["features"])
     
+    # Preprocess to convert GeometryCollections to MultiPolygons
+    # This avoids arc sharing issues with mixed geometry types
+    features = _preprocess_features_for_topojson(features)
+    
     # Use custom builder for proper arc sharing
     builder = TopologyBuilder()
     result = builder.build({"type": "FeatureCollection", "features": features})
