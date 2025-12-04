@@ -44,12 +44,14 @@ Automation for downloading and harmonising IPC (Integrated Food Security Phase C
 ### Mapbox Tileset Workflow
 
 - `.github/workflows/update-mapbox-tileset.yml` runs every Monday at 07:00 UTC (1 hour after data refresh) and supports manual dispatch.
-- Uploads `data/combined_areas.topojson` to Mapbox as a tileset source and publishes the tileset.
+- Converts `data/combined_areas.topojson` to line-delimited GeoJSON and uploads to Mapbox Tiling Service (MTS).
+- Creates/updates a tileset with recipe specifying `minzoom: 0` and `maxzoom: 14` for visibility at all zoom levels.
 - Required secrets (configure in GitHub repo settings):
   - `MAPBOX_USERNAME` – your Mapbox account username.
-  - `MAPBOX_ACCESS_TOKEN` – Mapbox access token with tilesets:write scope.
-  - `TILESET_SOURCE_ID` – identifier for the tileset source (e.g., `ipc-areas-source`).
-  - `TILESET_ID` – identifier for the tileset (e.g., `ipc-areas`).
+  - `MAPBOX_ACCESS_TOKEN` – Mapbox access token with `tilesets:write` and `tilesets:read` scopes.
+  - `TILESET_SOURCE_ID` – identifier for the tileset source (e.g., `ipc-areas-source`, max 32 chars, only `-` and `_` allowed).
+  - `TILESET_ID` – identifier for the tileset (e.g., `ipc-areas`, max 32 chars).
+- The tileset will be publicly accessible and can be added to Mapbox styles using the ID `{username}.{TILESET_ID}`.
 
 ## Development Notes
 
