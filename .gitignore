@@ -66,4 +66,4 @@ config.json
 secrets.json
 
 # Data directory (uncomment if you don't want to track downloaded data)
-# data/
+# data/scratch/
