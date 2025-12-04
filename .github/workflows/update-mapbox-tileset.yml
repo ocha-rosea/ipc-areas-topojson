@@ -1,0 +1,104 @@
+name: Update Mapbox Tileset
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 7 * * 1" # Every Monday at 07:00 UTC (1 hour after data refresh)
+
+jobs:
+  update-mapbox:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Install dependencies
+        run: |
+          sudo apt-get install -y jq
+          npm install -g topojson-client
+
+      - name: Convert TopoJSON to GeoJSON and sanitize
+        run: |
+          # Convert TopoJSON to GeoJSON
+          # Note: topo2geo uses name=file syntax, not shell redirection for output
+          topo2geo data=/tmp/combined_areas_raw.geojson < data/combined_areas.topojson
+          echo "Converted combined_areas.topojson to GeoJSON"
+          
+          # Sanitize: remove features with null/invalid geometries
+          # With our custom TopoJSON builder, there should be zero null geometries,
+          # but we keep this as a safety net
+          jq '{
+            type: .type,
+            features: [.features[] | select(.geometry != null and .geometry.coordinates != null)]
+          }' /tmp/combined_areas_raw.geojson > /tmp/combined_areas.geojson
+          
+          # Report stats
+          RAW_COUNT=$(jq '.features | length' /tmp/combined_areas_raw.geojson)
+          CLEAN_COUNT=$(jq '.features | length' /tmp/combined_areas.geojson)
+          echo "Original features: $RAW_COUNT"
+          echo "Valid features: $CLEAN_COUNT"
+          echo "Removed: $((RAW_COUNT - CLEAN_COUNT)) invalid features"
+
+      - name: Define IDs
+        id: ids
+        run: |
+          echo "SOURCE_FULL=${{ secrets.MAPBOX_USERNAME }}.${{ secrets.TILESET_SOURCE_ID }}" >> $GITHUB_OUTPUT
+          echo "TILESET_FULL=${{ secrets.MAPBOX_USERNAME }}.${{ secrets.TILESET_ID }}" >> $GITHUB_OUTPUT
+
+      - name: Create or update tileset source
+        run: |
+          SOURCE_ID="${{ steps.ids.outputs.SOURCE_FULL }}"
+          GEOJSON_PATH="/tmp/combined_areas.geojson"
+
+          echo "Checking if source exists: $SOURCE_ID"
+
+          LIST=$(curl -s \
+            "https://api.mapbox.com/tilesets/v1/sources/${{ secrets.MAPBOX_USERNAME }}?access_token=${{ secrets.MAPBOX_ACCESS_TOKEN }}")
+
+          EXISTS=$(echo "$LIST" | jq -r ".[] | select(.id == \"$SOURCE_ID\") | .id")
+
+          if [ -z "$EXISTS" ]; then
+            echo "Source does not exist → creating it..."
+            curl -X POST \
+              "https://api.mapbox.com/tilesets/v1/sources/$SOURCE_ID?access_token=${{ secrets.MAPBOX_ACCESS_TOKEN }}" \
+              -F file=@$GEOJSON_PATH
+          else
+            echo "Source exists → updating it..."
+            curl -X PUT \
+              "https://api.mapbox.com/tilesets/v1/sources/$SOURCE_ID?access_token=${{ secrets.MAPBOX_ACCESS_TOKEN }}" \
+              -F file=@$GEOJSON_PATH
+          fi
+
+      - name: Create tileset if missing
+        run: |
+          TILESET_ID="${{ steps.ids.outputs.TILESET_FULL }}"
+          SOURCE_ID="${{ steps.ids.outputs.SOURCE_FULL }}"
+
+          echo "Checking if tileset exists: $TILESET_ID"
+
+          TILESETS=$(curl -s \
+            "https://api.mapbox.com/tilesets/v1/${{ secrets.MAPBOX_USERNAME }}?access_token=${{ secrets.MAPBOX_ACCESS_TOKEN }}")
+
+          EXISTS=$(echo "$TILESETS" | jq -r ".[] | select(.id == \"$TILESET_ID\") | .id")
+
+          if [ -z "$EXISTS" ]; then
+            echo "Tileset does not exist → creating it..."
+
+            printf '{"version":1,"layers":{"ipc_areas":{"source":"mapbox://tileset-source/%s","minzoom":0,"maxzoom":14}}}' "$SOURCE_ID" > config.json
+
+            curl -X POST \
+              "https://api.mapbox.com/tilesets/v1/$TILESET_ID?access_token=${{ secrets.MAPBOX_ACCESS_TOKEN }}" \
+              -H "Content-Type: application/json" \
+              -d @config.json
+          else
+            echo "Tileset already exists → skipping creation."
+          fi
+
+      - name: Publish tileset
+        run: |
+          TILESET_ID="${{ steps.ids.outputs.TILESET_FULL }}"
+          echo "Publishing tileset update…"
+
+          curl -X POST \
+            "https://api.mapbox.com/tilesets/v1/$TILESET_ID/publish?access_token=${{ secrets.MAPBOX_ACCESS_TOKEN }}"
