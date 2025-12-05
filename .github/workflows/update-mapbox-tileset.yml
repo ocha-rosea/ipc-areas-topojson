@@ -47,37 +47,66 @@ jobs:
 
       - name: Upload tileset source
         run: |
+          set -e
           SOURCE_ID="${{ secrets.TILESET_SOURCE_ID }}"
           GEOJSON_PATH="/tmp/combined_areas.geojson.ld"
+          
+          if [ -z "$SOURCE_ID" ]; then
+            echo "::error::TILESET_SOURCE_ID secret is not set"
+            exit 1
+          fi
           
           echo "Replacing tileset source: $SOURCE_ID"
           
           # Use PUT to replace (or create) the tileset source
-          RESPONSE=$(curl -s -X PUT \
+          HTTP_CODE=$(curl -s -o /tmp/upload_response.json -w "%{http_code}" -X PUT \
             "https://api.mapbox.com/tilesets/v1/sources/${{ secrets.MAPBOX_USERNAME }}/${SOURCE_ID}?access_token=${{ secrets.MAPBOX_ACCESS_TOKEN }}" \
             -F file=@${GEOJSON_PATH} \
             --header "Content-Type: multipart/form-data")
           
+          RESPONSE=$(cat /tmp/upload_response.json)
           echo "Response: $RESPONSE"
           
-          # Check for errors
-          if echo "$RESPONSE" | jq -e '.error' > /dev/null 2>&1; then
-            echo "Error uploading tileset source!"
+          # Check HTTP status code
+          if [ "$HTTP_CODE" -lt 200 ] || [ "$HTTP_CODE" -ge 300 ]; then
+            echo "::error::Failed to upload tileset source. HTTP $HTTP_CODE: $RESPONSE"
             exit 1
           fi
           
-          echo "Tileset source uploaded successfully"
+          # Check for error in response body
+          if echo "$RESPONSE" | jq -e '.error // .message' > /dev/null 2>&1; then
+            ERROR_MSG=$(echo "$RESPONSE" | jq -r '.error // .message')
+            if [ "$ERROR_MSG" != "null" ] && [ -n "$ERROR_MSG" ]; then
+              echo "::error::Mapbox API error: $ERROR_MSG"
+              exit 1
+            fi
+          fi
+          
+          echo "✅ Tileset source uploaded successfully"
 
       - name: Create or update tileset with recipe
         run: |
+          set -e
           TILESET_ID="${{ secrets.MAPBOX_USERNAME }}.${{ secrets.TILESET_ID }}"
           SOURCE_ID="${{ secrets.TILESET_SOURCE_ID }}"
+          
+          if [ -z "${{ secrets.TILESET_ID }}" ]; then
+            echo "::error::TILESET_ID secret is not set"
+            exit 1
+          fi
           
           echo "Checking if tileset exists: $TILESET_ID"
           
           # Check if tileset exists
           HTTP_CODE=$(curl -s -o /tmp/tileset_check.json -w "%{http_code}" \
             "https://api.mapbox.com/tilesets/v1/${TILESET_ID}?access_token=${{ secrets.MAPBOX_ACCESS_TOKEN }}")
+          
+          # Check for auth errors
+          if [ "$HTTP_CODE" = "401" ] || [ "$HTTP_CODE" = "403" ]; then
+            echo "::error::Authentication failed (HTTP $HTTP_CODE). Check MAPBOX_ACCESS_TOKEN has tilesets:read, tilesets:write, tilesets:list scopes."
+            cat /tmp/tileset_check.json
+            exit 1
+          fi
           
           # Create recipe JSON - minzoom 0 to maxzoom 14 ensures visibility at all zoom levels
           # Features will be overzoomed beyond maxzoom automatically
@@ -107,24 +136,37 @@ jobs:
           }
           EOF
             
-            RESPONSE=$(curl -s -X POST \
+            HTTP_CODE=$(curl -s -o /tmp/create_response.json -w "%{http_code}" -X POST \
               "https://api.mapbox.com/tilesets/v1/${TILESET_ID}?access_token=${{ secrets.MAPBOX_ACCESS_TOKEN }}" \
               -H "Content-Type: application/json" \
               -d @/tmp/tileset_create.json)
             
+            RESPONSE=$(cat /tmp/create_response.json)
             echo "Create response: $RESPONSE"
+            
+            if [ "$HTTP_CODE" -lt 200 ] || [ "$HTTP_CODE" -ge 300 ]; then
+              echo "::error::Failed to create tileset. HTTP $HTTP_CODE: $RESPONSE"
+              exit 1
+            fi
+            
+            echo "✅ Tileset created successfully"
           else
             echo "Tileset exists → updating recipe..."
             
             # Update the recipe to ensure zoom levels are correct
-            RESPONSE=$(curl -s -X PATCH \
+            HTTP_CODE=$(curl -s -o /tmp/recipe_response.json -w "%{http_code}" -X PATCH \
               "https://api.mapbox.com/tilesets/v1/${TILESET_ID}/recipe?access_token=${{ secrets.MAPBOX_ACCESS_TOKEN }}" \
               -H "Content-Type: application/json" \
               -d @/tmp/recipe.json)
             
+            RESPONSE=$(cat /tmp/recipe_response.json)
+            
             # PATCH returns 204 No Content on success
-            if [ -z "$RESPONSE" ]; then
-              echo "Recipe updated successfully"
+            if [ "$HTTP_CODE" = "204" ]; then
+              echo "✅ Recipe updated successfully"
+            elif [ "$HTTP_CODE" -lt 200 ] || [ "$HTTP_CODE" -ge 300 ]; then
+              echo "::error::Failed to update recipe. HTTP $HTTP_CODE: $RESPONSE"
+              exit 1
             else
               echo "Recipe update response: $RESPONSE"
             fi
@@ -132,18 +174,35 @@ jobs:
 
       - name: Publish tileset
         run: |
+          set -e
           TILESET_ID="${{ secrets.MAPBOX_USERNAME }}.${{ secrets.TILESET_ID }}"
           
           echo "Publishing tileset: $TILESET_ID"
           
-          RESPONSE=$(curl -s -X POST \
+          HTTP_CODE=$(curl -s -o /tmp/publish_response.json -w "%{http_code}" -X POST \
             "https://api.mapbox.com/tilesets/v1/${TILESET_ID}/publish?access_token=${{ secrets.MAPBOX_ACCESS_TOKEN }}")
           
+          RESPONSE=$(cat /tmp/publish_response.json)
           echo "Publish response: $RESPONSE"
+          
+          # Check for errors
+          if [ "$HTTP_CODE" = "401" ] || [ "$HTTP_CODE" = "403" ]; then
+            echo "::error::Authentication failed (HTTP $HTTP_CODE). Check MAPBOX_ACCESS_TOKEN has tilesets:write scope."
+            exit 1
+          fi
+          
+          if [ "$HTTP_CODE" -lt 200 ] || [ "$HTTP_CODE" -ge 300 ]; then
+            ERROR_MSG=$(echo "$RESPONSE" | jq -r '.message // "Unknown error"')
+            echo "::error::Failed to publish tileset. HTTP $HTTP_CODE: $ERROR_MSG"
+            exit 1
+          fi
           
           # Extract job ID for monitoring
           JOB_ID=$(echo "$RESPONSE" | jq -r '.jobId // empty')
           if [ -n "$JOB_ID" ]; then
-            echo "Publish job started: $JOB_ID"
+            echo "✅ Publish job started: $JOB_ID"
             echo "Monitor at: https://studio.mapbox.com/tilesets/${TILESET_ID}"
+          else
+            echo "::error::No job ID returned. Response: $RESPONSE"
+            exit 1
           fi
