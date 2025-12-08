@@ -1,11 +1,35 @@
 {
-  "generated_at": "2025-12-03T10:42:32Z",
+  "generated_at": "2025-12-08T06:43:22Z",
   "source_file": "data/ZAF/ZAF_combined_areas.topojson",
-  "total_unsimplified": 1,
+  "total_unsimplified": 3,
   "items": [
     {
-      "title": "Orange Farm",
-      "id": "22128069",
+      "title": "Alexandra",
+      "id": "22128057",
+      "country": "ZAF",
+      "year": 2020,
+      "reason": "no_change",
+      "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
+      "source_dataset": "data/ZAF/ZAF_combined_areas.topojson",
+      "from": "Sep 2020",
+      "to": "Dec 2020"
+    },
+    {
+      "title": "Motherwell",
+      "id": "22128084",
+      "country": "ZAF",
+      "year": 2020,
+      "reason": "no_change",
+      "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
+      "source_dataset": "data/ZAF/ZAF_combined_areas.topojson",
+      "from": "Sep 2020",
+      "to": "Dec 2020"
+    },
+    {
+      "title": "Pontsane 2",
+      "id": "22128098",
       "country": "ZAF",
       "year": 2020,
       "reason": "no_change",

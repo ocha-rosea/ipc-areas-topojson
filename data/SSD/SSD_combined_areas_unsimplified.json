@@ -1,7 +1,7 @@
 {
-  "generated_at": "2025-12-03T10:42:43Z",
+  "generated_at": "2025-12-08T06:43:29Z",
   "source_file": "data/SSD/SSD_combined_areas.topojson",
-  "total_unsimplified": 88,
+  "total_unsimplified": 178,
   "items": [
     {
       "title": "Returnees",
@@ -88,6 +88,18 @@
       "to": "Nov 2020"
     },
     {
+      "title": "Budi",
+      "id": "21820114",
+      "country": "SSD",
+      "year": 2020,
+      "reason": "no_change",
+      "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
+      "source_dataset": "data/SSD/SSD_combined_areas.topojson",
+      "from": "Oct 2020",
+      "to": "Nov 2020"
+    },
+    {
       "title": "Melut",
       "id": "21820116",
       "country": "SSD",
@@ -112,6 +124,30 @@
       "to": "Nov 2020"
     },
     {
+      "title": "Jur River",
+      "id": "21820126",
+      "country": "SSD",
+      "year": 2020,
+      "reason": "no_change",
+      "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
+      "source_dataset": "data/SSD/SSD_combined_areas.topojson",
+      "from": "Oct 2020",
+      "to": "Nov 2020"
+    },
+    {
+      "title": "Tonj North",
+      "id": "21820134",
+      "country": "SSD",
+      "year": 2020,
+      "reason": "no_change",
+      "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
+      "source_dataset": "data/SSD/SSD_combined_areas.topojson",
+      "from": "Oct 2020",
+      "to": "Nov 2020"
+    },
+    {
       "title": "Yirol west",
       "id": "21820140",
       "country": "SSD",
@@ -124,8 +160,68 @@
       "to": "Nov 2020"
     },
     {
+      "title": "Fashoda",
+      "id": "21820144",
+      "country": "SSD",
+      "year": 2020,
+      "reason": "no_change",
+      "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
+      "source_dataset": "data/SSD/SSD_combined_areas.topojson",
+      "from": "Oct 2020",
+      "to": "Nov 2020"
+    },
+    {
+      "title": "Juba",
+      "id": "21820146",
+      "country": "SSD",
+      "year": 2020,
+      "reason": "no_change",
+      "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
+      "source_dataset": "data/SSD/SSD_combined_areas.topojson",
+      "from": "Oct 2020",
+      "to": "Nov 2020"
+    },
+    {
+      "title": "Aweil centre",
+      "id": "21820152",
+      "country": "SSD",
+      "year": 2020,
+      "reason": "no_change",
+      "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
+      "source_dataset": "data/SSD/SSD_combined_areas.topojson",
+      "from": "Oct 2020",
+      "to": "Nov 2020"
+    },
+    {
       "title": "Mundri east",
       "id": "21820154",
+      "country": "SSD",
+      "year": 2020,
+      "reason": "no_change",
+      "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
+      "source_dataset": "data/SSD/SSD_combined_areas.topojson",
+      "from": "Oct 2020",
+      "to": "Nov 2020"
+    },
+    {
+      "title": "Lafon",
+      "id": "21820156",
+      "country": "SSD",
+      "year": 2020,
+      "reason": "no_change",
+      "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
+      "source_dataset": "data/SSD/SSD_combined_areas.topojson",
+      "from": "Oct 2020",
+      "to": "Nov 2020"
+    },
+    {
+      "title": "Gogrial West",
+      "id": "21820158",
       "country": "SSD",
       "year": 2020,
       "reason": "no_change",
@@ -160,6 +256,18 @@
       "to": "Nov 2020"
     },
     {
+      "title": "Mayom",
+      "id": "21820171",
+      "country": "SSD",
+      "year": 2020,
+      "reason": "no_change",
+      "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
+      "source_dataset": "data/SSD/SSD_combined_areas.topojson",
+      "from": "Oct 2020",
+      "to": "Nov 2020"
+    },
+    {
       "title": "Gogrial East",
       "id": "21820173",
       "country": "SSD",
@@ -172,8 +280,56 @@
       "to": "Nov 2020"
     },
     {
+      "title": "Cueibet",
+      "id": "21820175",
+      "country": "SSD",
+      "year": 2020,
+      "reason": "no_change",
+      "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
+      "source_dataset": "data/SSD/SSD_combined_areas.topojson",
+      "from": "Oct 2020",
+      "to": "Nov 2020"
+    },
+    {
+      "title": "Tonj East",
+      "id": "21820177",
+      "country": "SSD",
+      "year": 2020,
+      "reason": "no_change",
+      "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
+      "source_dataset": "data/SSD/SSD_combined_areas.topojson",
+      "from": "Oct 2020",
+      "to": "Nov 2020"
+    },
+    {
       "title": "Rumbek north",
       "id": "21820183",
+      "country": "SSD",
+      "year": 2020,
+      "reason": "no_change",
+      "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
+      "source_dataset": "data/SSD/SSD_combined_areas.topojson",
+      "from": "Oct 2020",
+      "to": "Nov 2020"
+    },
+    {
+      "title": "Terekeka",
+      "id": "21820189",
+      "country": "SSD",
+      "year": 2020,
+      "reason": "no_change",
+      "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
+      "source_dataset": "data/SSD/SSD_combined_areas.topojson",
+      "from": "Oct 2020",
+      "to": "Nov 2020"
+    },
+    {
+      "title": "Malakal",
+      "id": "21820193",
       "country": "SSD",
       "year": 2020,
       "reason": "no_change",
@@ -208,6 +364,18 @@
       "to": "Nov 2020"
     },
     {
+      "title": "Wulu",
+      "id": "21820215",
+      "country": "SSD",
+      "year": 2020,
+      "reason": "no_change",
+      "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
+      "source_dataset": "data/SSD/SSD_combined_areas.topojson",
+      "from": "Oct 2020",
+      "to": "Nov 2020"
+    },
+    {
       "title": "Kapoeta south",
       "id": "21820217",
       "country": "SSD",
@@ -222,6 +390,42 @@
     {
       "title": "Rubkona",
       "id": "21820219",
+      "country": "SSD",
+      "year": 2020,
+      "reason": "no_change",
+      "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
+      "source_dataset": "data/SSD/SSD_combined_areas.topojson",
+      "from": "Oct 2020",
+      "to": "Nov 2020"
+    },
+    {
+      "title": "Wau (Rural Only)",
+      "id": "21820221",
+      "country": "SSD",
+      "year": 2020,
+      "reason": "no_change",
+      "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
+      "source_dataset": "data/SSD/SSD_combined_areas.topojson",
+      "from": "Oct 2020",
+      "to": "Nov 2020"
+    },
+    {
+      "title": "Tonj South",
+      "id": "21820229",
+      "country": "SSD",
+      "year": 2020,
+      "reason": "no_change",
+      "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
+      "source_dataset": "data/SSD/SSD_combined_areas.topojson",
+      "from": "Oct 2020",
+      "to": "Nov 2020"
+    },
+    {
+      "title": "Kapoeta north",
+      "id": "21820233",
       "country": "SSD",
       "year": 2020,
       "reason": "no_change",
@@ -256,6 +460,18 @@
       "to": "Nov 2020"
     },
     {
+      "title": "Mundri west",
+      "id": "21820243",
+      "country": "SSD",
+      "year": 2020,
+      "reason": "no_change",
+      "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
+      "source_dataset": "data/SSD/SSD_combined_areas.topojson",
+      "from": "Oct 2020",
+      "to": "Nov 2020"
+    },
+    {
       "title": "Longochuk",
       "id": "21820247",
       "country": "SSD",
@@ -268,8 +484,32 @@
       "to": "Nov 2020"
     },
     {
+      "title": "Mundri west",
+      "id": "26523856",
+      "country": "SSD",
+      "year": 2022,
+      "reason": "no_change",
+      "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
+      "source_dataset": "data/SSD/SSD_combined_areas.topojson",
+      "from": "Oct 2022",
+      "to": "Nov 2022"
+    },
+    {
       "title": "Rubkona",
       "id": "26523862",
+      "country": "SSD",
+      "year": 2022,
+      "reason": "no_change",
+      "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
+      "source_dataset": "data/SSD/SSD_combined_areas.topojson",
+      "from": "Oct 2022",
+      "to": "Nov 2022"
+    },
+    {
+      "title": "Wulu",
+      "id": "26523865",
       "country": "SSD",
       "year": 2022,
       "reason": "no_change",
@@ -304,6 +544,18 @@
       "to": "Nov 2022"
     },
     {
+      "title": "Lafon",
+      "id": "26523874",
+      "country": "SSD",
+      "year": 2022,
+      "reason": "no_change",
+      "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
+      "source_dataset": "data/SSD/SSD_combined_areas.topojson",
+      "from": "Oct 2022",
+      "to": "Nov 2022"
+    },
+    {
       "title": "Longochuk",
       "id": "26523881",
       "country": "SSD",
@@ -316,8 +568,32 @@
       "to": "Nov 2022"
     },
     {
+      "title": "Malakal",
+      "id": "26523892",
+      "country": "SSD",
+      "year": 2022,
+      "reason": "no_change",
+      "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
+      "source_dataset": "data/SSD/SSD_combined_areas.topojson",
+      "from": "Oct 2022",
+      "to": "Nov 2022"
+    },
+    {
       "title": "Rumbek north",
       "id": "26523898",
+      "country": "SSD",
+      "year": 2022,
+      "reason": "no_change",
+      "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
+      "source_dataset": "data/SSD/SSD_combined_areas.topojson",
+      "from": "Oct 2022",
+      "to": "Nov 2022"
+    },
+    {
+      "title": "Tonj East",
+      "id": "26523901",
       "country": "SSD",
       "year": 2022,
       "reason": "no_change",
@@ -364,6 +640,30 @@
       "to": "Nov 2022"
     },
     {
+      "title": "Juba",
+      "id": "26523913",
+      "country": "SSD",
+      "year": 2022,
+      "reason": "no_change",
+      "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
+      "source_dataset": "data/SSD/SSD_combined_areas.topojson",
+      "from": "Oct 2022",
+      "to": "Nov 2022"
+    },
+    {
+      "title": "Jur River",
+      "id": "26523918",
+      "country": "SSD",
+      "year": 2022,
+      "reason": "no_change",
+      "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
+      "source_dataset": "data/SSD/SSD_combined_areas.topojson",
+      "from": "Oct 2022",
+      "to": "Nov 2022"
+    },
+    {
       "title": "Melut",
       "id": "26523930",
       "country": "SSD",
@@ -388,8 +688,44 @@
       "to": "Nov 2022"
     },
     {
+      "title": "Kapoeta north",
+      "id": "26523938",
+      "country": "SSD",
+      "year": 2022,
+      "reason": "no_change",
+      "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
+      "source_dataset": "data/SSD/SSD_combined_areas.topojson",
+      "from": "Oct 2022",
+      "to": "Nov 2022"
+    },
+    {
       "title": "Kapoeta south",
       "id": "26523946",
+      "country": "SSD",
+      "year": 2022,
+      "reason": "no_change",
+      "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
+      "source_dataset": "data/SSD/SSD_combined_areas.topojson",
+      "from": "Oct 2022",
+      "to": "Nov 2022"
+    },
+    {
+      "title": "Fashoda",
+      "id": "26523948",
+      "country": "SSD",
+      "year": 2022,
+      "reason": "no_change",
+      "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
+      "source_dataset": "data/SSD/SSD_combined_areas.topojson",
+      "from": "Oct 2022",
+      "to": "Nov 2022"
+    },
+    {
+      "title": "Aweil centre",
+      "id": "26523953",
       "country": "SSD",
       "year": 2022,
       "reason": "no_change",
@@ -448,8 +784,104 @@
       "to": "Nov 2022"
     },
     {
+      "title": "Budi",
+      "id": "26523973",
+      "country": "SSD",
+      "year": 2022,
+      "reason": "no_change",
+      "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
+      "source_dataset": "data/SSD/SSD_combined_areas.topojson",
+      "from": "Oct 2022",
+      "to": "Nov 2022"
+    },
+    {
       "title": "Gogrial East",
       "id": "26523975",
+      "country": "SSD",
+      "year": 2022,
+      "reason": "no_change",
+      "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
+      "source_dataset": "data/SSD/SSD_combined_areas.topojson",
+      "from": "Oct 2022",
+      "to": "Nov 2022"
+    },
+    {
+      "title": "Cueibet",
+      "id": "26523977",
+      "country": "SSD",
+      "year": 2022,
+      "reason": "no_change",
+      "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
+      "source_dataset": "data/SSD/SSD_combined_areas.topojson",
+      "from": "Oct 2022",
+      "to": "Nov 2022"
+    },
+    {
+      "title": "Gogrial West",
+      "id": "26523979",
+      "country": "SSD",
+      "year": 2022,
+      "reason": "no_change",
+      "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
+      "source_dataset": "data/SSD/SSD_combined_areas.topojson",
+      "from": "Oct 2022",
+      "to": "Nov 2022"
+    },
+    {
+      "title": "Mayom",
+      "id": "26523995",
+      "country": "SSD",
+      "year": 2022,
+      "reason": "no_change",
+      "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
+      "source_dataset": "data/SSD/SSD_combined_areas.topojson",
+      "from": "Oct 2022",
+      "to": "Nov 2022"
+    },
+    {
+      "title": "Terekeka",
+      "id": "26524007",
+      "country": "SSD",
+      "year": 2022,
+      "reason": "no_change",
+      "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
+      "source_dataset": "data/SSD/SSD_combined_areas.topojson",
+      "from": "Oct 2022",
+      "to": "Nov 2022"
+    },
+    {
+      "title": "Tonj North",
+      "id": "26524009",
+      "country": "SSD",
+      "year": 2022,
+      "reason": "no_change",
+      "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
+      "source_dataset": "data/SSD/SSD_combined_areas.topojson",
+      "from": "Oct 2022",
+      "to": "Nov 2022"
+    },
+    {
+      "title": "Tonj South",
+      "id": "26524011",
+      "country": "SSD",
+      "year": 2022,
+      "reason": "no_change",
+      "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
+      "source_dataset": "data/SSD/SSD_combined_areas.topojson",
+      "from": "Oct 2022",
+      "to": "Nov 2022"
+    },
+    {
+      "title": "Wau (Rural Only)",
+      "id": "26524015",
       "country": "SSD",
       "year": 2022,
       "reason": "no_change",
@@ -508,8 +940,44 @@
       "to": "Nov 2023"
     },
     {
+      "title": "Fashoda",
+      "id": "62915692",
+      "country": "SSD",
+      "year": 2023,
+      "reason": "no_change",
+      "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
+      "source_dataset": "data/SSD/SSD_combined_areas.topojson",
+      "from": "Sep 2023",
+      "to": "Nov 2023"
+    },
+    {
+      "title": "Gogrial West",
+      "id": "62915694",
+      "country": "SSD",
+      "year": 2023,
+      "reason": "no_change",
+      "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
+      "source_dataset": "data/SSD/SSD_combined_areas.topojson",
+      "from": "Sep 2023",
+      "to": "Nov 2023"
+    },
+    {
       "title": "Ikotos",
       "id": "62915703",
+      "country": "SSD",
+      "year": 2023,
+      "reason": "no_change",
+      "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
+      "source_dataset": "data/SSD/SSD_combined_areas.topojson",
+      "from": "Sep 2023",
+      "to": "Nov 2023"
+    },
+    {
+      "title": "Kapoeta north",
+      "id": "62915710",
       "country": "SSD",
       "year": 2023,
       "reason": "no_change",
@@ -532,8 +1000,44 @@
       "to": "Nov 2023"
     },
     {
+      "title": "Lafon",
+      "id": "62915714",
+      "country": "SSD",
+      "year": 2023,
+      "reason": "no_change",
+      "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
+      "source_dataset": "data/SSD/SSD_combined_areas.topojson",
+      "from": "Sep 2023",
+      "to": "Nov 2023"
+    },
+    {
+      "title": "Mayom",
+      "id": "62915735",
+      "country": "SSD",
+      "year": 2023,
+      "reason": "no_change",
+      "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
+      "source_dataset": "data/SSD/SSD_combined_areas.topojson",
+      "from": "Sep 2023",
+      "to": "Nov 2023"
+    },
+    {
       "title": "Melut",
       "id": "62915737",
+      "country": "SSD",
+      "year": 2023,
+      "reason": "no_change",
+      "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
+      "source_dataset": "data/SSD/SSD_combined_areas.topojson",
+      "from": "Sep 2023",
+      "to": "Nov 2023"
+    },
+    {
+      "title": "Mundri west",
+      "id": "62915741",
       "country": "SSD",
       "year": 2023,
       "reason": "no_change",
@@ -558,6 +1062,54 @@
     {
       "title": "Rumbek centre",
       "id": "62915759",
+      "country": "SSD",
+      "year": 2023,
+      "reason": "no_change",
+      "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
+      "source_dataset": "data/SSD/SSD_combined_areas.topojson",
+      "from": "Sep 2023",
+      "to": "Nov 2023"
+    },
+    {
+      "title": "Terekeka",
+      "id": "62915761",
+      "country": "SSD",
+      "year": 2023,
+      "reason": "no_change",
+      "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
+      "source_dataset": "data/SSD/SSD_combined_areas.topojson",
+      "from": "Sep 2023",
+      "to": "Nov 2023"
+    },
+    {
+      "title": "Tonj East",
+      "id": "62915765",
+      "country": "SSD",
+      "year": 2023,
+      "reason": "no_change",
+      "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
+      "source_dataset": "data/SSD/SSD_combined_areas.topojson",
+      "from": "Sep 2023",
+      "to": "Nov 2023"
+    },
+    {
+      "title": "Tonj North",
+      "id": "62915767",
+      "country": "SSD",
+      "year": 2023,
+      "reason": "no_change",
+      "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
+      "source_dataset": "data/SSD/SSD_combined_areas.topojson",
+      "from": "Sep 2023",
+      "to": "Nov 2023"
+    },
+    {
+      "title": "Tonj South",
+      "id": "62915769",
       "country": "SSD",
       "year": 2023,
       "reason": "no_change",
@@ -604,6 +1156,30 @@
       "to": "Nov 2023"
     },
     {
+      "title": "Wulu",
+      "id": "62915785",
+      "country": "SSD",
+      "year": 2023,
+      "reason": "no_change",
+      "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
+      "source_dataset": "data/SSD/SSD_combined_areas.topojson",
+      "from": "Sep 2023",
+      "to": "Nov 2023"
+    },
+    {
+      "title": "Cueibet",
+      "id": "62915791",
+      "country": "SSD",
+      "year": 2023,
+      "reason": "no_change",
+      "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
+      "source_dataset": "data/SSD/SSD_combined_areas.topojson",
+      "from": "Sep 2023",
+      "to": "Nov 2023"
+    },
+    {
       "title": "Aweil south",
       "id": "62915793",
       "country": "SSD",
@@ -618,6 +1194,54 @@
     {
       "title": "Rumbek east",
       "id": "62915795",
+      "country": "SSD",
+      "year": 2023,
+      "reason": "no_change",
+      "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
+      "source_dataset": "data/SSD/SSD_combined_areas.topojson",
+      "from": "Sep 2023",
+      "to": "Nov 2023"
+    },
+    {
+      "title": "Aweil centre",
+      "id": "62915799",
+      "country": "SSD",
+      "year": 2023,
+      "reason": "no_change",
+      "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
+      "source_dataset": "data/SSD/SSD_combined_areas.topojson",
+      "from": "Sep 2023",
+      "to": "Nov 2023"
+    },
+    {
+      "title": "Budi",
+      "id": "62915801",
+      "country": "SSD",
+      "year": 2023,
+      "reason": "no_change",
+      "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
+      "source_dataset": "data/SSD/SSD_combined_areas.topojson",
+      "from": "Sep 2023",
+      "to": "Nov 2023"
+    },
+    {
+      "title": "Jur River",
+      "id": "62915806",
+      "country": "SSD",
+      "year": 2023,
+      "reason": "no_change",
+      "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
+      "source_dataset": "data/SSD/SSD_combined_areas.topojson",
+      "from": "Sep 2023",
+      "to": "Nov 2023"
+    },
+    {
+      "title": "Malakal",
+      "id": "62915810",
       "country": "SSD",
       "year": 2023,
       "reason": "no_change",
@@ -676,6 +1300,30 @@
       "to": "Nov 2023"
     },
     {
+      "title": "Juba",
+      "id": "62915828",
+      "country": "SSD",
+      "year": 2023,
+      "reason": "no_change",
+      "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
+      "source_dataset": "data/SSD/SSD_combined_areas.topojson",
+      "from": "Sep 2023",
+      "to": "Nov 2023"
+    },
+    {
+      "title": "Wau (Rural Only)",
+      "id": "62915832",
+      "country": "SSD",
+      "year": 2023,
+      "reason": "no_change",
+      "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
+      "source_dataset": "data/SSD/SSD_combined_areas.topojson",
+      "from": "Sep 2023",
+      "to": "Nov 2023"
+    },
+    {
       "title": "Longochuk",
       "id": "72166797",
       "country": "SSD",
@@ -712,8 +1360,44 @@
       "to": "Nov 2024"
     },
     {
+      "title": "Fashoda",
+      "id": "72166827",
+      "country": "SSD",
+      "year": 2024,
+      "reason": "no_change",
+      "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
+      "source_dataset": "data/SSD/SSD_combined_areas.topojson",
+      "from": "Sep 2024",
+      "to": "Nov 2024"
+    },
+    {
+      "title": "Gogrial West",
+      "id": "72166829",
+      "country": "SSD",
+      "year": 2024,
+      "reason": "no_change",
+      "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
+      "source_dataset": "data/SSD/SSD_combined_areas.topojson",
+      "from": "Sep 2024",
+      "to": "Nov 2024"
+    },
+    {
       "title": "Ikotos",
       "id": "72166838",
+      "country": "SSD",
+      "year": 2024,
+      "reason": "no_change",
+      "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
+      "source_dataset": "data/SSD/SSD_combined_areas.topojson",
+      "from": "Sep 2024",
+      "to": "Nov 2024"
+    },
+    {
+      "title": "Kapoeta north",
+      "id": "72166845",
       "country": "SSD",
       "year": 2024,
       "reason": "no_change",
@@ -736,8 +1420,44 @@
       "to": "Nov 2024"
     },
     {
+      "title": "Lafon",
+      "id": "72166849",
+      "country": "SSD",
+      "year": 2024,
+      "reason": "no_change",
+      "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
+      "source_dataset": "data/SSD/SSD_combined_areas.topojson",
+      "from": "Sep 2024",
+      "to": "Nov 2024"
+    },
+    {
+      "title": "Mayom",
+      "id": "72166870",
+      "country": "SSD",
+      "year": 2024,
+      "reason": "no_change",
+      "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
+      "source_dataset": "data/SSD/SSD_combined_areas.topojson",
+      "from": "Sep 2024",
+      "to": "Nov 2024"
+    },
+    {
       "title": "Melut",
       "id": "72166872",
+      "country": "SSD",
+      "year": 2024,
+      "reason": "no_change",
+      "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
+      "source_dataset": "data/SSD/SSD_combined_areas.topojson",
+      "from": "Sep 2024",
+      "to": "Nov 2024"
+    },
+    {
+      "title": "Mundri west",
+      "id": "72166876",
       "country": "SSD",
       "year": 2024,
       "reason": "no_change",
@@ -762,6 +1482,54 @@
     {
       "title": "Rumbek centre",
       "id": "72166894",
+      "country": "SSD",
+      "year": 2024,
+      "reason": "no_change",
+      "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
+      "source_dataset": "data/SSD/SSD_combined_areas.topojson",
+      "from": "Sep 2024",
+      "to": "Nov 2024"
+    },
+    {
+      "title": "Terekeka",
+      "id": "72166896",
+      "country": "SSD",
+      "year": 2024,
+      "reason": "no_change",
+      "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
+      "source_dataset": "data/SSD/SSD_combined_areas.topojson",
+      "from": "Sep 2024",
+      "to": "Nov 2024"
+    },
+    {
+      "title": "Tonj East",
+      "id": "72166900",
+      "country": "SSD",
+      "year": 2024,
+      "reason": "no_change",
+      "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
+      "source_dataset": "data/SSD/SSD_combined_areas.topojson",
+      "from": "Sep 2024",
+      "to": "Nov 2024"
+    },
+    {
+      "title": "Tonj North",
+      "id": "72166902",
+      "country": "SSD",
+      "year": 2024,
+      "reason": "no_change",
+      "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
+      "source_dataset": "data/SSD/SSD_combined_areas.topojson",
+      "from": "Sep 2024",
+      "to": "Nov 2024"
+    },
+    {
+      "title": "Tonj South",
+      "id": "72166904",
       "country": "SSD",
       "year": 2024,
       "reason": "no_change",
@@ -808,6 +1576,30 @@
       "to": "Nov 2024"
     },
     {
+      "title": "Wulu",
+      "id": "72166920",
+      "country": "SSD",
+      "year": 2024,
+      "reason": "no_change",
+      "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
+      "source_dataset": "data/SSD/SSD_combined_areas.topojson",
+      "from": "Sep 2024",
+      "to": "Nov 2024"
+    },
+    {
+      "title": "Cueibet",
+      "id": "72166926",
+      "country": "SSD",
+      "year": 2024,
+      "reason": "no_change",
+      "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
+      "source_dataset": "data/SSD/SSD_combined_areas.topojson",
+      "from": "Sep 2024",
+      "to": "Nov 2024"
+    },
+    {
       "title": "Aweil south",
       "id": "72166928",
       "country": "SSD",
@@ -822,6 +1614,54 @@
     {
       "title": "Rumbek east",
       "id": "72166930",
+      "country": "SSD",
+      "year": 2024,
+      "reason": "no_change",
+      "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
+      "source_dataset": "data/SSD/SSD_combined_areas.topojson",
+      "from": "Sep 2024",
+      "to": "Nov 2024"
+    },
+    {
+      "title": "Aweil centre",
+      "id": "72166934",
+      "country": "SSD",
+      "year": 2024,
+      "reason": "no_change",
+      "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
+      "source_dataset": "data/SSD/SSD_combined_areas.topojson",
+      "from": "Sep 2024",
+      "to": "Nov 2024"
+    },
+    {
+      "title": "Budi",
+      "id": "72166936",
+      "country": "SSD",
+      "year": 2024,
+      "reason": "no_change",
+      "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
+      "source_dataset": "data/SSD/SSD_combined_areas.topojson",
+      "from": "Sep 2024",
+      "to": "Nov 2024"
+    },
+    {
+      "title": "Jur River",
+      "id": "72166941",
+      "country": "SSD",
+      "year": 2024,
+      "reason": "no_change",
+      "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
+      "source_dataset": "data/SSD/SSD_combined_areas.topojson",
+      "from": "Sep 2024",
+      "to": "Nov 2024"
+    },
+    {
+      "title": "Malakal",
+      "id": "72166945",
       "country": "SSD",
       "year": 2024,
       "reason": "no_change",
@@ -868,6 +1708,42 @@
       "to": "Nov 2024"
     },
     {
+      "title": "Juba",
+      "id": "72166963",
+      "country": "SSD",
+      "year": 2024,
+      "reason": "no_change",
+      "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
+      "source_dataset": "data/SSD/SSD_combined_areas.topojson",
+      "from": "Sep 2024",
+      "to": "Nov 2024"
+    },
+    {
+      "title": "Wau (Rural Only)",
+      "id": "72166967",
+      "country": "SSD",
+      "year": 2024,
+      "reason": "no_change",
+      "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
+      "source_dataset": "data/SSD/SSD_combined_areas.topojson",
+      "from": "Sep 2024",
+      "to": "Nov 2024"
+    },
+    {
+      "title": "Aweil centre",
+      "id": "85141333",
+      "country": "SSD",
+      "year": 2025,
+      "reason": "no_change",
+      "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
+      "source_dataset": "data/SSD/SSD_combined_areas.topojson",
+      "from": "Sep 2025",
+      "to": "Nov 2025"
+    },
+    {
       "title": "Aweil south",
       "id": "85141339",
       "country": "SSD",
@@ -892,8 +1768,44 @@
       "to": "Nov 2025"
     },
     {
+      "title": "Budi",
+      "id": "85141353",
+      "country": "SSD",
+      "year": 2025,
+      "reason": "no_change",
+      "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
+      "source_dataset": "data/SSD/SSD_combined_areas.topojson",
+      "from": "Sep 2025",
+      "to": "Nov 2025"
+    },
+    {
+      "title": "Cueibet",
+      "id": "85141357",
+      "country": "SSD",
+      "year": 2025,
+      "reason": "no_change",
+      "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
+      "source_dataset": "data/SSD/SSD_combined_areas.topojson",
+      "from": "Sep 2025",
+      "to": "Nov 2025"
+    },
+    {
       "title": "Gogrial East",
       "id": "85141369",
+      "country": "SSD",
+      "year": 2025,
+      "reason": "no_change",
+      "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
+      "source_dataset": "data/SSD/SSD_combined_areas.topojson",
+      "from": "Sep 2025",
+      "to": "Nov 2025"
+    },
+    {
+      "title": "Gogrial West",
+      "id": "85141371",
       "country": "SSD",
       "year": 2025,
       "reason": "no_change",
@@ -916,6 +1828,42 @@
       "to": "Nov 2025"
     },
     {
+      "title": "Juba",
+      "id": "85141380",
+      "country": "SSD",
+      "year": 2025,
+      "reason": "no_change",
+      "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
+      "source_dataset": "data/SSD/SSD_combined_areas.topojson",
+      "from": "Sep 2025",
+      "to": "Nov 2025"
+    },
+    {
+      "title": "Jur River",
+      "id": "85141383",
+      "country": "SSD",
+      "year": 2025,
+      "reason": "no_change",
+      "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
+      "source_dataset": "data/SSD/SSD_combined_areas.topojson",
+      "from": "Sep 2025",
+      "to": "Nov 2025"
+    },
+    {
+      "title": "Kapoeta north",
+      "id": "85141389",
+      "country": "SSD",
+      "year": 2025,
+      "reason": "no_change",
+      "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
+      "source_dataset": "data/SSD/SSD_combined_areas.topojson",
+      "from": "Sep 2025",
+      "to": "Nov 2025"
+    },
+    {
       "title": "Kapoeta south",
       "id": "85141391",
       "country": "SSD",
@@ -928,8 +1876,44 @@
       "to": "Nov 2025"
     },
     {
+      "title": "Lafon",
+      "id": "85141395",
+      "country": "SSD",
+      "year": 2025,
+      "reason": "no_change",
+      "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
+      "source_dataset": "data/SSD/SSD_combined_areas.topojson",
+      "from": "Sep 2025",
+      "to": "Nov 2025"
+    },
+    {
       "title": "Longochuk",
       "id": "85141401",
+      "country": "SSD",
+      "year": 2025,
+      "reason": "no_change",
+      "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
+      "source_dataset": "data/SSD/SSD_combined_areas.topojson",
+      "from": "Sep 2025",
+      "to": "Nov 2025"
+    },
+    {
+      "title": "Malakal",
+      "id": "85141411",
+      "country": "SSD",
+      "year": 2025,
+      "reason": "no_change",
+      "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
+      "source_dataset": "data/SSD/SSD_combined_areas.topojson",
+      "from": "Sep 2025",
+      "to": "Nov 2025"
+    },
+    {
+      "title": "Mayom",
+      "id": "85141417",
       "country": "SSD",
       "year": 2025,
       "reason": "no_change",
@@ -954,6 +1938,18 @@
     {
       "title": "Mundri east",
       "id": "85141423",
+      "country": "SSD",
+      "year": 2025,
+      "reason": "no_change",
+      "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
+      "source_dataset": "data/SSD/SSD_combined_areas.topojson",
+      "from": "Sep 2025",
+      "to": "Nov 2025"
+    },
+    {
+      "title": "Mundri west",
+      "id": "85141425",
       "country": "SSD",
       "year": 2025,
       "reason": "no_change",
@@ -1024,6 +2020,54 @@
       "to": "Nov 2025"
     },
     {
+      "title": "Terekeka",
+      "id": "85141457",
+      "country": "SSD",
+      "year": 2025,
+      "reason": "no_change",
+      "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
+      "source_dataset": "data/SSD/SSD_combined_areas.topojson",
+      "from": "Sep 2025",
+      "to": "Nov 2025"
+    },
+    {
+      "title": "Tonj East",
+      "id": "85141459",
+      "country": "SSD",
+      "year": 2025,
+      "reason": "no_change",
+      "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
+      "source_dataset": "data/SSD/SSD_combined_areas.topojson",
+      "from": "Sep 2025",
+      "to": "Nov 2025"
+    },
+    {
+      "title": "Tonj North",
+      "id": "85141461",
+      "country": "SSD",
+      "year": 2025,
+      "reason": "no_change",
+      "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
+      "source_dataset": "data/SSD/SSD_combined_areas.topojson",
+      "from": "Sep 2025",
+      "to": "Nov 2025"
+    },
+    {
+      "title": "Tonj South",
+      "id": "85141463",
+      "country": "SSD",
+      "year": 2025,
+      "reason": "no_change",
+      "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
+      "source_dataset": "data/SSD/SSD_combined_areas.topojson",
+      "from": "Sep 2025",
+      "to": "Nov 2025"
+    },
+    {
       "title": "Torit",
       "id": "85141465",
       "country": "SSD",
@@ -1048,8 +2092,44 @@
       "to": "Nov 2025"
     },
     {
+      "title": "Wau (Rural Only)",
+      "id": "85141473",
+      "country": "SSD",
+      "year": 2025,
+      "reason": "no_change",
+      "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
+      "source_dataset": "data/SSD/SSD_combined_areas.topojson",
+      "from": "Sep 2025",
+      "to": "Nov 2025"
+    },
+    {
+      "title": "Wulu",
+      "id": "85141475",
+      "country": "SSD",
+      "year": 2025,
+      "reason": "no_change",
+      "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
+      "source_dataset": "data/SSD/SSD_combined_areas.topojson",
+      "from": "Sep 2025",
+      "to": "Nov 2025"
+    },
+    {
       "title": "Yirol west",
       "id": "85141483",
+      "country": "SSD",
+      "year": 2025,
+      "reason": "no_change",
+      "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
+      "source_dataset": "data/SSD/SSD_combined_areas.topojson",
+      "from": "Sep 2025",
+      "to": "Nov 2025"
+    },
+    {
+      "title": "Uror",
+      "id": "85141487",
       "country": "SSD",
       "year": 2025,
       "reason": "no_change",
