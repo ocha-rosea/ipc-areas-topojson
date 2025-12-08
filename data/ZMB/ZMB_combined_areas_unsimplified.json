@@ -1,8 +1,20 @@
 {
-  "generated_at": "2025-12-03T10:43:32Z",
+  "generated_at": "2025-12-08T06:44:18Z",
   "source_file": "data/ZMB/ZMB_combined_areas.topojson",
-  "total_unsimplified": 284,
+  "total_unsimplified": 302,
   "items": [
+    {
+      "title": "Vubwi",
+      "id": "19345704",
+      "country": "ZMB",
+      "year": 2020,
+      "reason": "no_change",
+      "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
+      "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
+      "from": "Jul 2020",
+      "to": "Sep 2020"
+    },
     {
       "title": "Chasefu",
       "id": "24152637",
@@ -42,18 +54,6 @@
     {
       "title": "Kalabo",
       "id": "24152660",
-      "country": "ZMB",
-      "year": 2021,
-      "reason": "no_change",
-      "detail": "Simplified geometry matches original",
-      "geometry_type": "Polygon",
-      "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
-      "from": "Jul 2021",
-      "to": "Sep 2021"
-    },
-    {
-      "title": "Chibombo",
-      "id": "24152663",
       "country": "ZMB",
       "year": 2021,
       "reason": "no_change",
@@ -124,6 +124,18 @@
       "to": "Sep 2021"
     },
     {
+      "title": "Chilanga",
+      "id": "24152697",
+      "country": "ZMB",
+      "year": 2021,
+      "reason": "no_change",
+      "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
+      "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
+      "from": "Jul 2021",
+      "to": "Sep 2021"
+    },
+    {
       "title": "Mungwi",
       "id": "24152699",
       "country": "ZMB",
@@ -148,6 +160,18 @@
       "to": "Sep 2021"
     },
     {
+      "title": "Kapiri mposhi",
+      "id": "24152703",
+      "country": "ZMB",
+      "year": 2021,
+      "reason": "no_change",
+      "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
+      "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
+      "from": "Jul 2021",
+      "to": "Sep 2021"
+    },
+    {
       "title": "Livingstone",
       "id": "24152706",
       "country": "ZMB",
@@ -162,18 +186,6 @@
     {
       "title": "Luano",
       "id": "24152712",
-      "country": "ZMB",
-      "year": 2021,
-      "reason": "no_change",
-      "detail": "Simplified geometry matches original",
-      "geometry_type": "Polygon",
-      "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
-      "from": "Jul 2021",
-      "to": "Sep 2021"
-    },
-    {
-      "title": "Zimba",
-      "id": "24152716",
       "country": "ZMB",
       "year": 2021,
       "reason": "no_change",
@@ -292,8 +304,8 @@
       "to": "Sep 2021"
     },
     {
-      "title": "Samfya",
-      "id": "24152756",
+      "title": "Kafue",
+      "id": "24152758",
       "country": "ZMB",
       "year": 2021,
       "reason": "no_change",
@@ -328,25 +340,13 @@
       "to": "Sep 2021"
     },
     {
-      "title": "Isoka",
-      "id": "24152766",
+      "title": "Chilubi",
+      "id": "24152772",
       "country": "ZMB",
       "year": 2021,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
-      "geometry_type": "Polygon",
-      "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
-      "from": "Jul 2021",
-      "to": "Sep 2021"
-    },
-    {
-      "title": "Mafinga",
-      "id": "24152768",
-      "country": "ZMB",
-      "year": 2021,
-      "reason": "no_change",
-      "detail": "Simplified geometry matches original",
-      "geometry_type": "Polygon",
+      "geometry_type": "MultiPolygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Jul 2021",
       "to": "Sep 2021"
@@ -448,6 +448,18 @@
       "to": "Sep 2021"
     },
     {
+      "title": "Senanga",
+      "id": "24152818",
+      "country": "ZMB",
+      "year": 2021,
+      "reason": "no_change",
+      "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
+      "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
+      "from": "Jul 2021",
+      "to": "Sep 2021"
+    },
+    {
       "title": "Sesheke",
       "id": "24152820",
       "country": "ZMB",
@@ -496,8 +508,20 @@
       "to": "Sep 2021"
     },
     {
-      "title": "Kanchibiya",
-      "id": "24152834",
+      "title": "Lumezi",
+      "id": "24152828",
+      "country": "ZMB",
+      "year": 2021,
+      "reason": "no_change",
+      "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
+      "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
+      "from": "Jul 2021",
+      "to": "Sep 2021"
+    },
+    {
+      "title": "Rufunsa",
+      "id": "24152832",
       "country": "ZMB",
       "year": 2021,
       "reason": "no_change",
@@ -522,18 +546,6 @@
     {
       "title": "Mushindano",
       "id": "24152838",
-      "country": "ZMB",
-      "year": 2021,
-      "reason": "no_change",
-      "detail": "Simplified geometry matches original",
-      "geometry_type": "Polygon",
-      "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
-      "from": "Jul 2021",
-      "to": "Sep 2021"
-    },
-    {
-      "title": "Limulunga",
-      "id": "24152840",
       "country": "ZMB",
       "year": 2021,
       "reason": "no_change",
@@ -580,8 +592,32 @@
       "to": "Sep 2021"
     },
     {
-      "title": "Samfya",
-      "id": "26096995",
+      "title": "Nalolo",
+      "id": "24152848",
+      "country": "ZMB",
+      "year": 2021,
+      "reason": "no_change",
+      "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
+      "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
+      "from": "Jul 2021",
+      "to": "Sep 2021"
+    },
+    {
+      "title": "Sikongo",
+      "id": "24152850",
+      "country": "ZMB",
+      "year": 2021,
+      "reason": "no_change",
+      "detail": "Simplified geometry matches original",
+      "geometry_type": "MultiPolygon",
+      "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
+      "from": "Jul 2021",
+      "to": "Sep 2021"
+    },
+    {
+      "title": "Sesheke",
+      "id": "26096998",
       "country": "ZMB",
       "year": 2022,
       "reason": "no_change",
@@ -592,8 +628,8 @@
       "to": "Sep 2022"
     },
     {
-      "title": "Sesheke",
-      "id": "26096998",
+      "title": "Kafue",
+      "id": "26097001",
       "country": "ZMB",
       "year": 2022,
       "reason": "no_change",
@@ -628,18 +664,6 @@
       "to": "Sep 2022"
     },
     {
-      "title": "Limulunga",
-      "id": "26097009",
-      "country": "ZMB",
-      "year": 2022,
-      "reason": "no_change",
-      "detail": "Simplified geometry matches original",
-      "geometry_type": "Polygon",
-      "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
-      "from": "Jun 2022",
-      "to": "Sep 2022"
-    },
-    {
       "title": "Livingstone",
       "id": "26097012",
       "country": "ZMB",
@@ -664,6 +688,18 @@
       "to": "Sep 2022"
     },
     {
+      "title": "Lumezi",
+      "id": "26097017",
+      "country": "ZMB",
+      "year": 2022,
+      "reason": "no_change",
+      "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
+      "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
+      "from": "Jun 2022",
+      "to": "Sep 2022"
+    },
+    {
       "title": "Lupososhi",
       "id": "26097020",
       "country": "ZMB",
@@ -678,6 +714,18 @@
     {
       "title": "Chikankanta",
       "id": "26097022",
+      "country": "ZMB",
+      "year": 2022,
+      "reason": "no_change",
+      "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
+      "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
+      "from": "Jun 2022",
+      "to": "Sep 2022"
+    },
+    {
+      "title": "Kapiri mposhi",
+      "id": "26097024",
       "country": "ZMB",
       "year": 2022,
       "reason": "no_change",
@@ -808,6 +856,18 @@
       "to": "Sep 2022"
     },
     {
+      "title": "Chilubi",
+      "id": "26097049",
+      "country": "ZMB",
+      "year": 2022,
+      "reason": "no_change",
+      "detail": "Simplified geometry matches original",
+      "geometry_type": "MultiPolygon",
+      "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
+      "from": "Jun 2022",
+      "to": "Sep 2022"
+    },
+    {
       "title": "Zambezi",
       "id": "26097051",
       "country": "ZMB",
@@ -851,6 +911,18 @@
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
       "geometry_type": "Polygon",
+      "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
+      "from": "Jun 2022",
+      "to": "Sep 2022"
+    },
+    {
+      "title": "Kalabo/Sikongo",
+      "id": "26097059",
+      "country": "ZMB",
+      "year": 2022,
+      "reason": "no_change",
+      "detail": "Simplified geometry matches original",
+      "geometry_type": "MultiPolygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Jun 2022",
       "to": "Sep 2022"
@@ -916,8 +988,8 @@
       "to": "Sep 2022"
     },
     {
-      "title": "Isoka",
-      "id": "26097076",
+      "title": "Chingola",
+      "id": "26097078",
       "country": "ZMB",
       "year": 2022,
       "reason": "no_change",
@@ -928,8 +1000,8 @@
       "to": "Sep 2022"
     },
     {
-      "title": "Chingola",
-      "id": "26097078",
+      "title": "Chilanga",
+      "id": "26097082",
       "country": "ZMB",
       "year": 2022,
       "reason": "no_change",
@@ -954,18 +1026,6 @@
     {
       "title": "Itezhi-tezhi",
       "id": "26097086",
-      "country": "ZMB",
-      "year": 2022,
-      "reason": "no_change",
-      "detail": "Simplified geometry matches original",
-      "geometry_type": "Polygon",
-      "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
-      "from": "Jun 2022",
-      "to": "Sep 2022"
-    },
-    {
-      "title": "Kanchibiya",
-      "id": "26097088",
       "country": "ZMB",
       "year": 2022,
       "reason": "no_change",
@@ -1007,6 +1067,30 @@
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
       "geometry_type": "Polygon",
+      "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
+      "from": "Jun 2022",
+      "to": "Sep 2022"
+    },
+    {
+      "title": "Katete",
+      "id": "26097096",
+      "country": "ZMB",
+      "year": 2022,
+      "reason": "no_change",
+      "detail": "Simplified geometry matches original",
+      "geometry_type": "MultiPolygon",
+      "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
+      "from": "Jun 2022",
+      "to": "Sep 2022"
+    },
+    {
+      "title": "Lundazi",
+      "id": "26097100",
+      "country": "ZMB",
+      "year": 2022,
+      "reason": "no_change",
+      "detail": "Simplified geometry matches original",
+      "geometry_type": "MultiPolygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Jun 2022",
       "to": "Sep 2022"
@@ -1084,18 +1168,6 @@
       "to": "Sep 2022"
     },
     {
-      "title": "Chipili",
-      "id": "26097116",
-      "country": "ZMB",
-      "year": 2022,
-      "reason": "no_change",
-      "detail": "Simplified geometry matches original",
-      "geometry_type": "Polygon",
-      "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
-      "from": "Jun 2022",
-      "to": "Sep 2022"
-    },
-    {
       "title": "Chipangali",
       "id": "26097118",
       "country": "ZMB",
@@ -1156,18 +1228,6 @@
       "to": "Sep 2022"
     },
     {
-      "title": "Zimba",
-      "id": "26097128",
-      "country": "ZMB",
-      "year": 2022,
-      "reason": "no_change",
-      "detail": "Simplified geometry matches original",
-      "geometry_type": "Polygon",
-      "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
-      "from": "Jun 2022",
-      "to": "Sep 2022"
-    },
-    {
       "title": "Chadiza",
       "id": "26097130",
       "country": "ZMB",
@@ -1194,6 +1254,18 @@
     {
       "title": "Chililabombwe",
       "id": "26097136",
+      "country": "ZMB",
+      "year": 2022,
+      "reason": "no_change",
+      "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
+      "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
+      "from": "Jun 2022",
+      "to": "Sep 2022"
+    },
+    {
+      "title": "Chongwe",
+      "id": "26097138",
       "country": "ZMB",
       "year": 2022,
       "reason": "no_change",
@@ -1242,18 +1314,6 @@
     {
       "title": "Lusaka",
       "id": "26097146",
-      "country": "ZMB",
-      "year": 2022,
-      "reason": "no_change",
-      "detail": "Simplified geometry matches original",
-      "geometry_type": "Polygon",
-      "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
-      "from": "Jun 2022",
-      "to": "Sep 2022"
-    },
-    {
-      "title": "Mafinga",
-      "id": "26097148",
       "country": "ZMB",
       "year": 2022,
       "reason": "no_change",
@@ -1336,6 +1396,18 @@
       "to": "Sep 2022"
     },
     {
+      "title": "Nalolo",
+      "id": "26097162",
+      "country": "ZMB",
+      "year": 2022,
+      "reason": "no_change",
+      "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
+      "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
+      "from": "Jun 2022",
+      "to": "Sep 2022"
+    },
+    {
       "title": "Ndola",
       "id": "26097164",
       "country": "ZMB",
@@ -1360,6 +1432,18 @@
       "to": "Sep 2022"
     },
     {
+      "title": "Rufunsa",
+      "id": "26097168",
+      "country": "ZMB",
+      "year": 2022,
+      "reason": "no_change",
+      "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
+      "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
+      "from": "Jun 2022",
+      "to": "Sep 2022"
+    },
+    {
       "title": "Serenje",
       "id": "26097170",
       "country": "ZMB",
@@ -1372,20 +1456,20 @@
       "to": "Sep 2022"
     },
     {
-      "title": "Shiwang'andu",
-      "id": "26097172",
+      "title": "Siavonga",
+      "id": "26097174",
       "country": "ZMB",
       "year": 2022,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
-      "geometry_type": "MultiPolygon",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Jun 2022",
       "to": "Sep 2022"
     },
     {
-      "title": "Siavonga",
-      "id": "26097174",
+      "title": "Mpulungu",
+      "id": "26097176",
       "country": "ZMB",
       "year": 2022,
       "reason": "no_change",
@@ -1408,44 +1492,8 @@
       "to": "Sep 2022"
     },
     {
-      "title": "Chisamba",
-      "id": "26097180",
-      "country": "ZMB",
-      "year": 2022,
-      "reason": "no_change",
-      "detail": "Simplified geometry matches original",
-      "geometry_type": "Polygon",
-      "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
-      "from": "Jun 2022",
-      "to": "Sep 2022"
-    },
-    {
-      "title": "Chibombo",
-      "id": "26097182",
-      "country": "ZMB",
-      "year": 2022,
-      "reason": "no_change",
-      "detail": "Simplified geometry matches original",
-      "geometry_type": "Polygon",
-      "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
-      "from": "Jun 2022",
-      "to": "Sep 2022"
-    },
-    {
       "title": "Kalulushi",
       "id": "26097184",
-      "country": "ZMB",
-      "year": 2022,
-      "reason": "no_change",
-      "detail": "Simplified geometry matches original",
-      "geometry_type": "Polygon",
-      "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
-      "from": "Jun 2022",
-      "to": "Sep 2022"
-    },
-    {
-      "title": "Kasama",
-      "id": "26097186",
       "country": "ZMB",
       "year": 2022,
       "reason": "no_change",
@@ -1463,6 +1511,18 @@
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
       "geometry_type": "Polygon",
+      "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
+      "from": "Jun 2022",
+      "to": "Sep 2022"
+    },
+    {
+      "title": "Kabompo",
+      "id": "26097192",
+      "country": "ZMB",
+      "year": 2022,
+      "reason": "no_change",
+      "detail": "Simplified geometry matches original",
+      "geometry_type": "MultiPolygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Jun 2022",
       "to": "Sep 2022"
@@ -1511,6 +1571,18 @@
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
       "geometry_type": "Polygon",
+      "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
+      "from": "Jun 2022",
+      "to": "Sep 2022"
+    },
+    {
+      "title": "Lunte",
+      "id": "26097202",
+      "country": "ZMB",
+      "year": 2022,
+      "reason": "no_change",
+      "detail": "Simplified geometry matches original",
+      "geometry_type": "MultiPolygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Jun 2022",
       "to": "Sep 2022"
@@ -1612,8 +1684,32 @@
       "to": "Sep 2022"
     },
     {
+      "title": "Ngabwe",
+      "id": "26097224",
+      "country": "ZMB",
+      "year": 2022,
+      "reason": "no_change",
+      "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
+      "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
+      "from": "Jun 2022",
+      "to": "Sep 2022"
+    },
+    {
       "title": "Shibuyunji",
       "id": "26097226",
+      "country": "ZMB",
+      "year": 2022,
+      "reason": "no_change",
+      "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
+      "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
+      "from": "Jun 2022",
+      "to": "Sep 2022"
+    },
+    {
+      "title": "Senanga",
+      "id": "26097230",
       "country": "ZMB",
       "year": 2022,
       "reason": "no_change",
@@ -1720,6 +1816,18 @@
       "to": "Sep 2023"
     },
     {
+      "title": "Ngabwe",
+      "id": "63026083",
+      "country": "ZMB",
+      "year": 2023,
+      "reason": "no_change",
+      "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
+      "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
+      "from": "Aug 2023",
+      "to": "Sep 2023"
+    },
+    {
       "title": "Mitete",
       "id": "63026085",
       "country": "ZMB",
@@ -1804,30 +1912,6 @@
       "to": "Sep 2023"
     },
     {
-      "title": "Zimba",
-      "id": "63026103",
-      "country": "ZMB",
-      "year": 2023,
-      "reason": "no_change",
-      "detail": "Simplified geometry matches original",
-      "geometry_type": "Polygon",
-      "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
-      "from": "Aug 2023",
-      "to": "Sep 2023"
-    },
-    {
-      "title": "Kanchibiya",
-      "id": "63026106",
-      "country": "ZMB",
-      "year": 2023,
-      "reason": "no_change",
-      "detail": "Simplified geometry matches original",
-      "geometry_type": "Polygon",
-      "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
-      "from": "Aug 2023",
-      "to": "Sep 2023"
-    },
-    {
       "title": "Mufumbwe",
       "id": "63026108",
       "country": "ZMB",
@@ -1842,6 +1926,18 @@
     {
       "title": "Pemba",
       "id": "63026112",
+      "country": "ZMB",
+      "year": 2023,
+      "reason": "no_change",
+      "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
+      "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
+      "from": "Aug 2023",
+      "to": "Sep 2023"
+    },
+    {
+      "title": "Kafue",
+      "id": "63026115",
       "country": "ZMB",
       "year": 2023,
       "reason": "no_change",
@@ -1912,6 +2008,18 @@
       "to": "Sep 2023"
     },
     {
+      "title": "Lumezi",
+      "id": "63026129",
+      "country": "ZMB",
+      "year": 2023,
+      "reason": "no_change",
+      "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
+      "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
+      "from": "Aug 2023",
+      "to": "Sep 2023"
+    },
+    {
       "title": "Mwandi",
       "id": "63026133",
       "country": "ZMB",
@@ -1931,6 +2039,18 @@
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
       "geometry_type": "Polygon",
+      "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
+      "from": "Aug 2023",
+      "to": "Sep 2023"
+    },
+    {
+      "title": "Kabompo",
+      "id": "63026137",
+      "country": "ZMB",
+      "year": 2023,
+      "reason": "no_change",
+      "detail": "Simplified geometry matches original",
+      "geometry_type": "MultiPolygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Aug 2023",
       "to": "Sep 2023"
@@ -2034,18 +2154,6 @@
     {
       "title": "Kasenengwa",
       "id": "63026157",
-      "country": "ZMB",
-      "year": 2023,
-      "reason": "no_change",
-      "detail": "Simplified geometry matches original",
-      "geometry_type": "Polygon",
-      "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
-      "from": "Aug 2023",
-      "to": "Sep 2023"
-    },
-    {
-      "title": "Mafinga",
-      "id": "63026159",
       "country": "ZMB",
       "year": 2023,
       "reason": "no_change",
@@ -2188,18 +2296,6 @@
       "to": "Sep 2023"
     },
     {
-      "title": "Samfya",
-      "id": "63026185",
-      "country": "ZMB",
-      "year": 2023,
-      "reason": "no_change",
-      "detail": "Simplified geometry matches original",
-      "geometry_type": "Polygon",
-      "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
-      "from": "Aug 2023",
-      "to": "Sep 2023"
-    },
-    {
       "title": "Mwense",
       "id": "63026187",
       "country": "ZMB",
@@ -2219,18 +2315,6 @@
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
       "geometry_type": "MultiPolygon",
-      "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
-      "from": "Aug 2023",
-      "to": "Sep 2023"
-    },
-    {
-      "title": "Chipili",
-      "id": "63026191",
-      "country": "ZMB",
-      "year": 2023,
-      "reason": "no_change",
-      "detail": "Simplified geometry matches original",
-      "geometry_type": "Polygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Aug 2023",
       "to": "Sep 2023"
@@ -2272,6 +2356,18 @@
       "to": "Sep 2023"
     },
     {
+      "title": "Rufunsa",
+      "id": "63026199",
+      "country": "ZMB",
+      "year": 2023,
+      "reason": "no_change",
+      "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
+      "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
+      "from": "Aug 2023",
+      "to": "Sep 2023"
+    },
+    {
       "title": "Gwembe",
       "id": "63026201",
       "country": "ZMB",
@@ -2284,8 +2380,32 @@
       "to": "Sep 2023"
     },
     {
-      "title": "Limulunga",
-      "id": "63026207",
+      "title": "Lundazi",
+      "id": "63026205",
+      "country": "ZMB",
+      "year": 2023,
+      "reason": "no_change",
+      "detail": "Simplified geometry matches original",
+      "geometry_type": "MultiPolygon",
+      "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
+      "from": "Aug 2023",
+      "to": "Sep 2023"
+    },
+    {
+      "title": "Nalolo",
+      "id": "63026209",
+      "country": "ZMB",
+      "year": 2023,
+      "reason": "no_change",
+      "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
+      "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
+      "from": "Aug 2023",
+      "to": "Sep 2023"
+    },
+    {
+      "title": "Senanga",
+      "id": "63026211",
       "country": "ZMB",
       "year": 2023,
       "reason": "no_change",
@@ -2332,8 +2452,8 @@
       "to": "Sep 2023"
     },
     {
-      "title": "Shiwang'andu",
-      "id": "69462039",
+      "title": "Chilubi",
+      "id": "69462042",
       "country": "ZMB",
       "year": 2024,
       "reason": "no_change",
@@ -2358,6 +2478,18 @@
     {
       "title": "Sesheke",
       "id": "69462048",
+      "country": "ZMB",
+      "year": 2024,
+      "reason": "no_change",
+      "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
+      "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
+      "from": "Jul 2024",
+      "to": "Sep 2024"
+    },
+    {
+      "title": "Mpulungu",
+      "id": "69462053",
       "country": "ZMB",
       "year": 2024,
       "reason": "no_change",
@@ -2416,6 +2548,18 @@
       "to": "Sep 2024"
     },
     {
+      "title": "Rufunsa",
+      "id": "69462071",
+      "country": "ZMB",
+      "year": 2024,
+      "reason": "no_change",
+      "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
+      "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
+      "from": "Jul 2024",
+      "to": "Sep 2024"
+    },
+    {
       "title": "Chirundu",
       "id": "69462076",
       "country": "ZMB",
@@ -2454,6 +2598,18 @@
     {
       "title": "Chavuma",
       "id": "69462086",
+      "country": "ZMB",
+      "year": 2024,
+      "reason": "no_change",
+      "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
+      "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
+      "from": "Jul 2024",
+      "to": "Sep 2024"
+    },
+    {
+      "title": "Kapiri mposhi",
+      "id": "69462090",
       "country": "ZMB",
       "year": 2024,
       "reason": "no_change",
@@ -2512,18 +2668,6 @@
       "to": "Sep 2024"
     },
     {
-      "title": "Chisamba",
-      "id": "69462108",
-      "country": "ZMB",
-      "year": 2024,
-      "reason": "no_change",
-      "detail": "Simplified geometry matches original",
-      "geometry_type": "Polygon",
-      "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
-      "from": "Jul 2024",
-      "to": "Sep 2024"
-    },
-    {
       "title": "Kazungula",
       "id": "69462110",
       "country": "ZMB",
@@ -2567,18 +2711,6 @@
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
       "geometry_type": "MultiPolygon",
-      "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
-      "from": "Jul 2024",
-      "to": "Sep 2024"
-    },
-    {
-      "title": "Mafinga",
-      "id": "69462118",
-      "country": "ZMB",
-      "year": 2024,
-      "reason": "no_change",
-      "detail": "Simplified geometry matches original",
-      "geometry_type": "Polygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Jul 2024",
       "to": "Sep 2024"
@@ -2656,8 +2788,32 @@
       "to": "Sep 2024"
     },
     {
+      "title": "Nalolo",
+      "id": "69462142",
+      "country": "ZMB",
+      "year": 2024,
+      "reason": "no_change",
+      "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
+      "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
+      "from": "Jul 2024",
+      "to": "Sep 2024"
+    },
+    {
       "title": "Masaiti",
       "id": "69462148",
+      "country": "ZMB",
+      "year": 2024,
+      "reason": "no_change",
+      "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
+      "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
+      "from": "Jul 2024",
+      "to": "Sep 2024"
+    },
+    {
+      "title": "Chilanga",
+      "id": "69462150",
       "country": "ZMB",
       "year": 2024,
       "reason": "no_change",
@@ -2682,6 +2838,30 @@
     {
       "title": "Luanshya",
       "id": "69462154",
+      "country": "ZMB",
+      "year": 2024,
+      "reason": "no_change",
+      "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
+      "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
+      "from": "Jul 2024",
+      "to": "Sep 2024"
+    },
+    {
+      "title": "Kafue",
+      "id": "69462156",
+      "country": "ZMB",
+      "year": 2024,
+      "reason": "no_change",
+      "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
+      "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
+      "from": "Jul 2024",
+      "to": "Sep 2024"
+    },
+    {
+      "title": "Ngabwe",
+      "id": "69462158",
       "country": "ZMB",
       "year": 2024,
       "reason": "no_change",
@@ -2764,18 +2944,6 @@
       "to": "Sep 2024"
     },
     {
-      "title": "Limulunga",
-      "id": "69462178",
-      "country": "ZMB",
-      "year": 2024,
-      "reason": "no_change",
-      "detail": "Simplified geometry matches original",
-      "geometry_type": "Polygon",
-      "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
-      "from": "Jul 2024",
-      "to": "Sep 2024"
-    },
-    {
       "title": "Gwembe",
       "id": "69462180",
       "country": "ZMB",
@@ -2824,6 +2992,18 @@
       "to": "Sep 2024"
     },
     {
+      "title": "Senanga",
+      "id": "69462192",
+      "country": "ZMB",
+      "year": 2024,
+      "reason": "no_change",
+      "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
+      "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
+      "from": "Jul 2024",
+      "to": "Sep 2024"
+    },
+    {
       "title": "Shangombo",
       "id": "69462196",
       "country": "ZMB",
@@ -2850,18 +3030,6 @@
     {
       "title": "Mpongwe",
       "id": "69462200",
-      "country": "ZMB",
-      "year": 2024,
-      "reason": "no_change",
-      "detail": "Simplified geometry matches original",
-      "geometry_type": "Polygon",
-      "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
-      "from": "Jul 2024",
-      "to": "Sep 2024"
-    },
-    {
-      "title": "Zimba",
-      "id": "69462202",
       "country": "ZMB",
       "year": 2024,
       "reason": "no_change",
@@ -2932,6 +3100,18 @@
       "to": "Sep 2024"
     },
     {
+      "title": "Chongwe",
+      "id": "69462214",
+      "country": "ZMB",
+      "year": 2024,
+      "reason": "no_change",
+      "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
+      "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
+      "from": "Jul 2024",
+      "to": "Sep 2024"
+    },
+    {
       "title": "Nsama",
       "id": "69462220",
       "country": "ZMB",
@@ -2968,13 +3148,13 @@
       "to": "Sep 2024"
     },
     {
-      "title": "Chibombo",
-      "id": "69465084",
+      "title": "Kabompo",
+      "id": "69462232",
       "country": "ZMB",
       "year": 2024,
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
-      "geometry_type": "Polygon",
+      "geometry_type": "MultiPolygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Jul 2024",
       "to": "Sep 2024"
@@ -3052,6 +3232,18 @@
       "to": "Sep 2024"
     },
     {
+      "title": "Lundazi",
+      "id": "69465157",
+      "country": "ZMB",
+      "year": 2024,
+      "reason": "no_change",
+      "detail": "Simplified geometry matches original",
+      "geometry_type": "MultiPolygon",
+      "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
+      "from": "Jul 2024",
+      "to": "Sep 2024"
+    },
+    {
       "title": "Petauke",
       "id": "69465161",
       "country": "ZMB",
@@ -3083,6 +3275,30 @@
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
       "geometry_type": "Polygon",
+      "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
+      "from": "Jul 2024",
+      "to": "Sep 2024"
+    },
+    {
+      "title": "Lumezi",
+      "id": "69465199",
+      "country": "ZMB",
+      "year": 2024,
+      "reason": "no_change",
+      "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
+      "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
+      "from": "Jul 2024",
+      "to": "Sep 2024"
+    },
+    {
+      "title": "Katete",
+      "id": "69465205",
+      "country": "ZMB",
+      "year": 2024,
+      "reason": "no_change",
+      "detail": "Simplified geometry matches original",
+      "geometry_type": "MultiPolygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Jul 2024",
       "to": "Sep 2024"
@@ -3138,18 +3354,6 @@
     {
       "title": "Chipangali",
       "id": "69465251",
-      "country": "ZMB",
-      "year": 2024,
-      "reason": "no_change",
-      "detail": "Simplified geometry matches original",
-      "geometry_type": "Polygon",
-      "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
-      "from": "Jul 2024",
-      "to": "Sep 2024"
-    },
-    {
-      "title": "Samfya",
-      "id": "69465263",
       "country": "ZMB",
       "year": 2024,
       "reason": "no_change",
@@ -3407,6 +3611,18 @@
       "reason": "no_change",
       "detail": "Simplified geometry matches original",
       "geometry_type": "MultiPolygon",
+      "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
+      "from": "Apr 2025",
+      "to": "Sep 2025"
+    },
+    {
+      "title": "Lunga",
+      "id": "84439839",
+      "country": "ZMB",
+      "year": 2025,
+      "reason": "no_change",
+      "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
       "source_dataset": "data/ZMB/ZMB_combined_areas.topojson",
       "from": "Apr 2025",
       "to": "Sep 2025"

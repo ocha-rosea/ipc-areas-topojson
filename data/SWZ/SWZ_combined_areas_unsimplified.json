@@ -1,0 +1,67 @@
+{
+  "generated_at": "2025-12-08T06:41:29Z",
+  "source_file": "data/SWZ/SWZ_combined_areas.topojson",
+  "total_unsimplified": 5,
+  "items": [
+    {
+      "title": "Shiselweni urban",
+      "id": "18468232",
+      "country": "SWZ",
+      "year": 2020,
+      "reason": "no_change",
+      "detail": "Simplified geometry matches original",
+      "geometry_type": "MultiPolygon",
+      "source_dataset": "data/SWZ/SWZ_combined_areas.topojson",
+      "from": "Jun 2020",
+      "to": "Sep 2020"
+    },
+    {
+      "title": "Shiselweni urban",
+      "id": "24250324",
+      "country": "SWZ",
+      "year": 2021,
+      "reason": "no_change",
+      "detail": "Simplified geometry matches original",
+      "geometry_type": "MultiPolygon",
+      "source_dataset": "data/SWZ/SWZ_combined_areas.topojson",
+      "from": "Jul 2021",
+      "to": "Sep 2021"
+    },
+    {
+      "title": "Shiselweni urban",
+      "id": "25914083",
+      "country": "SWZ",
+      "year": 2022,
+      "reason": "no_change",
+      "detail": "Simplified geometry matches original",
+      "geometry_type": "MultiPolygon",
+      "source_dataset": "data/SWZ/SWZ_combined_areas.topojson",
+      "from": "Jun 2022",
+      "to": "Sep 2022"
+    },
+    {
+      "title": "Shiselweni urban",
+      "id": "58971591",
+      "country": "SWZ",
+      "year": 2023,
+      "reason": "no_change",
+      "detail": "Simplified geometry matches original",
+      "geometry_type": "MultiPolygon",
+      "source_dataset": "data/SWZ/SWZ_combined_areas.topojson",
+      "from": "Jun 2023",
+      "to": "Sep 2023"
+    },
+    {
+      "title": "Shiselweni urban",
+      "id": "68908257",
+      "country": "SWZ",
+      "year": 2024,
+      "reason": "no_change",
+      "detail": "Simplified geometry matches original",
+      "geometry_type": "MultiPolygon",
+      "source_dataset": "data/SWZ/SWZ_combined_areas.topojson",
+      "from": "Jun 2024",
+      "to": "Sep 2024"
+    }
+  ]
+}

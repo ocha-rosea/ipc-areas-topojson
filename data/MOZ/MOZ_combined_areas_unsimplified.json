@@ -1,7 +1,7 @@
 {
-  "generated_at": "2025-12-03T10:42:08Z",
+  "generated_at": "2025-12-08T06:43:10Z",
   "source_file": "data/MOZ/MOZ_combined_areas.topojson",
-  "total_unsimplified": 66,
+  "total_unsimplified": 75,
   "items": [
     {
       "title": "Cidade de Tete",
@@ -724,6 +724,30 @@
       "to": "Mar 2022"
     },
     {
+      "title": "Cidade de pemba",
+      "id": "48056957",
+      "country": "MOZ",
+      "year": 2022,
+      "reason": "no_change",
+      "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
+      "source_dataset": "data/MOZ/MOZ_combined_areas.topojson",
+      "from": "Oct 2022",
+      "to": "Mar 2023"
+    },
+    {
+      "title": "Cidade da Beira",
+      "id": "48056969",
+      "country": "MOZ",
+      "year": 2022,
+      "reason": "no_change",
+      "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
+      "source_dataset": "data/MOZ/MOZ_combined_areas.topojson",
+      "from": "Oct 2022",
+      "to": "Mar 2023"
+    },
+    {
       "title": "Distrito de Katembe",
       "id": "48056974",
       "country": "MOZ",
@@ -736,8 +760,80 @@
       "to": "Mar 2023"
     },
     {
+      "title": "Distrito Municipal Kamavota",
+      "id": "48056976",
+      "country": "MOZ",
+      "year": 2022,
+      "reason": "no_change",
+      "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
+      "source_dataset": "data/MOZ/MOZ_combined_areas.topojson",
+      "from": "Oct 2022",
+      "to": "Mar 2023"
+    },
+    {
+      "title": "Distrito Municipal KaMFumo",
+      "id": "48056978",
+      "country": "MOZ",
+      "year": 2022,
+      "reason": "no_change",
+      "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
+      "source_dataset": "data/MOZ/MOZ_combined_areas.topojson",
+      "from": "Oct 2022",
+      "to": "Mar 2023"
+    },
+    {
+      "title": "Distrito Municipal Kamubukuane",
+      "id": "48056982",
+      "country": "MOZ",
+      "year": 2022,
+      "reason": "no_change",
+      "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
+      "source_dataset": "data/MOZ/MOZ_combined_areas.topojson",
+      "from": "Oct 2022",
+      "to": "Mar 2023"
+    },
+    {
+      "title": "Distrito Municipal Ka Nlamankulo",
+      "id": "48056984",
+      "country": "MOZ",
+      "year": 2022,
+      "reason": "no_change",
+      "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
+      "source_dataset": "data/MOZ/MOZ_combined_areas.topojson",
+      "from": "Oct 2022",
+      "to": "Mar 2023"
+    },
+    {
+      "title": "Distrito Municpal KaMaxaquene",
+      "id": "48056986",
+      "country": "MOZ",
+      "year": 2022,
+      "reason": "no_change",
+      "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
+      "source_dataset": "data/MOZ/MOZ_combined_areas.topojson",
+      "from": "Oct 2022",
+      "to": "Mar 2023"
+    },
+    {
       "title": "Limpopo",
       "id": "48057031",
+      "country": "MOZ",
+      "year": 2022,
+      "reason": "no_change",
+      "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
+      "source_dataset": "data/MOZ/MOZ_combined_areas.topojson",
+      "from": "Oct 2022",
+      "to": "Mar 2023"
+    },
+    {
+      "title": "Mapai",
+      "id": "48057069",
       "country": "MOZ",
       "year": 2022,
       "reason": "no_change",
@@ -794,6 +890,18 @@
       "source_dataset": "data/MOZ/MOZ_combined_areas.topojson",
       "from": "May 2023",
       "to": "Sep 2023"
+    },
+    {
+      "title": "Cidade de pemba",
+      "id": "69348595",
+      "country": "MOZ",
+      "year": 2024,
+      "reason": "no_change",
+      "detail": "Simplified geometry matches original",
+      "geometry_type": "Polygon",
+      "source_dataset": "data/MOZ/MOZ_combined_areas.topojson",
+      "from": "Apr 2024",
+      "to": "Sep 2024"
     }
   ]
 }
