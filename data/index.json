@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-07T12:08:53Z",
+  "generated_at": "2026-09-14T12:25:07Z",
   "cdn_release_tag": "v1.7",
-  "total_files": 32,
+  "total_files": 33,
   "items": [
     {
       "country": "Angola",
@@ -9,7 +9,7 @@
       "file_name": "AGO_combined_areas.topojson",
       "feature_count": 17,
       "cdn_url": "https://cdn.jsdelivr.net/gh/im4sea/ipc-areas@v1.7/data/AGO/AGO_combined_areas.topojson",
-      "updated_at": "2026-09-07T12:01:53Z",
+      "updated_at": "2026-09-14T12:17:47Z",
       "variant": "combined"
     },
     {
@@ -18,7 +18,7 @@
       "file_name": "BDI_combined_areas.topojson",
       "feature_count": 56,
       "cdn_url": "https://cdn.jsdelivr.net/gh/im4sea/ipc-areas@v1.7/data/BDI/BDI_combined_areas.topojson",
-      "updated_at": "2026-09-07T12:01:59Z",
+      "updated_at": "2026-09-14T12:17:53Z",
       "variant": "combined"
     },
     {
@@ -27,7 +27,7 @@
       "file_name": "DJI_combined_areas.topojson",
       "feature_count": 90,
       "cdn_url": "https://cdn.jsdelivr.net/gh/im4sea/ipc-areas@v1.7/data/DJI/DJI_combined_areas.topojson",
-      "updated_at": "2026-09-07T12:02:01Z",
+      "updated_at": "2026-09-14T12:17:55Z",
       "variant": "combined"
     },
     {
@@ -36,7 +36,7 @@
       "file_name": "ETH_combined_areas.topojson",
       "feature_count": 136,
       "cdn_url": "https://cdn.jsdelivr.net/gh/im4sea/ipc-areas@v1.7/data/ETH/ETH_combined_areas.topojson",
-      "updated_at": "2026-09-07T12:02:13Z",
+      "updated_at": "2026-09-14T12:18:06Z",
       "variant": "combined"
     },
     {
@@ -45,7 +45,7 @@
       "file_name": "KEN_combined_areas.topojson",
       "feature_count": 183,
       "cdn_url": "https://cdn.jsdelivr.net/gh/im4sea/ipc-areas@v1.7/data/KEN/KEN_combined_areas.topojson",
-      "updated_at": "2026-09-07T12:02:33Z",
+      "updated_at": "2026-09-14T12:18:27Z",
       "variant": "combined"
     },
     {
@@ -54,7 +54,7 @@
       "file_name": "LSO_combined_areas.topojson",
       "feature_count": 70,
       "cdn_url": "https://cdn.jsdelivr.net/gh/im4sea/ipc-areas@v1.7/data/LSO/LSO_combined_areas.topojson",
-      "updated_at": "2026-09-07T12:02:39Z",
+      "updated_at": "2026-09-14T12:18:33Z",
       "variant": "combined"
     },
     {
@@ -63,16 +63,16 @@
       "file_name": "MDG_combined_areas.topojson",
       "feature_count": 261,
       "cdn_url": "https://cdn.jsdelivr.net/gh/im4sea/ipc-areas@v1.7/data/MDG/MDG_combined_areas.topojson",
-      "updated_at": "2026-09-07T12:04:15Z",
+      "updated_at": "2026-09-14T12:20:07Z",
       "variant": "combined"
     },
     {
       "country": "Mozambique",
       "relative_path": "data/MOZ/MOZ_combined_areas.topojson",
       "file_name": "MOZ_combined_areas.topojson",
-      "feature_count": 463,
+      "feature_count": 509,
       "cdn_url": "https://cdn.jsdelivr.net/gh/im4sea/ipc-areas@v1.7/data/MOZ/MOZ_combined_areas.topojson",
-      "updated_at": "2026-09-07T12:04:54Z",
+      "updated_at": "2026-09-14T12:21:05Z",
       "variant": "combined"
     },
     {
@@ -81,7 +81,7 @@
       "file_name": "MWI_combined_areas.topojson",
       "feature_count": 224,
       "cdn_url": "https://cdn.jsdelivr.net/gh/im4sea/ipc-areas@v1.7/data/MWI/MWI_combined_areas.topojson",
-      "updated_at": "2026-09-07T12:04:23Z",
+      "updated_at": "2026-09-14T12:20:15Z",
       "variant": "combined"
     },
     {
@@ -90,7 +90,7 @@
       "file_name": "SDN_combined_areas.topojson",
       "feature_count": 1306,
       "cdn_url": "https://cdn.jsdelivr.net/gh/im4sea/ipc-areas@v1.7/data/SDN/SDN_combined_areas.topojson",
-      "updated_at": "2026-09-07T12:07:58Z",
+      "updated_at": "2026-09-14T12:24:08Z",
       "variant": "combined"
     },
     {
@@ -99,7 +99,7 @@
       "file_name": "SOM_combined_areas.topojson",
       "feature_count": 1826,
       "cdn_url": "https://cdn.jsdelivr.net/gh/im4sea/ipc-areas@v1.7/data/SOM/SOM_combined_areas.topojson",
-      "updated_at": "2026-09-07T12:05:04Z",
+      "updated_at": "2026-09-14T12:21:14Z",
       "variant": "combined"
     },
     {
@@ -108,7 +108,7 @@
       "file_name": "SSD_combined_areas.topojson",
       "feature_count": 479,
       "cdn_url": "https://cdn.jsdelivr.net/gh/im4sea/ipc-areas@v1.7/data/SSD/SSD_combined_areas.topojson",
-      "updated_at": "2026-09-07T12:05:18Z",
+      "updated_at": "2026-09-14T12:21:28Z",
       "variant": "combined"
     },
     {
@@ -117,7 +117,7 @@
       "file_name": "SWZ_combined_areas.topojson",
       "feature_count": 74,
       "cdn_url": "https://cdn.jsdelivr.net/gh/im4sea/ipc-areas@v1.7/data/SWZ/SWZ_combined_areas.topojson",
-      "updated_at": "2026-09-07T12:02:08Z",
+      "updated_at": "2026-09-14T12:18:01Z",
       "variant": "combined"
     },
     {
@@ -126,7 +126,7 @@
       "file_name": "TZA_combined_areas.topojson",
       "feature_count": 113,
       "cdn_url": "https://cdn.jsdelivr.net/gh/im4sea/ipc-areas@v1.7/data/TZA/TZA_combined_areas.topojson",
-      "updated_at": "2026-09-07T12:08:19Z",
+      "updated_at": "2026-09-14T12:24:29Z",
       "variant": "combined"
     },
     {
@@ -135,7 +135,7 @@
       "file_name": "UGA_combined_areas.topojson",
       "feature_count": 180,
       "cdn_url": "https://cdn.jsdelivr.net/gh/im4sea/ipc-areas@v1.7/data/UGA/UGA_combined_areas.topojson",
-      "updated_at": "2026-09-07T12:05:39Z",
+      "updated_at": "2026-09-14T12:21:49Z",
       "variant": "combined"
     },
     {
@@ -144,7 +144,7 @@
       "file_name": "ZAF_combined_areas.topojson",
       "feature_count": 34,
       "cdn_url": "https://cdn.jsdelivr.net/gh/im4sea/ipc-areas@v1.7/data/ZAF/ZAF_combined_areas.topojson",
-      "updated_at": "2026-09-07T12:05:07Z",
+      "updated_at": "2026-09-14T12:21:17Z",
       "variant": "combined"
     },
     {
@@ -153,7 +153,7 @@
       "file_name": "ZMB_combined_areas.topojson",
       "feature_count": 576,
       "cdn_url": "https://cdn.jsdelivr.net/gh/im4sea/ipc-areas@v1.7/data/ZMB/ZMB_combined_areas.topojson",
-      "updated_at": "2026-09-07T12:07:31Z",
+      "updated_at": "2026-09-14T12:23:40Z",
       "variant": "combined"
     },
     {
@@ -162,16 +162,16 @@
       "file_name": "ZWE_combined_areas.topojson",
       "feature_count": 60,
       "cdn_url": "https://cdn.jsdelivr.net/gh/im4sea/ipc-areas@v1.7/data/ZWE/ZWE_combined_areas.topojson",
-      "updated_at": "2026-09-07T12:07:34Z",
+      "updated_at": "2026-09-14T12:23:43Z",
       "variant": "combined"
     },
     {
       "country": "Combined",
       "relative_path": "data/combined_areas.topojson",
       "file_name": "combined_areas.topojson",
-      "feature_count": 6148,
+      "feature_count": 6194,
       "cdn_url": "https://cdn.jsdelivr.net/gh/im4sea/ipc-areas@v1.7/data/combined_areas.topojson",
-      "updated_at": "2026-09-07T12:08:53Z",
+      "updated_at": "2026-09-14T12:25:07Z",
       "variant": "combined"
     },
     {
@@ -231,6 +231,18 @@
       "file_name": "MDG_2026_areas.topojson",
       "feature_count": 120,
       "cdn_url": "https://cdn.jsdelivr.net/gh/im4sea/ipc-areas@v1.7/data/MDG/MDG_2026_areas.topojson",
+      "updated_at": "Sep 2026",
+      "variant": "year"
+    },
+    {
+      "country": "Mozambique",
+      "iso2": "MZ",
+      "iso3": "MOZ",
+      "year": 2026,
+      "relative_path": "data/MOZ/MOZ_2026_areas.topojson",
+      "file_name": "MOZ_2026_areas.topojson",
+      "feature_count": 46,
+      "cdn_url": "https://cdn.jsdelivr.net/gh/im4sea/ipc-areas@v1.7/data/MOZ/MOZ_2026_areas.topojson",
       "updated_at": "Sep 2026",
       "variant": "year"
     },
